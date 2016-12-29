@@ -1,0 +1,131 @@
+/******************
+ * Social Colours *
+ ******************/
+/* DeviantArt - rgba(77, 196, 125, 1) */
+/* GitHub     - rgba(51, 51, 51, 1) */
+/* Google+    - rgba(221, 75, 57, 1) */
+/* Instagram  - rgba(88, 81, 219, 1) */
+/* Steam      - rgba(31, 48, 80, 1) */
+/* Twitch     - rgba(100, 65, 165, 1) */
+/* Twitter    - rgba(29, 161, 242, 1) */
+/* Youtube    - rgba(205, 32, 31, 1) */
+
+/**************
+ * Deviantart *
+ **************/
+.deviantart:not(.button):hover, 
+.deviantart:not(.button):focus {
+  color: rgba(77, 196, 125, 1); }
+
+.button.deviantart:hover, .button.deviantart:focus {
+  border-color: rgba(77, 196, 125, 1);
+  background-color: rgba(77, 196, 125, 1);
+  color: rgba(255, 255, 255, 1); }
+.button.deviantart:active {
+  border-color: rgba(77, 196, 125, 0.4);
+  background-color: rgba(77, 196, 125, 0.8); }
+
+/**********
+ * Github *
+ **********/
+.github:not(.button):hover, 
+.github:not(.button):focus {
+  color: rgba(51, 51, 51, 1); }
+
+.button.github:hover, .button.github:focus {
+  border-color: rgba(51, 51, 51, 1);
+  background-color: rgba(51, 51, 51, 1);
+  color: rgba(255, 255, 255, 1); }
+.button.github:active {
+  border-color: rgba(51, 51, 51, 0.4);
+  background-color: rgba(51, 51, 51, 0.8); }
+
+/**********
+ * Goole+ *
+ **********/
+.google-plus:not(.button):hover, 
+.googlep-lus:not(.button):focus {
+  color: rgba(221, 75, 57, 1); }
+
+.button.google-plus:hover, .button.google-plus:focus {
+  border-color: rgba(221, 75, 57, 1);
+  background-color: rgba(221, 75, 57, 1);
+  color: rgba(255, 255, 255, 1); }
+.button.google-plus:active {
+  border-color: rgba(221, 75, 57, 0.4);
+  background-color: rgba(221, 75, 57, 0.8); }
+
+/*************
+ * Instagram *
+ *************/
+.instagram:not(.button):hover, 
+.instagram:not(.button):focus {
+  color: rgba(88, 81, 219, 1); }
+
+.button.instagram:hover, .button.instagram:focus {
+  border-color: rgba(88, 81, 219, 1);
+  background-color: rgba(88, 81, 219, 1);
+  color: rgba(255, 255, 255, 1); }
+.button.instagram:active {
+  border-color: rgba(88, 81, 219, 0.4);
+  background-color: rgba(88, 81, 219, 0.8); }
+
+/*********
+* Steam *
+*********/
+.steam:not(.button):hover, 
+.steam:not(.button):focus {
+  color: rgba(31, 48, 80, 1); }
+
+.button.steam:hover, .button.steam:focus {
+  border-color: rgba(31, 48, 80, 1);
+  background-color: rgba(31, 48, 80, 1);
+  color: rgba(255, 255, 255, 1); }
+.button.steam:active {
+  border-color: rgba(31, 48, 80, 0.4);
+  background-color: rgba(31, 48, 80, 0.8); }
+
+/**********
+ * Twitch *
+ **********/
+.twitch:not(.button):hover, 
+.twitch:not(.button):focus {
+  color: rgba(100, 65, 165, 1); }
+
+.button.twitch:hover, .button.twitch:focus {
+  border-color: rgba(100, 65, 165, 1);
+  background-color: rgba(100, 65, 165, 1);
+  color: rgba(255, 255, 255, 1); }
+.button.twitch:active {
+  border-color: rgba(100, 65, 165, 0.4);
+  background-color: rgba(100, 65, 165, 0.8); }
+
+/***********
+ * Twitter *
+ ***********/
+.twitter:not(.button):hover, 
+.twitter:not(.button):focus {
+  color: rgba(29, 161, 242, 1); }
+
+.button.twitter:hover, .button.twitter:focus {
+  border-color: rgba(29, 161, 242, 1);
+  background-color: rgba(29, 161, 242, 1);
+  color: rgba(255, 255, 255, 1); }
+.button.twitter:active {
+  border-color: rgba(29, 161, 242, 0.4);
+  background-color: rgba(29, 161, 242, 0.8); }
+
+/***********
+ * YouTube *
+ ***********/
+.youtube:not(.button):hover, 
+.youtube:not(.button):focus {
+  color: rgba(205, 32, 31, 1); }
+
+.button.youtube:hover, .button.youtube:focus {
+  border-color: rgba(205, 32, 31, 1);
+  background-color: rgba(205, 32, 31, 1);
+  color: rgba(255, 255, 255, 1); }
+.button.youtube:active {
+  border-color: rgba(205, 32, 31, 0.4);
+  background-color: rgba(205, 32, 31, 0.8); }
