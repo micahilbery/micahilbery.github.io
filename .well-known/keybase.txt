@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/micahilbery
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://TraumaD.github.io
+  * I am micahilbery (https://keybase.io/micahilbery) on keybase.
+  * I have a public key ASBTVY72ZX_c6OlBHXu_N8_Rnvw6otyOO5f2ymUsRP8D2Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012053558ef6657fdce8e9411d7bbf37cfd19efc3aa2dc8e3b97f6ca652c44ff03d90a",
+      "host": "keybase.io",
+      "kid": "012053558ef6657fdce8e9411d7bbf37cfd19efc3aa2dc8e3b97f6ca652c44ff03d90a",
+      "uid": "def5e479fb1d86e53cd03814cd15a619",
+      "username": "micahilbery"
+    },
+    "merkle_root": {
+      "ctime": 1507224028,
+      "hash": "e3f115ce1f55db318624d61e0169686202caf6036b584e733cbfa68bd03dea4d39aaacd44b8146962d1a1db9fe0e83c75186da7ebe68a46dd611a65070fb0312",
+      "hash_meta": "6bb0a091d68e84d65d95576d30e08cd8773eafdea4866f41696df2aa5fb1fcbb",
+      "seqno": 1516343
+    },
+    "service": {
+      "hostname": "TraumaD.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507224059,
+  "expire_in": 504576000,
+  "prev": "fbbe3eb4593aec659220002b03930fff23c00152fc76c76d7b9cd8a933df0073",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgU1WO9mV/3OjpQR17vzfP0Z78OqLcjjuX9splLET/A9kKp3BheWxvYWTFA0x7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNTM1NThlZjY2NTdmZGNlOGU5NDExZDdiYmYzN2NmZDE5ZWZjM2FhMmRjOGUzYjk3ZjZjYTY1MmM0NGZmMDNkOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTM1NThlZjY2NTdmZGNlOGU5NDExZDdiYmYzN2NmZDE5ZWZjM2FhMmRjOGUzYjk3ZjZjYTY1MmM0NGZmMDNkOTBhIiwidWlkIjoiZGVmNWU0NzlmYjFkODZlNTNjZDAzODE0Y2QxNWE2MTkiLCJ1c2VybmFtZSI6Im1pY2FoaWxiZXJ5In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA3MjI0MDI4LCJoYXNoIjoiZTNmMTE1Y2UxZjU1ZGIzMTg2MjRkNjFlMDE2OTY4NjIwMmNhZjYwMzZiNTg0ZTczM2NiZmE2OGJkMDNkZWE0ZDM5YWFhY2Q0NGI4MTQ2OTYyZDFhMWRiOWZlMGU4M2M3NTE4NmRhN2ViZTY4YTQ2ZGQ2MTFhNjUwNzBmYjAzMTIiLCJoYXNoX21ldGEiOiI2YmIwYTA5MWQ2OGU4NGQ2NWQ5NTU3NmQzMGUwOGNkODc3M2VhZmRlYTQ4NjZmNDE2OTZkZjJhYTVmYjFmY2JiIiwic2Vxbm8iOjE1MTYzNDN9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiVHJhdW1hRC5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zMyJ9LCJjdGltZSI6MTUwNzIyNDA1OSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJmYmJlM2ViNDU5M2FlYzY1OTIyMDAwMmIwMzkzMGZmZjIzYzAwMTUyZmM3NmM3NmQ3YjljZDhhOTMzZGYwMDczIiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAh5gy7ClgtnzQrnXk/UNzxxcgOL8W9/HXv1iCrQ6XmDMKSMDcm0xncRS8Zur4mvq3BCWzTAWINBKb3lhsY+LmC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIN1kIur5rU2xpxyvc788P/pEZOuqFLE0GyNVP1fTjzLco3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/micahilbery
+
+==================================================================
