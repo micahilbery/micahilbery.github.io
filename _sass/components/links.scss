@@ -1,0 +1,50 @@
+a:hover, a:focus { text-decoration: underline; }
+
+a, .link-primary { color: var(--ln-primary);   &:active { color: var(--ln-primary-act); } }
+.link-secondary  { color: var(--ln-secondary); &:active { color: var(--ln-secondary-act); } }
+.link-info       { color: var(--ln-info);      &:active { color: var(--ln-info-act); } }
+.link-success    { color: var(--ln-success);   &:active { color: var(--ln-success-act); } }
+.link-warning    { color: var(--ln-warning);   &:active { color: var(--ln-warning-act); } }
+.link-alert      { color: var(--ln-alert);     &:active { color: var(--ln-alert-act); } }
+
+.link-icon {
+  svg {
+    margin-right: .1rem;
+    transition: margin .15s ease-out;
+  }
+
+  &:hover, &:focus {
+    text-decoration: none;
+
+    svg {
+      margin-right: .25rem;
+    }
+  }
+}
+
+.link-icon.reverse {
+  svg { margin-left: .1rem; }
+
+  &:hover, &:focus {
+    svg { margin-left: .25rem; }
+  }
+}
+
+.link-arrow {
+  margin-right: .5rem;
+
+  &::after {
+    content: $link-arrow;
+    font-size: 80%;
+    margin: 0 .25rem;
+    transition: margin .15s ease-in-out;
+  }
+
+  &:hover, &:focus {
+    text-decoration: none;
+
+    &::after {
+      margin: 0 0 0 .5rem;
+    }
+  }
+}

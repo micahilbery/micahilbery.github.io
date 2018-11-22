@@ -1,0 +1,24 @@
+---
+layout: default
+title: Work
+description: "My inner toughts and ramblings made outer."
+permalink: /work/
+---
+<main>
+  <div class="wrapper">
+    <h1>{{ page.title }}</h1>
+    {%- if site.work.size > 0 -%}
+    <div class="card-list">
+    {%- for job in site.work reversed -%}
+      {% assign image_path = '/assets/images' %}
+      <a href="{{ job.url | relative_url }}" class="preview-card" style="background-image: url('{{ image_path }}{{ job.url | remove: ".html" }}/preview.jpg');">
+          <h1 class="client-name">{{ job.title | escape }}</h1>
+          <h2 class="job-title">{{ job.job-title }}</h2>
+      </a>
+    {%- endfor -%}
+    </div>
+    {%- else -%}
+    <h2 class="text-center">Sorry nothin yet. Come back soon.</h2>
+    {%- endif -%}
+  </div>
+</main>

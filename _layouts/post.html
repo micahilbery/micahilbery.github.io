@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  {% capture post-header %}
+  <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+  {%- if page.hook -%}
+    <h4 class="hook">{{ page.hook | escape }}</h4>
+  {%- endif -%}
+  <p class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {{ page.date | date: date_format }}
+    </time>
+    {%- if page.author -%}
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author | escape }}</span></span>
+    {%- endif -%}
+  </p>
+  {% endcapture %}
+
+  {% assign preview_image = page.url | remove: '.html' | prepend: '/assets/images/posts' | append: '/preview.jpg' %}
+  {% include header.html image = preview_image content = post-header %}
+
+  <div class="wrapper-xs">
+    <main class="post-content" itemprop="articleBody">
+      {{ content }}
+    </main>
+
+    {%- if site.disqus.shortname -%}
+      {%- include disqus.html -%}
+    {%- endif -%}
+
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </div>
+</article>

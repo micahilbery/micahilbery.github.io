@@ -1,0 +1,38 @@
+---
+layout: default
+title: Blog
+description: "My inner toughts and ramblings made outer."
+permalink: /blog/
+---
+<main>
+  <div class="wrapper">
+    <h1>Posts</h1>
+    {%- if site.posts.size > 0 -%}
+    <div class="card-list">
+    {%- for post in site.posts -%}
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {% assign image_path = '/assets/images/posts' %}
+      <a href="{{ post.url | relative_url }}" class="preview-card" style="background-image: url('{{ image_path }}{{ post.url | remove: ".html" }}/preview.jpg');">
+          <h1 class="post-title">{{ post.title | escape }}</h1>
+          {%- if site.show_hooks and post.hook -%}
+          <h5 class="hook">{{ post.hook }}</h5>
+          {%- endif -%}
+          <div class="timestamp">{{ post.date | date: date_format }}</div>
+      </a>
+    {%- endfor -%}
+    </div>
+    {%- else -%}
+    <h2 class="text-center">Sorry nothin yet. Come back soon.</h2>
+    {%- endif -%}
+
+    {%- if site.rss -%}
+      <p>
+        subscribe via
+        <a href="{{ 'feed.xml' | relative_url }}" class="link-icon reverse">
+          <span>RSS</span>
+          <svg class="icon"><use xlink:href="{{ '/assets/images/icons/sprites.svg#rss' | relative_url }}"></use></svg>
+        </a>
+      </p>
+    {%- endif -%}
+  </div>
+</main>

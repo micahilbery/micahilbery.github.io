@@ -1,0 +1,56 @@
+//reset buttons & links
+button, .btn {
+  all: unset;
+  display: inline-block;
+}
+
+button, .btn, input[type='submit'], input[type='reset'] {
+  background: var(--btn-bg);
+  border-radius: $rad;
+  color: var(--btn-txt);
+  cursor: pointer;
+  font-size: $btn-font-size;
+  font-weight: $btn-font-weight;
+  line-height: normal;
+  margin: 0 0 1rem 0;
+  padding: .5rem 2.25rem;
+  transition: 
+    transform .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+  @include depth(1);
+
+  &:hover, &:focus {
+    text-decoration: none;
+    transform: translateY($lift);
+    @include depth(2);
+  }
+
+  &:active {
+    color: var(--btn-txt);
+    transform: translateY(0);
+    @include depth(0);
+  }
+}
+
+.btn-icon svg {
+  border-left: 1px solid currentColor;
+  padding-left: .5rem;
+  margin-left: .25rem;
+  vertical-align: middle;
+}
+
+.btn-primary   { background: var(--btn-primary-bg);   color: var(--btn-primary-txt);   &:active { color: var(--btn-primary-txt); } }
+.btn-secondary { background: var(--btn-secondary-bg); color: var(--btn-secondary-txt); &:active { color: var(--btn-secondary-txt); } }
+.btn-info      { background: var(--btn-info-bg);      color: var(--btn-info-txt);      &:active { color: var(--btn-info-txt); } }
+.btn-success   { background: var(--btn-success-bg);   color: var(--btn-success-txt);   &:active { color: var(--btn-success-txt); } }
+.btn-warning   { background: var(--btn-warning-bg);   color: var(--btn-warning-txt);   &:active { color: var(--btn-warning-txt);  } }
+.btn-alert     { background: var(--btn-alert-bg);     color: var(--btn-alert-txt);     &:active { color: var(--btn-alert-txt); } }
+
+// Brand Buttons
+.btn-codepen  { background: var(--btn-codepen-bg);  color: var(--btn-codepen-txt);  &:active { color: var(--btn-codepen-txt); }}
+.btn-dribbble { background: var(--btn-dribbble-bg); color: var(--btn-dribbble-txt); &:active { color: var(--btn-dribbble-txt); }}
+.btn-github   { background: var(--btn-github-bg);   color: var(--btn-github-txt);   &:active { color: var(--btn-github-txt); }}
+.btn-gitlab   { background: var(--btn-gitlab-bg);   color: var(--btn-gitlab-txt);   &:active { color: var(--btn-gitlab-txt); }}
+.btn-mastodon { background: var(--btn-mastodon-bg); color: var(--btn-mastodon-txt); &:active { color: var(--btn-mastodon-txt); }}
+.btn-paypal   { background: var(--btn-paypal-bg);   color: var(--btn-paypal-txt);   &:active { color: var(--btn-paypal-txt); }}
+.btn-twitter  { background: var(--btn-twitter-bg);  color: var(--btn-twitter-txt);  &:active { color: var(--btn-twitter-txt); }}

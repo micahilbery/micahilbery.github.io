@@ -1,0 +1,45 @@
+{%- if include.hero -%}
+<header class="hero"
+  {% if include.image or page.preview_image or include.position or include.color or include.blend %}
+  style="
+  {%- if include.image -%}
+  background-image: url({{ include.image }});
+  {%- elsif page.preview_image -%}
+  background-image: url({{ page.preview_image }});
+  {%- endif -%}
+
+  {%- if include.position -%}
+  background-position: {{ include.position }};
+  {%- endif -%}
+
+  {%- if include.color -%}
+  background-color: {{ include.color }};
+  {%- endif -%}
+
+  {%- if include.blend -%}
+  background-blend-mode: {{ include.blend }};
+  {%- endif -%}
+  "
+  {% endif %}
+>
+  <div class="hero-content">
+    {{ include.content }}
+  </div>
+</header>
+{%- else -%}
+<header class="post-header"
+  {%- if include.image or page.preview_image -%}
+  style="
+  {%- if include.image -%}
+  background-image: url({{ include.image }});
+  {%- elsif page.preview_image -%}
+  background-image: url({{ page.preview_image }});
+  {%- endif -%}
+  "
+  {%- endif -%}
+>
+  <div class="post-header-content">
+    {{ include.content }}
+  </div>
+</header>
+{%- endif -%}
