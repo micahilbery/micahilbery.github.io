@@ -37,5 +37,5 @@ If you see an issue, contact the moderators if possible or flag any comments for
 #### My House My Rules
 I'm a pretty lax guy and If you stick to the "don't be a jerk" rule we probably won't have any problems.
 That said this is my site and I can delete any comment / block any person for any reason I see fit without explanation or notice.
-I may even remove the ability to commenting all together at any time without notice. I'm not entirely sure if I want comments and
+I may even remove the ability to comment all together at any time without notice. I'm not entirely sure if I want comments or not and
 this is more of an experiment.
