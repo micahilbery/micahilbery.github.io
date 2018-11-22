@@ -1,0 +1,31 @@
+.bg-contact {
+  background: var(--cntct-bg);
+}
+
+.contact-panel {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin: 0 auto;
+  background: var(--cntct-pnl-bg);
+  border-radius: $rad;
+  overflow: hidden;
+  @include depth(2);
+  border-bottom: 6px solid var(--cntct-pnl-acnt);
+
+  @include media-query($screen-sm) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-panel-header {
+  background: var(--cntct-pnl-bg-alt);
+}
+
+.contact-panel-header,
+.contact-panel-content {
+  padding: 2rem;
+}
+
+.send-button {
+  padding-top: 1rem;
+}

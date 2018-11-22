@@ -1,0 +1,7 @@
+{%- if page.type == 'post' -%}
+  {% assign image_path = '/assets/images/posts' %}
+{%- else -%}
+  {% assign image_path = '/assets/images' %}
+{%- endif -%}
+
+<img src="{{ page.url | prepend: image_path | remove: '.html' | relative_url }}/{{ include.image }}" alt="{{ include.description }}">

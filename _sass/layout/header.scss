@@ -1,0 +1,44 @@
+header {
+  align-items: center;
+  background: {
+    blend-mode: multiply;
+    color: var(--hdr-bg);
+    image: url('images/fallback-preview.jpg');
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+  }
+  color: var(--hdr-txt);
+  display: flex;
+  margin-bottom: 2rem;
+  min-height: 30vh;
+  padding: 2rem 0;
+  width: 100%;
+  @include depth(2)
+}
+
+.hero {
+  background-image: url('images/hero.jpg');
+  background-position: center 30%;
+  min-height: 50vh;
+}
+
+.hero-content,
+.post-header-content {
+  flex: 1;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 1rem;
+  @include text-depth(1);
+}
+
+@include media-query($screen-sm){
+  header { min-height: 50vh }
+
+  .hero {
+    align-items: flex-end;
+    background-image: url('images/hero-sm.jpg');
+    min-height: 70vh;
+    text-align: center;
+  }
+}

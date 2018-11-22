@@ -1,0 +1,173 @@
+@mixin light_theme() {
+//----------------------------------------------------------------------------//
+// Base
+//----------------------------------------------------------------------------//
+  --bg: #{$grey-lt-100};
+  --bg-alt: #{$grey-lt-300};
+
+  --txt: #{$grey-dk-700};
+  --txt-alt: #{$grey-lt-900};
+
+  // Selection Highlight
+  --sel-bg: #{$primary-500};
+  --sel-txt: #{$grey-lt-100};
+
+  // Focus Highlight
+  --focus: #{$info-700};
+
+  // First Letter
+  --fst-ltr: #{$primary-500};
+
+  // Blockquote
+  --bq-txt: #{$grey-dk-500};
+  --bq-line: #{$primary-300};
+
+  // Cite
+  --cite-txt: #{$grey-lt-900};
+
+  // Code & Code Blocks
+  --code-bg: #{$grey-dk-700}; // background
+  --code-bg-alt: #{$grey-dk-500}; // line numbers background
+  --code-txt: #{$grey-lt-300}; //body text - default code - primary content
+  --code-txt-alt: #{$grey-lt-700}; // comments - secondary content
+  // Syntax Highlighting
+  --code-const: #{$warning-300}; // constants
+  --code-regex-special: #{$alert-300}; // regex, special keywords
+  --code-reserved: #{$info-300}; // reserved keywords
+  --code-str-num: #{$primary-300}; // strings, numbers
+  --code-op: #{$success-300}; // operators, other keywords
+
+  // Keystrokes
+  --kbd-bg: #{$grey-lt-100};
+  --kbd-bdr: #{darken($grey-lt-100, 30%)};
+  --kbd-txt: #{$grey-dk-700};
+
+  // Horizontal Rule
+  --hr: #{$grey-lt-900};
+
+  // Mark/Highlight
+  --mark-bg: #{transparentize($warning-300, .5)};
+  --mark-txt: #{$warning-900};
+
+  // Links
+  --ln-primary: #{$primary-500};
+  --ln-primary-hvr: none;
+  --ln-primary-act: #{darken($primary-500, 20%)};
+
+  --ln-secondary: #{$secondary-500};
+  --ln-secondary-hvr: none;
+  --ln-secondary-act: #{darken($secondary-500, 20%)};
+
+  --ln-info: #{$info-700};
+  --ln-info-hvr: none;
+  --ln-info-act: #{darken($info-700, 20%)};
+
+  --ln-success: #{$success-700};
+  --ln-success-hvr: none;
+  --ln-success-act: #{darken($success-700, 20%)};
+
+  --ln-warning: #{$warning-900};
+  --ln-warning-hvr: none;
+  --ln-warning-act: #{darken($warning-900, 20%)};
+
+  --ln-alert: #{$alert-700};
+  --ln-alert-hvr: none;
+  --ln-alert-act: #{darken($alert-700, 20%)};
+
+  // Buttons
+  --btn-bg: #{$grey-dk-500};
+  --btn-txt: #{$grey-lt-100};
+
+  --btn-primary-bg: #{$primary-500};
+  --btn-primary-txt: #{$grey-lt-100};
+
+  --btn-secondary-bg: #{$secondary-500};
+  --btn-secondary-txt: #{$grey-lt-100};
+
+  --btn-info-bg: #{$info-500};
+  --btn-info-txt: #{$grey-lt-100};
+
+  --btn-success-bg: #{$success-500};
+  --btn-success-txt: #{$grey-lt-100};
+
+  --btn-warning-bg: #{$warning-500};
+  --btn-warning-txt: #{$grey-dk-500};
+
+  --btn-alert-bg: #{$alert-500};
+  --btn-alert-txt: #{$grey-lt-100};
+
+    // Brand Buttons
+  --btn-codepen-bg: #{$codepen};
+  --btn-codepen-txt: #{$grey-lt-100};
+
+  --btn-dribbble-bg: #{$dribbble};
+  --btn-dribbble-txt: #{$grey-lt-100};
+
+  --btn-github-bg: #{$github};
+  --btn-github-txt: #{$grey-lt-100};
+
+  --btn-gitlab-bg: #{$gitlab};
+  --btn-gitlab-txt: #{$grey-lt-100};
+
+  --btn-mastodon-bg: #{$mastodon};
+  --btn-mastodon-txt: #{$grey-lt-100};
+
+  --btn-paypal-bg: #{$paypal};
+  --btn-paypal-txt: #{$grey-lt-100};
+
+  --btn-twitter-bg: #{$twitter};
+  --btn-twitter-txt: #{$grey-lt-100};
+
+  // Forms
+  --inpt-bg: #{$grey-lt-100};
+  --inpt-txt: #{$grey-dk-700};
+  --ph: #{$grey-lt-900}; // Placeholder text
+
+//----------------------------------------------------------------------------//
+// Layout
+//----------------------------------------------------------------------------//
+  // Nav
+  --nav-bg: #{$grey-lt-100};
+    // Normal nav links
+  --nav-ln: #{$grey-dk-500};
+  --nav-ln-hvr: #{$grey-lt-300};
+  --nav-ln-act:  #{$primary-500};
+    // Current page nav links
+  --nav-ln-crnt: #{$primary-500};
+  --nav-ln-crnt-hvr: #{$grey-lt-300};
+  --nav-ln-crnt-act: #{$secondary-500};
+
+  // Header
+  --hdr-bg: #{$grey-dk-300};
+  --hdr-txt: #{$grey-lt-100};
+
+  // Footer
+  --ftr-bg: #{$grey-dk-700};
+  --ftr-txt: #{$grey-lt-300};
+
+  --ftr-ln: #{transparentize($grey-lt-100, .2)};
+  --ftr-ln-hvr: #{$grey-lt-100};
+  --ftr-ln-act: #{$primary-100};
+
+//----------------------------------------------------------------------------//
+// Custom Components
+//----------------------------------------------------------------------------//
+  // Preview Cards
+  --prvw-crd-bg: #{$grey-dk-300};
+  --prvw-crd-txt: #{$grey-lt-300};
+
+  // Profile Widget
+  --avtr-bg: #{$grey-dk-500};
+  --prfl-ln: #{$grey-lt-900};
+  --prfl-ln-hvr: #{$grey-dk-700};
+  --prfl-ln-act: #{$primary-500};
+
+  // Image Gallery
+  --gllry-bg: #{$grey-dk-700};
+
+  // Contact Card
+  --cntct-bg: #{$grey-dk-500};
+  --cntct-pnl-bg: #{$grey-lt-300};
+  --cntct-pnl-bg-alt: #{$grey-lt-100};
+  --cntct-pnl-acnt: #{$primary-500};
+}

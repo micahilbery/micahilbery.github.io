@@ -1,0 +1,58 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  <meta name="theme-color" content="{{ site.theme_color }}">
+
+  {%- if site.twitter_username or page.twitter_username -%}
+  <!-- twiter card info -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{% if page.twitter_username %}{{ page.twitter_username }}{% else %}{{ site.twitter_username }}{% endif %}">
+  <!-- disallow Twitter from using site info for personalization purposes -->
+  <meta name="twitter:dnt" content="on">
+  {%- endif -%}
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ "/assets/images/preview.jpg" | relative_url }}">
+
+  {%- for mst in site.mastodon -%}
+  {%- if mst.username and mst.instance -%}
+  <!-- verify site on mastodon -->
+  <link rel="me" href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}">
+  {%- endif -%}
+  {%- endfor -%}
+
+  <!-- links to favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/favicon/apple-touch-icon.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="48x48" href="{{ "/assets/images/favicon/favicon-48x48.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/favicon/favicon-32x32.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="24x24" href="{{ "/assets/images/favicon/favicon-24x24.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/favicon/favicon-16x16.png" | relative_url }}">
+  <link rel="manifest" href="{{ "/assets/images/favicon/site.webmanifest" | relative_url }}">
+  <link rel="mask-icon" href="{{ "/assets/images/favicon/safari-pinned-tab.svg" | relative_url }}" color="{{ site.safari_pinned_tab }}">
+  <meta name="msapplication-TileColor" content="{{ site.ms_tile_color }}">
+  <link rel="shortcut icon" href="{{ "/assets/images/favicon/favicon.ico" | relative_url }}">
+
+  <!-- link(s) to stylesheet(s) -->
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- if page.custom_styles -%}
+    <link rel="stylesheet" href="{{ "/assets/{{ page.custom_styles }}.css" | relative_url }}">
+  {%- endif -%}
+
+  <!-- link(s) to font(s) -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:700|Montserrat:400,700|Roboto+Mono" rel="stylesheet">
+
+  <!-- link(s) to javascript -->
+  <script type="text/javascript" src="{{ "/assets/main.js" | relative_url }}" async></script>
+
+  {%- feed_meta -%}
+</head>

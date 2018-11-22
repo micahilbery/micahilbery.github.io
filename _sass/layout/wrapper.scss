@@ -1,0 +1,20 @@
+.wrapper-xs,
+.wrapper-sm,
+.wrapper,
+.wrapper-lg,
+.wrapper-xl {
+  margin: 0 auto;
+  padding: $gap;
+}
+
+.wrapper-xs { max-width: $content-width-xs; }
+.wrapper-sm { max-width: $content-width-sm; }
+.wrapper    { max-width: $content-width;    }
+.wrapper-lg { max-width: $content-width-lg; }
+.wrapper-xl { max-width: $content-width-xl; }
+
+.full-width {
+  margin: 0 calc(50% - 50vw);
+  position: relative;
+  width: 100vw;
+}

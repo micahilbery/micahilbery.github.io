@@ -1,0 +1,75 @@
+---
+layout: contact
+title: Contact
+permalink: /contact/
+---
+<section>
+  <div class="contact-panel">
+    <div class="contact-panel-header">
+      <h1>Let's Work Together!</h1>
+      <p>
+         If you think I would be a good fit for your business and want to work together or if you just wanna say hi, I'd love to hear from you.
+         You can reach me trough this form
+         {% if site.email %}
+         or <a href="mailto:{{ site.email | escape }}">directly via email</a>
+         {% endif %}.
+      </p>
+    </div>
+    <div class="contact-panel-content">
+      <form method="POST" action="http://formspree.io/{{ site.email | escape }}">
+        <div class="input-container">
+          <input id="name" name="name" type="text" placeholder="Jane Doe" required>
+          <label for="name">
+            <svg class="icon">
+              <use xlink:href="{{ '/assets/images/icons/sprites.svg#avatar' | relative_url }}"></use>
+            </svg>
+            <span>Full Name</span>
+          </label>
+        </div>
+
+        <div class="input-container">
+          <input id="email" name="email" type="email" placeholder="jane@example.com" required>
+          <label for="email">
+            <svg class="icon">
+              <use xlink:href="{{ '/assets/images/icons/sprites.svg#mail' | relative_url }}"></use>
+            </svg>
+            <span>Email</span>
+          </label>
+        </div>
+
+        <div class="input-container">
+          <select name="subject">
+            <option value="Hello">Just Saying Hi.</option>
+            <option value="Buisness Inquiry">Buisness Inquiry</option>
+            <option value="Other">Other</option>
+          </select>
+          <label for="subject">
+            <svg class="icon">
+              <use xlink:href="{{ '/assets/images/icons/sprites.svg#info' | relative_url }}"></use>
+            </svg>
+            <span>Subject</span>
+          </label>
+        </div>
+
+        <div class="input-container">
+          <textarea id="message" name="message" placeholder="Hello, Let's work together!" required></textarea>
+          <label for="message">
+            <svg class="icon">
+              <use xlink:href="{{ '/assets/images/icons/sprites.svg#message' | relative_url }}"></use>
+            </svg>
+            <span>Message</span>
+          </label>
+        </div>
+
+        <div class="send-button text-right">
+          <button class="btn-success btn-icon" type="submit">
+            Send
+            <svg class="icon">
+              <use xlink:href="{{ '/assets/images/icons/sprites.svg#send' | relative_url }}"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

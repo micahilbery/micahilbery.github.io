@@ -1,0 +1,118 @@
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: .5rem;
+}
+
+legend {
+  font-family: $legend-font;
+  font-size: $legend-font-size;
+  margin-bottom: $gap / 2;
+}
+
+label {
+  margin-top: .25rem;
+
+  svg {
+    margin-right: 0.1rem;
+    transition: margin .15s ease-out;
+  }
+}
+
+input[type='file'] {
+  display: block;
+  margin: .75rem 0;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='search'],
+select,
+textarea {
+  background: var(--inpt-bg);
+  border: none;
+  border-radius: $rad;
+  color: var(--inpt-txt);
+  line-height: normal;
+  outline: none;
+  padding: .75rem 1rem;
+  margin: .5rem 0 1.25rem 0;
+  transition:
+    transform .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+  width: 100%;
+  @include depth(1);
+
+  &::placeholder {
+    color: var(--ph);
+  }
+
+  &:hover, &:focus {
+    transition:
+      box-shadow .15s ease-in-out,
+      color .15s ease-in-out,
+      transform .15s ease-in-out;
+    @include depth(2);
+  }
+
+  &:focus {
+    transform: translateY($lift);
+    @include depth(2, 'focus');
+
+    + label {
+      color: var(--focus);
+
+      svg {
+        margin-right: 0.25rem;
+      }
+    }
+  }
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  margin-right: .25rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column-reverse;
+
+  &:hover {
+    input,
+    select,
+    textarea {
+      transform: translateY($lift);
+    }
+  }
+}
+
+select {
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none;
+  background: var(--inpt-bg) url('/assets/images/icons/select-arrow.svg') 98% / 1rem no-repeat;
+  outline: none;
+
+  &:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 var(--inpt-txt);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background: var(--inpt-bg) url('/assets/images/icons/select-arrow-dark.svg') 98% / 1rem no-repeat;
+  }
+}
+
+.dark {
+  select{
+    background: var(--inpt-bg) url('/assets/images/icons/select-arrow-dark.svg') 98% / 1rem no-repeat;
+  }
+}
+
+textarea {
+  min-width: 100%;
+  min-height: 20vh;
+  padding: $gap;
+  resize: none;
+}

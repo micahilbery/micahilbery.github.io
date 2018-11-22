@@ -1,0 +1,73 @@
+.preview-card {
+  background: {
+    blend-mode: multiply;
+    color: var(--prvw-crd-bg);
+    image: url("images/fallback-preview.jpg");
+    position: top center;
+    repeat: no-repeat;
+    size: cover;
+  }
+  border-radius: $rad;
+  color: var(--prvw-crd-txt);
+  display: block;
+  margin: 0;
+  padding: .75rem 2rem 1.25rem 2rem;
+  width: 100%;
+  transition: 
+    transform .15s ease-in-out,
+    box-shadow .15s ease-in-out,
+    background 5s ease-in-out;
+  @include depth(1);
+  @include text-depth(1);
+
+  &:hover, &:focus {
+    background-position: bottom center;
+    text-decoration: none;
+    transform: translateY($lift);
+    transition:
+      transform .15s ease-in-out,
+      box-shadow .15s ease-in-out,
+      background 15s ease-in-out;
+    @include depth(2);
+  }
+
+  &:active {
+    color: var(--prvw-crd-txt);
+    transform: translateY(0);
+    @include depth(0);
+  }
+
+  .post-title,
+  .client-name {
+    margin-bottom: .5rem;
+  }
+}
+
+.hook,
+.job-title {
+  font-family: $font-sans;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.card-list,
+.card-list-halved {
+  display: grid;
+  grid-gap: $gap * 2;
+  margin: 0;
+  padding: 0;
+}
+
+.card-list-halved {
+  grid-template-columns: repeat(2, 1fr);
+
+  @include media-query($screen-sm) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.more-button {
+  margin-top: $gap * 2
+}

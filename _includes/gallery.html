@@ -1,0 +1,25 @@
+{%- assign images = include.images | split: "; " -%}
+{%- assign alts = include.descriptions | split: "; " -%}
+{%- assign cols = include.columns | default: 3 -%}
+
+<section class="full-width gallery-section">
+  <div class="wrapper-xl">
+    <div class="gallery">
+    {%- for count in (1..cols) -%}
+      {% assign i = count | minus:1 %}
+      <div class="column" style="flex: calc(100% / {{ cols }}); max-width: calc(100% / {{ cols }});">
+      {%- for num in (0..images.size) offset: num -%}
+        {%- if i < images.size -%}
+          {% assign img = images[i] %}
+          {% assign alt = alts[i] %}
+          {% include image.html image=img description=alt %}
+          {% assign i = i | plus:cols %}
+        {%- endif -%}
+      {%- endfor -%}
+      </div>
+    {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+

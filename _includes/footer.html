@@ -1,0 +1,30 @@
+<footer>
+  <div id="footer-content" class="wrapper-lg">
+    {%- if site.copyright_date -%}
+    <div id="footer-copyright" class="text-center">
+      &copy; Copyright {{ site.copyright_date }} {{ site.author }}
+    </div>
+    {%- endif -%}
+
+    <div id="footer-site-map">
+      {%- include site_map.html -%}
+    </div>
+
+    <div id="footer-socials">
+      {%- include social.html -%}
+    </div>
+
+    <div id="footer-support_me">
+      {%- include support_me.html -%}
+    </div>
+
+    {%- if site.src_url and site.allow_bug_reports -%}
+    <div id="footer-issues" class="text-center">
+      <a href="{{ site.src_url }}/issues" class="link-icon">
+        <svg class="icon"><use xlink:href="{{ '/assets/images/icons/sprites.svg#bug' | relative_url }}"></use></svg>
+        <span>Report an Issue</span>
+      </a>
+    </div>
+    {%- endif -%}
+  </div>
+</footer>

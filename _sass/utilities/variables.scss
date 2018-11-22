@@ -1,0 +1,109 @@
+//----------------------------------------------------------------------------//
+// Global
+//----------------------------------------------------------------------------//
+$gap: 1rem;
+$rad: 5px;
+$lift: -2px;
+
+// Screen sizes / breakpoints
+$screen-sm:  36em;
+$screen-md:  48em;
+$screen-lg:  56em;
+$screen-xl:  64em;
+$screen-xxl: 80em;
+
+$content-width-xs: $screen-sm;
+$content-width-sm: $screen-md;
+$content-width:    $screen-lg;
+$content-width-lg: $screen-xl;
+$content-width-xl: $screen-xxl;
+
+@mixin media-query( $screen-size ) {
+  @media screen and ( max-width: $screen-size ) {
+    @content;
+  }
+}
+
+//----------------------------------------------------------------------------//
+// Typograph
+//----------------------------------------------------------------------------//
+// Fonts
+$font-sans:    'Montserrat', sans-serif;
+$font-serif:   'IBM Plex Serif', serif;
+$font-mono:    'Roboto Mono', monospace;
+
+// Base
+$font-size: 18px;
+
+$focus-color: $info-700;
+
+$body-font: $font-sans;
+
+// Headings
+$heading-font: $font-serif;
+$heading-weight: bold;
+
+$heading-font-size-h1: 2.5rem;
+$heading-font-size-h2: 2rem;
+$heading-font-size-h3: 1.75rem;
+$heading-font-size-h4: 1.5rem;
+$heading-font-size-h5: 1.25rem;
+$heading-font-size-h6: 1.125rem;
+
+$heading-font-size-h1-sm: 2rem;
+$heading-font-size-h2-sm: 1.75rem;
+$heading-font-size-h3-sm: 1.5rem;
+$heading-font-size-h4-sm: 1.25rem;
+$heading-font-size-h5-sm: 1.125rem;
+$heading-font-size-h6-sm: 1rem;
+
+$display-font: $font-serif;
+$display-font-weight: bold;
+$display-font-size: 4rem;
+$display-font-size-sm: 2.5rem;
+
+$display-font-alt: $font-sans;
+$display-font-weight-alt: bold;
+$display-font-size-alt: 1.5rem;
+$display-font-size-alt-sm: 1rem;
+
+// First Letter
+$first-letter-font: $font-serif;
+$first-letter-weight: bold;
+$first-letter-size: 6rem;
+$first-letter-line-height: 4.5rem;
+
+$first-letter-size-sm: 5rem;
+$first-letter-line-height-sm: 3.5rem;
+
+// Quotes
+$blockquote-size: 1.75rem;
+$blockquote-line-width: 2px;
+
+$cite-line: '⊶ ';
+$cite-size: 80%;
+
+// Forms
+$legend-font: $font-serif;
+$legend-font-size: 1.125rem;
+
+// Links
+$link-arrow: '⟶';
+
+// Buttons
+$btn-font-size: 1.125rem;
+$btn-font-weight: bold;
+
+//logo
+$logotype-font: $font-serif;
+$logotype-font-size: 1.75rem;
+$logotype-font-weight: bold;
+
+// Nav
+$nav-font: $font-sans;
+$nav-font-size: 1.25rem;
+$nav-font-size-sm: 1rem;
+$nav-font-weight: bold;
+
+// Gallery
+$gallery-height: 70vh;
