@@ -82,6 +82,10 @@ p {
   }
 }
 
+b, strong {
+  font-weight: $body-font-weight-bold;
+}
+
 // Set `margin-bottom` to maintain vertical rhythm
 h1, h2, h3, h4, h5, h6,
 p, blockquote, a, pre,
