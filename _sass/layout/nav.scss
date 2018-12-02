@@ -52,7 +52,6 @@ nav {
     font-weight: $nav-font-weight;
     grid-template-columns: repeat(4, auto);
     text-align: center;
-    text-transform: uppercase;
   }
 
   @include media-query($screen-md) {

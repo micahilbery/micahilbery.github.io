@@ -28,9 +28,9 @@ $content-width-xl: $screen-xxl;
 // Typograph
 //----------------------------------------------------------------------------//
 // Fonts
-$font-sans:    'Montserrat', sans-serif;
+$font-sans:    'Poppins', sans-serif;
 $font-serif:   'IBM Plex Serif', serif;
-$font-mono:    'Roboto Mono', monospace;
+$font-mono:    'Anonymous Pro', monospace;
 
 // Base
 $font-size: 18px;
@@ -38,10 +38,11 @@ $font-size: 18px;
 $focus-color: $info-700;
 
 $body-font: $font-sans;
+$body-font-weight: 300;
 
 // Headings
 $heading-font: $font-serif;
-$heading-weight: bold;
+$heading-font-weight: bold;
 
 $heading-font-size-h1: 2.5rem;
 $heading-font-size-h2: 2rem;
@@ -63,7 +64,7 @@ $display-font-size: 4rem;
 $display-font-size-sm: 2.5rem;
 
 $display-font-alt: $font-sans;
-$display-font-weight-alt: bold;
+$display-font-weight-alt: 600;
 $display-font-size-alt: 1.5rem;
 $display-font-size-alt-sm: 1rem;
 
@@ -83,6 +84,11 @@ $blockquote-line-width: 2px;
 $cite-line: '⊶ ';
 $cite-size: 80%;
 
+// Code
+$code-font: $font-mono;
+$code-font-size: 1em;
+$code-font-weight: normal;
+
 // Forms
 $legend-font: $font-serif;
 $legend-font-size: 1.125rem;
@@ -92,7 +98,7 @@ $link-arrow: '⟶';
 
 // Buttons
 $btn-font-size: 1.125rem;
-$btn-font-weight: bold;
+$btn-font-weight: 600;
 
 //logo
 $logotype-font: $font-serif;
@@ -103,7 +109,7 @@ $logotype-font-weight: bold;
 $nav-font: $font-sans;
 $nav-font-size: 1.25rem;
 $nav-font-size-sm: 1rem;
-$nav-font-weight: bold;
+$nav-font-weight: 600;
 
 // Gallery
 $gallery-height: 70vh;

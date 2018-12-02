@@ -23,6 +23,7 @@ body {
   background: var(--bg);
   color: var(--txt);
   font-family: $body-font;
+  font-weight: $body-font-weight;
   font-size: $font-size;
   line-height: 1.6;
   transition: all .15s ease-in-out;
@@ -91,7 +92,7 @@ ul, ol, dl, figure {
 // Headings
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
-  font-weight: $heading-weight;
+  font-weight: $heading-font-weight;
   margin-top: 0;
 }
 
@@ -171,7 +172,9 @@ cite {
 // Code/Kbd/Pre
 code, kbd, pre {
   border-radius: $rad;
-  font-family: $font-mono;
+  font-family: $code-font;
+  font-size: $code-font-size;
+  font-weight: $code-font-weight;
 }
 
 code, pre {
