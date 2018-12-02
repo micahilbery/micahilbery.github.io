@@ -135,3 +135,10 @@ layout: default
     document.getElementById("my-age").innerHTML = get_age ('1991/9/1');
   }
 </script>
+
+{%- for mst in site.mastodon -%}
+{%- if mst.username and mst.instance -%}
+<!-- verify site on mastodon -->
+<a rel="me" href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}" hidden></a>
+{%- endif -%}
+{%- endfor -%}

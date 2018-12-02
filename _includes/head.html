@@ -24,13 +24,6 @@
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image" content="{{ "/assets/images/preview.jpg" | relative_url }}">
 
-  {%- for mst in site.mastodon -%}
-  {%- if mst.username and mst.instance -%}
-  <!-- verify site on mastodon -->
-  <link rel="me" href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}">
-  {%- endif -%}
-  {%- endfor -%}
-
   <!-- links to favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/favicon/apple-touch-icon.png" | relative_url }}">
   <link rel="icon" type="image/png" sizes="48x48" href="{{ "/assets/images/favicon/favicon-48x48.png" | relative_url }}">
