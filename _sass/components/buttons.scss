@@ -2,6 +2,7 @@
 button, .btn {
   all: unset;
   display: inline-block;
+  -webkit-text-fill-color: currentColor;
 }
 
 button, .btn, input[type='submit'], input[type='reset'] {
