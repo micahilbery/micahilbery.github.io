@@ -9,7 +9,6 @@ button, .btn, input[type='submit'], input[type='reset'] {
   background: var(--btn-bg);
   border-radius: $rad;
   color: var(--btn-txt);
-  cursor: pointer;
   font-size: $btn-font-size;
   font-weight: $btn-font-weight;
   line-height: normal;
