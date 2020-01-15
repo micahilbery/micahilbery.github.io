@@ -52,7 +52,9 @@ Newest posts in a unique, Medium-like layout on the first page
     {% include modules/post-preview.html post= post %}
   {% endfor %}
 {% else %}
+  {% if site.posts.size > 1 %}
   <h2 class="accent-lined">More Posts</h2>
+  {% endif %}
   {% if site.posts.size > 3 %}
     {% for post in paginator.posts offset: 4 %}
       {% include modules/post-preview.html post= post %}
