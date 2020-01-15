@@ -6,3 +6,4 @@ _site
 init.sh
 node_modules
 package.json
+Gemfile.lock
