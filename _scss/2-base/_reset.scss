@@ -7,6 +7,18 @@
   outline: none;
 }
 
+// Support Reduced motion. Pulled from CSS-Tricks //
+// https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/ //
+@media screen and
+  (prefers-reduced-motion: reduce), 
+  (update: slow) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important; // Hat tip Nick/cssremedy (https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/#comment-1700170) //
+    transition-duration: 0.001ms !important;
+  }
+}
+
 html {
   line-height: 1.15;
   overflow-x: hidden; // Hide horizontal scrollbar when vertical scrollbar is counted in view width.
