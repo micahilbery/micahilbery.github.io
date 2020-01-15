@@ -15,8 +15,7 @@
 }
 
 .rouge-code {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 1rem;
 }
 
 .rouge-table {
@@ -27,19 +26,24 @@
 }
 
 .highlighter-rouge {
-  margin: 1rem 0;
-  max-height: 50vh;
-  overflow: auto;
-  width: var(--content-width);
-}
-
-.highlight {
   border-radius: 6px;
   background: var(--code-bg-main);
   background-image: var(--inset-bg);
   box-shadow: var(--inset-highlight);
+  margin: 1rem 0;
+  max-height: 50vh;
+  line-height: 1;
+  overflow: auto;
+  max-width: 100%;
+}
+
+.highlight {
+  background: var(--code-bg-main);
+  background-image: var(--inset-bg);
   display: grid;
   place-items: stretch;
+  overflow-Y: hidden;
+  overflow-X: show;
 
   .highlighter-rouge & {
     background: var(--code-bg-main);
@@ -49,6 +53,7 @@
 
 pre.highlight {
   border: var(--border);
+  overflow:show;
 }
 
 // Text Main
