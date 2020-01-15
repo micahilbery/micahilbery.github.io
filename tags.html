@@ -10,7 +10,7 @@ title: Tags
 
 {% assign posts = tag[1] | sort | reverse %}
   {% for post in posts %}
-    {% include modules/post-preview.html post=post %}
+    {% include modules/post-preview.html post=post | relative_url %}
   {% endfor %}
 {% endfor %}
 </section>

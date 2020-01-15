@@ -15,7 +15,7 @@ css: true
     <div class="input-container">
       <input id="name" name="name" type="text" placeholder="Jane Doe" required>
       <label for="name">
-        {% include modules/icon.html name="user" %}
+        {% include modules/icon.html name="user" | relative_url %}
         <span>Full Name</span>
       </label>
     </div>
@@ -23,7 +23,7 @@ css: true
     <div class="input-container">
       <input id="email" name="email" type="email" placeholder="jane@example.com" required>
       <label for="email">
-        {% include modules/icon.html name="mail" %}
+        {% include modules/icon.html name="mail" | relative_url %}
         <span>Email</span>
       </label>
     </div>
@@ -35,7 +35,7 @@ css: true
         <option value="Other">Other</option>
       </select>
       <label for="subject">
-        {% include modules/icon.html name="info" %}
+        {% include modules/icon.html name="info" | relative_url %}
         <span>Subject</span>
       </label>
     </div>
@@ -43,7 +43,7 @@ css: true
     <div class="input-container">
       <textarea id="message" name="message" placeholder="Hello, Let's work together!" required></textarea>
       <label for="message">
-        {% include modules/icon.html name="message" %}
+        {% include modules/icon.html name="message" | relative_url %}
         <span>Message</span>
       </label>
     </div>
@@ -51,7 +51,7 @@ css: true
     <div class="grid">
       <div class="grid end stretch-sm">
         <button class="btn success" type="submit">
-          {% include modules/icon.html name="send" %}
+          {% include modules/icon.html name="send" | relative_url %}
           Send
         </button>
       </div>
