@@ -1,0 +1,18 @@
+---
+---
+// Helpers
+@import "1-helpers/variables";
+@import "1-helpers/functions";
+@import "1-helpers/mixins";
+
+.profile-socials {
+  border-bottom: var(--border);
+  box-shadow: var(--inset-txt);
+  padding: 0 .5rem;
+  grid-row-gap: .5rem;
+
+  @media( prefers-color-scheme: dark ) {
+    border-bottom: 1px solid var(--txt-fine);
+    box-shadow: inset var(--inset-txt);
+  }
+}

@@ -1,0 +1,17 @@
+---
+---
+// Helpers
+@import "1-helpers/variables";
+@import "1-helpers/functions";
+@import "1-helpers/mixins";
+
+body {
+  background: {
+    color: var(--bg-alt);
+    image: bg-img-icon('contact-pattern', $light-grey-500, 0.3);
+    repeat: repeat;
+  }
+  @media( prefers-color-scheme: dark ) {
+    background-image: bg-img-icon('contact-pattern', $dark-grey-700, 0.5);
+  }
+}
