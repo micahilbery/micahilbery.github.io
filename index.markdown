@@ -8,15 +8,15 @@ css: true
   <div class="grid center thirds">
     <div class="grid thirds end stack-sm profile-socials">
       <a href="https://twitter.com/{{ site.socials.twitter }}" class="icon-only-ln twitter" aria-label="Twitter">
-        {% include modules/icon.html name="twitter" | relative_url  %}
+        {% include modules/icon.html name="twitter"  %}
       </a>
 
       <a href="https://{{ site.socials.mastodon.instance }}/@{{ site.socials.mastodon.username }}" class="icon-only-ln mastodon" aria-label="Mastodon">
-        {% include modules/icon.html name="mastodon" | relative_url %}
+        {% include modules/icon.html name="mastodon" %}
       </a>
 
       <a href="mailto:{{ site.email }}" class="icon-only-ln protonmail" aria-label="Mail">
-        {% include modules/icon.html name="mail" | relative_url %}
+        {% include modules/icon.html name="mail" %}
       </a>
     </div>
 
@@ -29,15 +29,15 @@ css: true
 
     <div class="grid thirds h-start v-end stack-sm profile-socials">
       <a href="https://dribbble.com/{{ site.socials.dribbble }}" class="icon-only-ln dribbble" aria-label="Dribbble">
-        {% include modules/icon.html name="dribbble" | relative_url %}
+        {% include modules/icon.html name="dribbble" %}
       </a>
 
       <a href="https://codepen.io/{{ site.socials.codepen }}" class="icon-only-ln codepen" aria-label="Codepen">
-        {% include modules/icon.html name="codepen" | relative_url %}
+        {% include modules/icon.html name="codepen" %}
       </a>
 
       <a href="https://github.com/{{ site.socials.github }}" class="icon-only-ln github" aria-label="GitHub">
-        {% include modules/icon.html name="github" | relative_url %}
+        {% include modules/icon.html name="github" %}
       </a>
     </div>
   </div>
@@ -52,11 +52,11 @@ css: true
 <div class="grid">
   <div class="grid halves end stretch-sm stack-sm">
     <a href="/contact/" class="btn primary">
-      {% include modules/icon.html name="mail" | relative_url %}
+      {% include modules/icon.html name="mail" %}
       Get in touch
     </a>
     <a href="/pay/" class="btn secondary">
-      {% include modules/icon.html name="coffee-cup" | relative_url %}
+      {% include modules/icon.html name="coffee-cup" %}
       Buy me a coffee
     </a>
   </div>

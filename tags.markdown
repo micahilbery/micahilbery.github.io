@@ -11,7 +11,7 @@ permalink: /tags/
 
 {% assign posts = tag[1] | sort | reverse %}
   {% for post in posts %}
-    {% include modules/post-preview.html post=post | relative_url %}
+    {% include modules/post-preview.html post=post %}
   {% endfor %}
 {% endfor %}
 </section>

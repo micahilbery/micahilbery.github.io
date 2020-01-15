@@ -16,7 +16,7 @@ permalink: /contact/
     <div class="input-container">
       <input id="name" name="name" type="text" placeholder="Jane Doe" required>
       <label for="name">
-        {% include modules/icon.html name="user" | relative_url %}
+        {% include modules/icon.html name="user" %}
         <span>Full Name</span>
       </label>
     </div>
@@ -24,7 +24,7 @@ permalink: /contact/
     <div class="input-container">
       <input id="email" name="email" type="email" placeholder="jane@example.com" required>
       <label for="email">
-        {% include modules/icon.html name="mail" | relative_url %}
+        {% include modules/icon.html name="mail" %}
         <span>Email</span>
       </label>
     </div>
@@ -36,7 +36,7 @@ permalink: /contact/
         <option value="Other">Other</option>
       </select>
       <label for="subject">
-        {% include modules/icon.html name="info" | relative_url %}
+        {% include modules/icon.html name="info" %}
         <span>Subject</span>
       </label>
     </div>
@@ -44,7 +44,7 @@ permalink: /contact/
     <div class="input-container">
       <textarea id="message" name="message" placeholder="Hello, Let's work together!" required></textarea>
       <label for="message">
-        {% include modules/icon.html name="message" | relative_url %}
+        {% include modules/icon.html name="message" %}
         <span>Message</span>
       </label>
     </div>
@@ -52,7 +52,7 @@ permalink: /contact/
     <div class="grid">
       <div class="grid end stretch-sm">
         <button class="btn success" type="submit">
-          {% include modules/icon.html name="send" | relative_url %}
+          {% include modules/icon.html name="send" %}
           Send
         </button>
       </div>
