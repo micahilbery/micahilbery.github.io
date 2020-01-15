@@ -12,7 +12,7 @@ permalink: /contact/
     <h2 class="subheading">Let me know what you have in mind.</h2>
     <p>If you think I would be a good fit for your team and want to work together or if you just wanna say hi, I'd love to hear from you. You can reach me through this form or <a href="mailto://{{ site.email }}">directly via email</a>.</p>
   </div>
-  <form method="POST" action="http://formspree.io/{{ site.email | escape }}">
+  <form method="POST" action="https://formspree.io/{{ site.email | escape }}">
     <div class="input-container">
       <input id="name" name="name" type="text" placeholder="Jane Doe" required>
       <label for="name">
