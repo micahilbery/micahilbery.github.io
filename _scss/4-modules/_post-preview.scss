@@ -1,0 +1,122 @@
+.post-preview {
+  color: var(--txt-main);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  text-decoration: none;
+  padding: 1rem;
+  transition: all .25s ease-in-out;
+
+  &:hover,
+  &:focus {
+    background: var(--panel-bg);
+    border: var(--border);
+    box-shadow: var(--shadow), var(--outset-highlight);
+    color: var(--txt-main);
+    text-decoration: none;
+
+    .accent-lined {
+      margin-bottom: calc(1rem + 2px);
+
+      &:after {
+        display: block;
+        animation-duration: .3s;
+      }
+    }
+  }
+
+  &:active {
+    box-shadow: var(--outset-highlight);
+    color: var(--txt-main);
+    text-decoration: none;
+  }
+
+  @media( max-width: $screen-sm ) {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+  }
+
+  .accent-lined {
+    margin-top: 0;
+    margin-bottom: calc(1rem + 12px);
+  }
+
+  .accent-lined:after {
+    margin: 0;
+    margin-top: 4px;
+    display: none;
+  }
+}
+
+.preview-image {
+  background: {
+    color: var(--bg-alt);
+    position: center;
+    size: cover;
+    repeat: no-repeat;
+  }
+  border: var(--border);
+  border-radius: 6px;
+  box-shadow: var(--inset-highlight);
+  grid-column: span 2;
+  min-height: 25vh;
+
+  @media( max-width: $screen-sm ) {
+    grid-column: span 1;
+  }
+
+  &.header {
+    min-height: 40vh;
+  }
+}
+
+.excerpt {
+  background: {
+    color: var(--bg-alt);
+    image: var(--inset-bg);
+  }
+  border: var(--border);
+  border-radius: 6px;
+  box-shadow: var(--inset-highlight);
+  padding: 1rem;
+  grid-column: span 2;
+  min-height: 25vh;
+
+  @media( max-width: $screen-sm ) {
+    grid-column: span 1;
+  }
+}
+
+.post-title {
+  font-size: 1.5rem;
+}
+
+.post-desc.subheading {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.post-date {
+  font-size: .9rem;
+  margin: 0;
+}
+.read-time {
+  color: var(--txt-fine);
+  font-size: .8rem;
+  margin-top: -.5rem;
+}
+
+.sm-preview {
+  .excerpt,
+  .preview-image,
+  .post-preview {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+  }
+}
+
+.pagination .btn {
+  padding: .5rem .5rem;
+}

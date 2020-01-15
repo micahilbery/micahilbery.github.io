@@ -4,72 +4,70 @@
 
 # Site settings
 title: micah ilbery
-author: Micah Ilbery
 email: micah.ilbery@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The personal website and portfolio of Micah Ilbery.
-baseurl: ""
-url: "https://micahilbery.com"
-src_url: "https://github.com/micahilbery/micahilbery.github.io"
-allow_bug_reports: true
-copyright_date: 2018
+  The personal website of Micah Ilbery.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://micahilbery.com" # the base hostname & protocol for your site, e.g. http://example.com
+copyright_start: 2018
 
 #Theme Colors
 theme_color: "#2f3033"
 safari_pinned_tab: "#e03c9e"
 ms_tile_color: "#e03c9e"
 
-# Work Availability
-available_for_hire: true
-wanted_positions: "full-time positions"
-wanted_locations: "either remote or located in the St. Louis / Metro-East areas"
-
-# Collections
-collections:
-  work:
-    output: true
-
 # Socialmedia usernames
-codepen_username: micahilbery
-dribbble_username: micahilbery
-github_username: micahilbery
-gitlab_username: micahilbery
-mastodon:
-- username: micahilbery
-  instance: mastodon.social
-twitter_username: micahilbery
+socials:
+  codepen: micahilbery
+  dribbble: micahilbery
+  github: micahilbery
+#  gitlab: micahilbery
+#  linkedin: micah-ilbery-5b5996191
+  mastodon:
+    instance: mastodon.social
+    username: micahilbery
+#  pixelfed:
+#    instance: pixelfed.social
+#    username: micahilbery
+#  twitch: micahilbery
+  twitter: micahilbery
+#  unsplash: micahilbery
+#  youtube: MicahIlbery
+
+
+# Gravatar Avatar Image
+gravatar_hash: eab584b2d2b890a0bc6a25c29bbcac00
+
+# Financial supports
+support_options:
+  google-pay: micah.ilbery@gmail.com
+  ko-fi: micahilbery
+  paypal: micahilbery
+#  patreon:
+  squarecash: micahilbery01
+  venmo: micahilbery
 
 rss: rss
 
-# Disqus for comments
-disqus:
-  shortname: micahilbery
-
-# Payment usernames
-paypal_username: micahilbery
-
 # Build settings
-show_hooks: false
-markdown: kramdown
-theme: minima
 sass:
+  sass_dir: _scss
   style: compressed
+  sourcemap: always
+theme: minima
 plugins:
-  - jekyll-feed
+- jekyll-feed
+- jekyll-paginate
+- jekyll-redirect-from
+- jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - gulpfile.js
-  - package.json
-  - npm-debug.log
-  - .sass-cache
-  - .gitignore
+paginate: 7
+paginate_path: "/blog/page:num/"
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+future: false
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]

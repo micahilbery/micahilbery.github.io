@@ -1,0 +1,6 @@
+<!-- Taken from https://github.com/elementary/blog-template/blob/master/_includes/read-time.html -->
+
+<div class="read-time" title="Estimated read time">
+{% assign words = include.content | strip_html | number_of_words %}
+{{ words | divided_by: 200 | plus: 1 }} min read
+</div>

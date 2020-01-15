@@ -1,0 +1,28 @@
+{% assign post = include.post %}
+
+<a href="{{ post.url }}" class="post-preview">
+  {% if post.image %}
+  <div class="preview-image" alt="Preview image" style="background-image: url({{ post.image }});"></div>
+  {% else %}
+  <div class="excerpt">
+    <p>
+      {% if include.preview-size == 'small' %}
+        {{ post.excerpt | strip_html | truncatewords: 10 }}
+      {% else %}
+        {{ post.excerpt | strip_html | truncatewords: 40 }}
+      {% endif %}
+    </p>
+    <div class="text-right">…Read more</div>
+  </div>
+  {% endif %}
+  <header class="grid">
+    <div>
+      <h2 class="post-title accent-lined">{{ post.title }}</h2>
+      {% if post.description %}
+      <h3 class="subheading post-desc">{{ post.description }}</h3>
+      {% endif %}
+      <div><time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date: "%a, %b %e, %Y" }}</time></div>
+      {% include modules/read-time.html content=post.content %}
+    </div>
+  </header>
+</a>

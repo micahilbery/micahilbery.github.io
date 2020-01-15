@@ -1,35 +1,46 @@
 ---
 layout: default
 ---
-<article itemscope itemtype="http://schema.org/BlogPosting">
-  {% capture post-header %}
-  <h1 itemprop="name headline">{{ page.title | escape }}</h1>
-  {%- if page.hook -%}
-    <h4 class="hook">{{ page.hook | escape }}</h4>
-  {%- endif -%}
-  <p class="post-meta">
-    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {{ page.date | date: date_format }}
-    </time>
-    {%- if page.author -%}
-      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author | escape }}</span></span>
-    {%- endif -%}
-  </p>
-  {% endcapture %}
+<article>
+  <header>
+    <div>
+      {% if page.image %}
+      <div class="preview-image header" alt="Preview image" style="background-image: url({{ page.image }});"></div>
+      {% endif %}
+      <h1 class="accent-lined">{{ page.title }}</h2>
+      {% if page.description %}
+      <h2 class="subheading">{{ page.description }}</h3>
+      {% endif %}
+      <div><time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ page.date | date: "%a, %b %e, %Y" }}</time></div>
+      {% include modules/read-time.html content=page.content %}
+    </div>
+  </header>
 
-  {% assign preview_image = page.url | remove: '.html' | prepend: '/assets/images/posts' | append: '/preview.jpg' %}
-  {% include header.html image = preview_image content = post-header %}
-
-  <div class="wrapper-xs">
-    <main class="post-content" itemprop="articleBody">
-      {{ content }}
-    </main>
-
-    {%- if site.disqus.shortname -%}
-      {%- include disqus.html -%}
-    {%- endif -%}
-
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  </div>
+  <section>
+    {{ content }}
+  </seciton>
+  <section>
+    <h6>Tags</h6>
+    {% include modules/tags.html %}
+  </section>
 </article>
+
+{% if page.next %}
+<section class="up-next">
+  <div class="grid">
+    <div>
+      <h2 class="accent-lined">Up Next</h2>
+    </div>
+    {% include modules/post-preview.html post=page.next %}
+  </div>
+</seciton>
+{% elsif page.previous %}
+<section class="up-next">
+  <div class="grid">
+    <div>
+      <h2 class="accent-lined">Up Next</h2>
+    </div>
+    {% include modules/post-preview.html post=page.previous %}
+  </div>
+</seciton>
+{% endif %}
