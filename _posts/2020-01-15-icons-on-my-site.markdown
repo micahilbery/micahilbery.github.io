@@ -2,7 +2,7 @@
 layout: post
 title:  "Icons on my site"
 description: "How I tackle the icon problem"
-image: /assets/images/posts/icons-on-my-site.jpg
+image: /assets/images/posts/icons-on-my-site/icons-on-my-site.jpg
 tags:
   - code
 ---
@@ -70,4 +70,4 @@ However, if it doesn't find an icon with a name that matches whatever we passed 
 <p>That icon looks like this:
  {% include /modules/icon.html name= "404" class="x2" %}</p>
 
-As I mentioned before there are several ways to get icons on to your website, but this is how I chose to tackle it. I hope that this post was informative (or at least mildly entertaining). Maybe you've done something similar, or maybe you know a better way to tackle this problem. Either way, I'd love to hear from you and know what you think. Feel free to reach out to me [Twitter](https://twitter.com/{{site.socials.twitter}}){: .twitter} or [Mastodon](https://{{ site.socials.mastodon.instance }}/@{{ site.socials.mastodon.username }}){: .mastodon}. 
+As I mentioned before there are several ways to get icons on to your website, but this is how I chose to tackle it. I hope that this post was informative (or at least mildly entertaining). Maybe you've done something similar, or maybe you know a better way to tackle this problem. Either way, I'd love to hear from you and know what you think.

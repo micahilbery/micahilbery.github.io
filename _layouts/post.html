@@ -19,9 +19,28 @@ layout: default
   <section>
     {{ content }}
   </seciton>
+
   <section>
     <h6>Tags</h6>
     {% include modules/tags.html %}
+
+    <div class="text-center">
+      <h5>Feel free to reach out to me.</h5>
+      {% if site.socials.twitter %}
+      <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitter.com/{{ site.socials.twitter }}" class="icon-ln twitter">
+        {% include modules/icon.html name="twitter" %}
+        Twitter
+      </a>
+      &nbsp;
+      {% endif %}
+      {%- if site.socials.mastodon.instance and site.socials.mastodon.username -%}
+      &nbsp;
+      <a rel="nofollow noopener noreferrer" target="_blank" href="https://{{ site.socials.mastodon.instance }}/@{{ site.socials.mastodon.username }}" class="icon-ln mastodon">
+        {% include modules/icon.html name="mastodon" %}
+        Mastodon
+      </a>
+      {% endif %}
+    </div>
   </section>
 </article>
 
