@@ -1,6 +1,6 @@
 // Default Styles
 :root {
-  --inset-bg: #{linear-gradient(rgba(black, .05), transparent)};
+  --inset-bg: #{linear-gradient(rgba(black, .05), rgba(black, 0))};
   --inset-txt: 0px 1px 0px white;
   --inset-txt-invert: #{0px -1px 0px rgba(black, .3)};
   --inset-highlight: #{0px 1px 0px rgba(white, 1)};
@@ -8,8 +8,8 @@
   --shadow: #{0 4px 8px rgba(black, .2)};
   --shadow-hvr: #{0 8px 16px rgba(black, .1)};
 
-  --outset-bg: #{linear-gradient(rgba(white, .3), transparent)};
-  --outset-bg-hvr: #{linear-gradient(rgba(white, .4), transparent)};
+  --outset-bg: #{linear-gradient(rgba(white, .3), rgba(white, 0))};
+  --outset-bg-hvr: #{linear-gradient(rgba(white, .4), rgba(white, 0))};
   --outset-highlight: #{inset 0px 1px 0px rgba(white, .8)},
                       #{inset 0px -1px 0px rgba(white, .5)},
                       #{inset 1px 0px 0px rgba(white, .3)},
@@ -24,7 +24,7 @@
 // Dark Styles
 @media( prefers-color-scheme: dark ) {
   :root {
-    --inset-bg: #{linear-gradient(rgba(black, .25), transparent)};
+    --inset-bg: #{linear-gradient(rgba(black, .25), rgba(black, 0))};
     --inset-txt: #{0px -1px 0px rgba(black, .8)};
     --inset-txt-invert: #{0px 1px 0px rgba(white, .8)};
     --inset-highlight: #{0px 1px 0px rgba(white, .1)};
@@ -32,8 +32,8 @@
     --shadow: #{0 4px 8px rgba(black, .3)};
     --shadow-hvr: #{0 8px 16px rgba(black, .2)};
 
-    --outset-bg: #{linear-gradient(rgba(white, .5), transparent)};
-    --outset-bg-hvr: #{linear-gradient(rgba(white, .75), transparent)};
+    --outset-bg: #{linear-gradient(rgba(white, .5), rgba(white, 0))};
+    --outset-bg-hvr: #{linear-gradient(rgba(white, .75), rgba(white, 0))};
     --outset-highlight: #{inset 0px 1px 0px rgba(white, .2)},
                         #{inset 0px -1px 0px rgba(white, .1)},
                         #{inset 1px 0px 0px rgba(white, .05)},
