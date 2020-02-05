@@ -1,0 +1,52 @@
+---
+---
+// Helpers
+@import "1-helpers/variables";
+@import "1-helpers/functions";
+@import "1-helpers/mixins";
+
+p {
+  margin-bottom: 0;
+}
+
+.pay-grid {
+  grid-gap: 2rem;
+}
+
+.qr-grid {
+  grid-template-columns: 150px 1fr 1fr;
+
+  @media( max-width: $screen-sm ) {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+
+    .span-2 { grid-column: span 1; }
+  }
+}
+
+.qr-code {
+  border: var(--border);
+  border-radius: 13px;
+  background: {
+    color: $dark-grey-500;
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+  }
+  box-shadow: var(--inset-highlight);
+  color: transparent;
+  overflow: hidden;
+  position: relative;
+  width: 150px;
+  height: 150px;
+
+  .icon {
+    filter: none;
+  }
+
+  &:hover {
+    background-blend-mode: multiply;
+    color: $light-grey-300;
+    cursor: zoom-in;
+  }
+}

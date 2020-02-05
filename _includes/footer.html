@@ -115,14 +115,6 @@
       <h4 class="accent-lined">Support Me</h4>
       <p>Want to buy me a drink/food, like what I do and want to support it, or just want to throw money at me? You can do just that here:</p>
       <ul class="ln-list">
-        {% if site.support_options.paypal %}
-        <li>
-          <a rel="nofollow noopener noreferrer" target="_blank" href="https://paypal.me/{{ site.support_options.paypal }}" class="icon-ln paypal">
-            {% include modules/icon.html name="paypal" %}
-            PayPal
-          </a>
-        </li>
-        {% endif %}
         {% if site.support_options.ko-fi %}
         <li>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://ko-fi.com/{{ site.support_options.ko-fi }}" class="icon-ln ko-fi">
@@ -137,6 +129,14 @@
            {% include modules/icon.html name="patreon" %}
            Patreon
          </a>
+        </li>
+        {% endif %}
+        {% if site.support_options.paypal %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://paypal.me/{{ site.support_options.paypal }}" class="icon-ln paypal">
+            {% include modules/icon.html name="paypal" %}
+            PayPal
+          </a>
         </li>
         {% endif %}
         {% if site.support_options.squarecash %}
