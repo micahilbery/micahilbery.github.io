@@ -2,5 +2,10 @@ body {
   display: flex;
   flex-direction: column;
   background: var(--bg-main);
-  min-height: 100vh
+  background-image: bg-img-svg('texture', black, 0.05);
+  min-height: 100vh;
+
+  @media( prefers-color-scheme: dark ) {
+    background-image: bg-img-svg('texture', black, 0.1);
+  }
 }

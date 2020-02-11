@@ -94,7 +94,7 @@ textarea {
   fieldset input[type="checkbox"]:checked {
     background: {
       color: var(--accent-color);
-      image: bg-img-icon('check', $light-grey-100), var(--outset-bg);
+      image: bg-img-svg('check', $light-grey-100), var(--outset-bg);
       size: 1rem;
       position: center;
       repeat: no-repeat;
@@ -107,7 +107,7 @@ textarea {
     }
 
     @media (prefers-color-scheme: dark) {
-      background-image: bg-img-icon('check', $pink-900), var(--outset-bg);
+      background-image: bg-img-svg('check', $pink-900), var(--outset-bg);
     }
   }
 
@@ -174,7 +174,7 @@ select {
   appearance: none;
   background: {
     color: var(--bg-alt);
-    image: var(--inset-bg), bg-img-icon('sel-arrow', $dark-grey-700);
+    image: var(--inset-bg), bg-img-svg('sel-arrow', $dark-grey-700);
     position: 98%;
     repeat: no-repeat;
     size: cover, 16px;
@@ -184,7 +184,7 @@ select {
   @media (prefers-color-scheme: dark) {
     background: {
       color: var(--bg-alt);
-      image: var(--inset-bg), bg-img-icon('sel-arrow', $light-grey-500);
+      image: var(--inset-bg), bg-img-svg('sel-arrow', $light-grey-500);
       position: 98%;
       repeat: no-repeat;
       size: cover, 16px;
@@ -196,7 +196,7 @@ select {
   select{
     background: {
       color: var(--bg-alt);
-      image: var(--inset-bg), bg-img-icon('sel-arrow', $light-grey-500);
+      image: var(--inset-bg), bg-img-svg('sel-arrow', $light-grey-500);
       position: 98%;
       repeat: no-repeat;
       size: cover, 1rem;
