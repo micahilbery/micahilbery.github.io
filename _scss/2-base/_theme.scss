@@ -65,6 +65,10 @@
     --tag-txt-hvr: #{$cyan-700};
     --tag-txt-act: #{$purple-700};
 
+    --texture-main: #{bg-img-svg('texture-main', black, 0.05)};
+    --texture-alt: #{bg-img-svg('texture-alt', white, 0.025)};
+    --sel-arrow: #{bg-img-svg('sel-arrow', $dark-grey-700)};
+    --checked: #{bg-img-svg('check', $light-grey-100)};
   } @else {
     // Dark Color Scheme //
     --bg-main: #{$dark-grey-700};
@@ -125,6 +129,11 @@
     --tag-txt: #{$pink-100};
     --tag-txt-hvr: #{$cyan-300};
     --tag-txt-act: #{$purple-100};
+
+    --texture-main: #{bg-img-svg('texture-main', black, 0.1)};
+    --texture-alt: #{bg-img-svg('texture-alt', white, 0.05)};
+    --sel-arrow: #{bg-img-svg('sel-arrow', $light-grey-500)};
+    --checked: #{bg-img-svg('check', $pink-900)};
   }
 }
 

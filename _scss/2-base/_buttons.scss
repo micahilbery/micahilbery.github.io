@@ -7,7 +7,7 @@ input[type="submit"].btn,
 input[type="button"].btn,
 .btn, {
   background: var(--btn-bg);
-  background-image: var(--outset-bg);
+  background-image: var(--outset-bg), bg-img-svg('texture-alt', white, 0.025);
   border-radius: 5px;
   border: var(--border);
   box-shadow: var(--outset-highlight-invert), var(--shadow);
@@ -25,12 +25,12 @@ input[type="button"].btn,
   text-decoration: none;
   text-shadow: var(--inset-txt-invert);
   vertical-align: middle;
-  transition: all 150ms ease-out;
+  transition: all .15s ease-in-out;
 
   &:hover,
   &:focus {
     color: var(--btn-txt);
-    background-image: var(--outset-bg-hvr);
+    background-image: var(--outset-bg-hvr), var(--texture-alt);
     box-shadow: var(--outset-highlight-invert), var(--shadow-hvr);
   }
 
@@ -40,7 +40,7 @@ input[type="button"].btn,
 
   &:active {
     color: var(--btn-txt);
-    background-image: var(--inset-bg);
+    background-image: var(--inset-bg), var(--texture-alt);
     box-shadow: var(--inset-txt);
   }
 

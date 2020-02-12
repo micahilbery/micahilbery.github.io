@@ -94,7 +94,7 @@ textarea {
   fieldset input[type="checkbox"]:checked {
     background: {
       color: var(--accent-color);
-      image: bg-img-svg('check', $light-grey-100), var(--outset-bg);
+      image: var(--checked), var(--outset-bg);
       size: 1rem;
       position: center;
       repeat: no-repeat;
@@ -104,10 +104,6 @@ textarea {
 
     + label {
       color: var(--accent-color);
-    }
-
-    @media (prefers-color-scheme: dark) {
-      background-image: bg-img-svg('check', $pink-900), var(--outset-bg);
     }
   }
 
@@ -174,34 +170,12 @@ select {
   appearance: none;
   background: {
     color: var(--bg-alt);
-    image: var(--inset-bg), bg-img-svg('sel-arrow', $dark-grey-700);
+    image: var(--inset-bg), var(--sel-arrow);
     position: 98%;
     repeat: no-repeat;
     size: cover, 16px;
   }
   outline: none;
-
-  @media (prefers-color-scheme: dark) {
-    background: {
-      color: var(--bg-alt);
-      image: var(--inset-bg), bg-img-svg('sel-arrow', $light-grey-500);
-      position: 98%;
-      repeat: no-repeat;
-      size: cover, 16px;
-    }
-  }
-}
-
-.dark {
-  select{
-    background: {
-      color: var(--bg-alt);
-      image: var(--inset-bg), bg-img-svg('sel-arrow', $light-grey-500);
-      position: 98%;
-      repeat: no-repeat;
-      size: cover, 1rem;
-    }
-  }
 }
 
 textarea {
