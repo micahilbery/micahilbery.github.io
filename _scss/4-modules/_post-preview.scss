@@ -1,7 +1,7 @@
 .post-preview {
   color: var(--txt-main);
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: .5rem;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
@@ -38,6 +38,10 @@
     grid-column: span 1;
   }
 
+  .preview-image {
+    border-radius: .25rem;
+  }
+
   .accent-lined {
     margin-top: 0;
     margin-bottom: calc(1rem + 12px);
@@ -58,7 +62,7 @@
     repeat: no-repeat;
   }
   border: var(--border);
-  border-radius: 6px;
+  border-radius: .5rem;
   box-shadow: var(--inset-highlight);
   grid-column: span 2;
   min-height: 25vh;
@@ -78,7 +82,7 @@
     image: var(--inset-bg);
   }
   border: var(--border);
-  border-radius: 6px;
+  border-radius: .25rem;
   box-shadow: var(--inset-highlight);
   padding: 1rem;
   grid-column: span 2;

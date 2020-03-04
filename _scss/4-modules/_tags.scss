@@ -6,14 +6,14 @@ aside.tags {
 .tag {
   background-color: var(--tag-bg);
   border: var(--border);
-  border-radius: 3px;
+  border-radius: .25rem;
   box-shadow: var(--outset-highlight);
   color: var(--tag-txt);
   display: inline-block;
   font-size: 0.8rem;
   line-height: 1.6rem;
   margin: 0.25rem;
-  padding: 0 .25rem;
+  padding: 0 .5rem;
   text-decoration: none;
   
   &:hover,

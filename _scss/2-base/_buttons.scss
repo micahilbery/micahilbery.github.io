@@ -8,7 +8,7 @@ input[type="button"].btn,
 .btn, {
   background: var(--btn-bg);
   background-image: var(--outset-bg);
-  border-radius: 5px;
+  border-radius: .25rem;
   border: var(--border);
   box-shadow: var(--outset-highlight-invert), var(--shadow);
   box-sizing: border-box;
