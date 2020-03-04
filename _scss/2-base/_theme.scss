@@ -460,14 +460,14 @@
 .coffee {
   --tag-bg: #{rgba(#a3907c, .2)};
   --tag-txt: #3d211b;
-  --tag-txt-hvr: #{$orange-500};
-  --tag-txt-act: #{$orange-900};
+  --tag-txt-hvr: #{$green-700};
+  --tag-txt-act: #{$green-900};
 
   @media( prefers-color-scheme: dark ) {
     --tag-bg: #{rgba(#3d211b, .2)};
     --tag-txt: #a3907c;
-    --tag-txt-hvr: #{$orange-100};
-    --tag-txt-act: #{$orange-300};
+    --tag-txt-hvr: #{$green-100};
+    --tag-txt-act: #{$green-300};
   }
 }
 
