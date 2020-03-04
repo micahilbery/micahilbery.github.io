@@ -41,7 +41,7 @@ input[type="button"].btn,
   &:active {
     color: var(--btn-txt);
     background-image: var(--inset-bg);
-    box-shadow: var(--inset-txt);
+    box-shadow: var(--inset-highlight);
   }
 
   @media( max-width: $screen-sm ) {
