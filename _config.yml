@@ -22,7 +22,7 @@ socials:
   dribbble: micahilbery
   github: micahilbery
 #  gitlab: micahilbery
-#  linkedin: micah-ilbery-5b5996191
+#  linkedin: micahilbery
   mastodon:
     instance: mastodon.social
     username: micahilbery
@@ -33,7 +33,6 @@ socials:
   twitter: micahilbery
 #  unsplash: micahilbery
 #  youtube: MicahIlbery
-
 
 # Gravatar Avatar Image
 gravatar_hash: eab584b2d2b890a0bc6a25c29bbcac00
