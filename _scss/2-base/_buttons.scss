@@ -7,7 +7,7 @@ input[type="submit"].btn,
 input[type="button"].btn,
 .btn, {
   background: var(--btn-bg);
-  background-image: var(--outset-bg), bg-img-svg('texture-alt', white, 0.025);
+  background-image: var(--outset-bg);
   border-radius: 5px;
   border: var(--border);
   box-shadow: var(--outset-highlight-invert), var(--shadow);
@@ -30,7 +30,7 @@ input[type="button"].btn,
   &:hover,
   &:focus {
     color: var(--btn-txt);
-    background-image: var(--outset-bg-hvr), var(--texture-alt);
+    background-image: var(--outset-bg-hvr);
     box-shadow: var(--outset-highlight-invert), var(--shadow-hvr);
   }
 
@@ -40,7 +40,7 @@ input[type="button"].btn,
 
   &:active {
     color: var(--btn-txt);
-    background-image: var(--inset-bg), var(--texture-alt);
+    background-image: var(--inset-bg);
     box-shadow: var(--inset-txt);
   }
 
