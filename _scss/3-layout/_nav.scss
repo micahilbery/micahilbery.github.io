@@ -48,6 +48,27 @@ nav {
 
   .accent-lined {
     margin: 0;
+
+    &:after {
+      width: 5rem;
+    }
+  }
+
+  #logo-last-name {
+    color: var(--txt-alt);
+    transition: color .2s ease-in-out;
+  }
+
+  &:hover, &:focus {
+    #logo-last-name {
+      color: var(--ln-hvr);
+    }
+  }
+
+  &:active {
+    #logo-last-name {
+      color: var(--ln-act);
+    }
   }
 }
 
