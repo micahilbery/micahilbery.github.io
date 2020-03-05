@@ -50,8 +50,13 @@
 
   <!-- link(s) to stylesheet(s) -->
   <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}">
-  {%- if page.css and page.id -%}
-  <link rel="stylesheet" href="{{ '/assets/styles/id.css' | replace: 'id', page.id relative_url }}">
+  {%- if page.post_id -%}
+    {% assign css_id = page.post_id | prepend: 'posts/' %}
+  {%- else if page.id -%}
+    {% assign css_id = page.id %}
+  {%- endif -%}
+  {%- if page.css and css_id -%}
+  <link rel="stylesheet" href="{{ '/assets/styles/css_id.css' | replace: 'css_id', css_id relative_url }}">
   {%- endif -%}
 
   {%- feed_meta -%}

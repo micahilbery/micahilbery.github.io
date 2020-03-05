@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article>
+<article {% if page.post_id %} id="{{ page.post_id }}" {% endif %}>
   <header>
     <div>
       {% if page.image %}

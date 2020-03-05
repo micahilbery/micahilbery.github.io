@@ -2,8 +2,8 @@
 layout: page
 title: Pay
 permalink: /pay/
-css: true
 id: pay
+css: true
 ---
 <section>
   <h1 class="accent-lined">Support Me</h1>
