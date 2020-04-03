@@ -14,14 +14,6 @@ nav {
   max-width: var(--content-width);
   padding: .5rem 1rem;
   width: 100%;
-
-  @media( min-width: $screen-sm ) {
-    --content-width: #{$content-lg};
-  }
-
-  @media( min-width: $screen-lg ) {
-    --content-width: #{$content-xl};
-  }
 }
 
 .logotype {

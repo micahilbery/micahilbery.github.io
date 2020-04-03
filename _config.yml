@@ -48,6 +48,11 @@ support_options:
 
 rss: rss
 
+# Collections
+collections:
+  projects:
+    output: true
+
 # Build settings
 sass:
   sass_dir: _scss
