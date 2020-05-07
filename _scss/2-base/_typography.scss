@@ -1,9 +1,4 @@
-/* Fonts */
-@import "fonts/Inter";
-@import "fonts/RobotoMono";
-
 $font-main: "Inter","Open Sans", "Noto Sans", "Roboto", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-$font-var: 'Inter Variable',"Open Sans", "Noto Sans", "Roboto", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $font-mono: "Roboto Mono", monospace;
 
 /* Typography */
@@ -49,14 +44,10 @@ h6.subheading { font-size: .75rem; color: var(--txt-fine); }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: $font-main;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1;
   margin: 1rem 0;
   padding: 0;
-
-  @supports( font-variation-settings: normal ) {
-    font-family: $font-var;
-  }
 }
 
 p { margin: 0 0 1.5rem 0; }
@@ -187,21 +178,21 @@ hr {
 .first-letter {
   background: var(--bg-main);
   border: var(--border);
-  border-radius: .125rem;
+  border-radius: .25rem;
   box-shadow: inset var(--inset-highlight);
   display: run-in;
   float: left;
-  font-size: 4rem;
-  font-weight: 900;
+  font-size: 3.5rem;
+  font-weight: 700;
   line-height: .5;
   margin: .75rem .75rem 0 6px;
-  padding: 1rem .25rem;
+  padding: .75rem .25rem;
   position: relative;
 
   &:before {
     background: var(--accent-gradient);
     border: var(--border);
-    border-radius: .25rem;
+    border-radius: .5rem;
     box-shadow: var(--inset-highlight);
     content: '';
     position: absolute;
@@ -214,10 +205,6 @@ hr {
 
   .alt-bg {
     background: var(--bg-alt);
-  }
-
-  @media( min-width: $screen-lg ) {
-    margin: .5rem .75rem 0 6px;
   }
 }
 
