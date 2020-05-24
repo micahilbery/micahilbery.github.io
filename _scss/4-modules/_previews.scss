@@ -1,4 +1,5 @@
-.post-preview {
+.post-preview,
+.project-preview {
   color: var(--txt-main);
   border: 1px solid transparent;
   border-radius: .5rem;
@@ -111,12 +112,22 @@
   margin-top: -.5rem;
 }
 
+.project-preview {
+  grid-template-columns: 1fr;
+}
+
 .sm-preview {
   .excerpt,
   .preview-image,
   .post-preview {
     grid-template-columns: 1fr;
     grid-column: span 1;
+  }
+
+  .preview-image { min-height: 15vh; }
+
+  @media( max-width: $screen-sm ) {
+    .preview-image { min-height: 25vh; }
   }
 }
 

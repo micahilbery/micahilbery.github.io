@@ -7,3 +7,7 @@ article {
   max-width: var(--content-width);
   padding: 1rem;
 }
+
+.project-article {
+  --content-width: #{$content-xl}
+}

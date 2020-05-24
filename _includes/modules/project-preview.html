@@ -1,15 +1,15 @@
-{% assign post = include.post %}
+{% assign project = include.project %}
 
-<a href="{{ post.url }}" class="post-preview">
-  {% if post.image %}
-  <div class="preview-image" alt="Preview image" style="background-image: url({{ post.image }});"></div>
+<a href="{{ project.url }}" class="project-preview">
+  {% if project.image %}
+  <div class="preview-image" alt="Preview image" style="background-image: url({{ project.image }});"></div>
   {% else %}
   <div class="excerpt">
     <p>
       {% if include.preview-size == 'small' %}
-        {{ post.excerpt | strip_html | truncatewords: 10 }}
+        {{ project.excerpt | strip_html | truncatewords: 10 }}
       {% else %}
-        {{ post.excerpt | strip_html | truncatewords: 40 }}
+        {{ project.excerpt | strip_html | truncatewords: 40 }}
       {% endif %}
     </p>
     <div class="text-right">…Read more</div>
@@ -17,9 +17,9 @@
   {% endif %}
   <header class="grid">
     <div>
-      <h2 class="post-title accent-lined">{{ post.title }}</h2>
-      {% if post.job-title %}
-      <h3 class="subheading post-desc">{{ post.job-title }}</h3>
+      <h2 class="post-title accent-lined">{{ project.title }}</h2>
+      {% if project.job-title %}
+      <h3 class="subheading post-desc">{{ project.job-title }}</h3>
       {% endif %}
     </div>
   </header>

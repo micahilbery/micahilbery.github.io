@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "SVG data URIs and Sass functions"
-description: "How I tackle svg background images on this site"
+title:  "SVG data URIs & Sass functions"
+description: "Tackling svg background images"
 image: /assets/images/posts/svg-data-uris/svg-data-uris.jpg
 post_id: svg-data-uris
 css: true

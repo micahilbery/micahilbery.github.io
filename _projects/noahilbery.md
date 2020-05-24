@@ -27,7 +27,7 @@ were able to create a responsive website that is modern, cleanly
 organized, and can be easily updated to display all of his current works
 and contact information.
 
-![Screenshot of NoahIlbery.com](/assets/images/projects/noahilbery/noahilbery-screenshot.png)
+![Screenshot of NoahIlbery.com](/assets/images/projects/noahilbery/full-view.jpg)
 
 <div class="text-center" markdown="1">
 [NoahIlbery.com](https://noahilbery.com/){:.btn}
