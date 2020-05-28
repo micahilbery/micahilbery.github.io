@@ -44,7 +44,7 @@ h6.subheading { font-size: .75rem; color: var(--txt-fine); }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: $font-main;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1;
   margin: 1rem 0;
   padding: 0;
@@ -55,6 +55,11 @@ p { margin: 0 0 1.5rem 0; }
 ul, ol {
   padding-left: 0;
   list-style-position: inside;
+}
+
+b,
+strong {
+  font-weight: 800;
 }
 
 strike,
@@ -168,7 +173,7 @@ hr {
   color: var(--txt-alt);
   font-size: .9rem;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .fine-print {
@@ -183,7 +188,7 @@ hr {
   display: run-in;
   float: left;
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: .5;
   margin: .75rem .75rem 0 6px;
   padding: .75rem .25rem;

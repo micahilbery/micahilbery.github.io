@@ -4,7 +4,7 @@ nav {
   --content-width: #{$content-md};
 
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 800;
   animation: load .5s ease-in;
   color: var(--txt-main);
   display: grid;
@@ -12,8 +12,12 @@ nav {
   grid-gap: 1rem;
   margin: 0 auto;
   max-width: var(--content-width);
-  padding: .5rem 1rem;
+  padding: .5rem 4rem;
   width: 100%;
+
+  @media( max-width: $screen-xs ) {
+    padding: .5rem 1rem;
+  }
 }
 
 .logotype {
@@ -29,9 +33,9 @@ nav {
     --ln-ul: none;
   }
 
-  font-weight: 700;
+  font-weight: 800;
   font-size: 2rem;
-  letter-spacing: -.2rem;
+  letter-spacing: -.15rem;
   line-height: 1;
   margin: 0;
   padding: 0;
@@ -42,7 +46,7 @@ nav {
     margin: 0;
 
     &:after {
-      width: 5rem;
+      width: 5.5rem;
     }
   }
 
@@ -71,7 +75,7 @@ nav {
   li {
     display: inline-block;
     margin: 0 .5rem;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 1;
   }
 
