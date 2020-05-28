@@ -8,8 +8,9 @@
   --shadow: #{0 4px 8px rgba(black, .2)};
   --shadow-hvr: #{0 8px 16px rgba(black, .1)};
 
-  --outset-bg: #{linear-gradient(rgba(white, .1), rgba(white, 0))};
-  --outset-bg-hvr: #{linear-gradient(rgba(white, .2), rgba(white, 0))};
+  --outset-bg: #{linear-gradient(rgba(white, .3), rgba(white, 0))};
+  --outset-bg-hvr: #{linear-gradient(rgba(white, .4), rgba(white, 0))};
+
   --outset-highlight: #{inset 0px 1px 0px rgba(white, .6)},
                       #{inset 0px -1px 0px rgba(white, .3)},
                       #{inset 1px 0px 0px rgba(white, .1)},
@@ -32,8 +33,9 @@
     --shadow: #{0 4px 8px rgba(black, .3)};
     --shadow-hvr: #{0 8px 16px rgba(black, .2)};
 
-    --outset-bg: #{linear-gradient(rgba(white, .3), rgba(white, 0))};
-    --outset-bg-hvr: #{linear-gradient(rgba(white, .4), rgba(white, 0))};
+    --outset-bg: #{linear-gradient(rgba(white, .1), rgba(white, 0))};
+    --outset-bg-hvr: #{linear-gradient(rgba(white, .2), rgba(white, 0))};
+
     --outset-highlight: #{inset 0px 1px 0px rgba(white, .2)},
                         #{inset 0px -1px 0px rgba(white, .1)},
                         #{inset 1px 0px 0px rgba(white, .05)},

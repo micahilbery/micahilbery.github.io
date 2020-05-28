@@ -10,7 +10,7 @@ input[type="button"].btn,
   background-image: var(--outset-bg);
   border-radius: .25rem;
   border: var(--border);
-  box-shadow: var(--outset-highlight-invert), var(--shadow);
+  box-shadow: var(--outset-highlight), var(--shadow);
   box-sizing: border-box;
   color: var(--btn-txt);
   cursor: default;
@@ -23,7 +23,7 @@ input[type="button"].btn,
   padding: .5em 1.25em;
   text-align: center;
   text-decoration: none;
-  text-shadow: var(--inset-txt-invert);
+  text-shadow: var(--inset-txt);
   vertical-align: middle;
   transition: all .15s ease-in-out;
 
@@ -31,11 +31,11 @@ input[type="button"].btn,
   &:focus {
     color: var(--btn-txt);
     background-image: var(--outset-bg-hvr);
-    box-shadow: var(--outset-highlight-invert), var(--shadow-hvr);
+    box-shadow: var(--outset-highlight), var(--shadow-hvr);
   }
 
   &:focus {
-    box-shadow: var(--outset-highlight-invert), var(--shadow-hvr);
+    box-shadow: var(--outset-highlight), var(--shadow-hvr);
   }
 
   &:active {
@@ -50,12 +50,12 @@ input[type="button"].btn,
 }
 
 .btn .icon {
-  filter: drop-shadow(var(--inset-txt-invert));
+  filter: drop-shadow(var(--inset-txt));
   margin-right: .25rem;
 }
 
 .btn.icon-end .icon {
-  filter: drop-shadow(var(--inset-txt-invert));
+  filter: drop-shadow(var(--inset-txt));
   margin-right: 0;
   margin-left: .25rem;
 }
@@ -80,15 +80,15 @@ input[type="button"].btn,
 
 .btn.dark {
   @media( prefers-color-scheme: light ) {
-    box-shadow: var(--outset-highlight), var(--shadow);
-    text-shadow: var(--inset-txt);
+    box-shadow: var(--outset-highlight-invert), var(--shadow);
+    text-shadow: var(--inset-txt-invert);
   }
 }
 
 .btn.light {
   @media( prefers-color-scheme: dark ) {
-    box-shadow: var(--outset-highlight), var(--shadow);
-    text-shadow: var(--inset-txt);
+    box-shadow: var(--outset-highlight-invert), var(--shadow);
+    text-shadow: var(--inset-txt-invert);
   }
 }
 
