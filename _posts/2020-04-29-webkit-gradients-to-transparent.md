@@ -2,7 +2,7 @@
 layout: post
 title:  "Webkit Gradients to Transparent"
 description: "Finding and working around a render issue in webkit."
-image: /assets/images/posts/webkit-gradients-to-transparent/webkit-gradient-to-transparent.png
+image: /assets/images/posts/webkit-gradients-to-transparent/preview.png
 tags:
   - code
 ---
