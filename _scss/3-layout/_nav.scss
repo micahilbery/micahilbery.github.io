@@ -11,10 +11,6 @@ nav {
   max-width: var(--content-width);
   padding: .5rem 1rem;
   width: 100%;
-
-  @media( max-width: $screen-xs ) {
-    padding: .5rem 1rem;
-  }
 }
 
 .logotype {
