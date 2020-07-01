@@ -1,10 +1,7 @@
 nav {
   --ln-txt: var(--txt-main);
   --ln-ul: none;
-  --content-width: #{$content-md};
 
-  font-size: 1.25rem;
-  font-weight: 800;
   animation: load .5s ease-in;
   color: var(--txt-main);
   display: grid;
@@ -12,7 +9,7 @@ nav {
   grid-gap: 1rem;
   margin: 0 auto;
   max-width: var(--content-width);
-  padding: .5rem 4rem;
+  padding: .5rem 1rem;
   width: 100%;
 
   @media( max-width: $screen-xs ) {
@@ -69,6 +66,7 @@ nav {
 }
 
 .nav-menu {
+  font-size: 1.25rem;
   padding: 0;
   margin: 0;
 

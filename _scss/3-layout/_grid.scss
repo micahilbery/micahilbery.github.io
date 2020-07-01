@@ -1,15 +1,21 @@
 :root {
   --content-width: #{$content-sm};
+}
 
-  @media( min-width: $screen-sm ) {
+@media( min-width: $screen-sm ) {
+  :root {
     --content-width: #{$content-md};
   }
+}
 
-  @media( min-width: $screen-lg ) {
+@media( min-width: $screen-lg ) {
+  :root {
     --content-width: #{$content-lg};
   }
+}
 
-  @media( min-width: $screen-xl ) {
+@media( min-width: $screen-xl ) {
+  :root {
     --content-width: #{$content-xl};
   }
 }
