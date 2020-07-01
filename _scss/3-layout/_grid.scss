@@ -8,6 +8,10 @@
   @media( min-width: $screen-lg ) {
     --content-width: #{$content-lg};
   }
+
+  @media( min-width: $screen-xl ) {
+    --content-width: #{$content-xl};
+  }
 }
 
 .grid {
