@@ -10,7 +10,7 @@
 }
 
 .panel.dark {
-  @include get-color-scheme('dark');
+  @include get-dark-scheme();
   @media( prefers-color-scheme: light ) {
     box-shadow: var(--outset-highlight-invert), var(--shadow);
     text-shadow: var(--inset-txt-invert);
@@ -18,7 +18,7 @@
 }
 
 .panel.light {
-  @include get-color-scheme('light');
+  @include get-light-scheme();
   @media( prefers-color-scheme: dark ) {
     box-shadow: var(--outset-highlight-invert), var(--shadow);
     text-shadow: var(--inset-txt-invert);

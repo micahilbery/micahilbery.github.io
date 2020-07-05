@@ -169,6 +169,26 @@ hr {
   }
 }
 
+.light hr {
+  border: {
+    left: none;
+    right: none;
+    top: 1px solid rgba(black, .3);
+    bottom: 1px solid white;
+    radius: 2px;
+  }
+}
+
+.dark hr {
+  border: {
+    left: none;
+    right: none;
+    top: 1px solid rgba(black, .8);
+    bottom: 1px solid rgba(white, .2);
+    radius: 2px;
+  }
+}
+
 .attrib {
   color: var(--txt-alt);
   font-size: .9rem;

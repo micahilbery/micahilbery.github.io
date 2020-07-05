@@ -16,3 +16,13 @@
     box-shadow: inset var(--inset-txt);
   }
 }
+
+.light .profile-socials {
+  border-bottom: var(--border);
+  box-shadow: var(--inset-txt);
+}
+
+.dark .profile-socials {
+  border-bottom: 1px solid var(--txt-fine);
+  box-shadow: inset var(--inset-txt);
+}

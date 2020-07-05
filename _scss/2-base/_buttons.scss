@@ -5,7 +5,7 @@ a.btn,
 button.btn,
 input[type="submit"].btn,
 input[type="button"].btn,
-.btn, {
+.btn {
   background: var(--btn-bg);
   background-image: var(--outset-bg);
   border-radius: .25rem;
