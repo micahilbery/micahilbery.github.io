@@ -1,4 +1,4 @@
-let perferedTheme = sessionStorage.getItem('perferedTheme');
+let preferredTheme = sessionStorage.getItem('preferredTheme');
 
 function setLightTheme() {
   if (document.body.classList.contains('dark')) {
@@ -6,7 +6,7 @@ function setLightTheme() {
   }
 
   document.body.classList.add('light');
-  sessionStorage.setItem('perferedTheme', 'light');
+  sessionStorage.setItem('preferredTheme', 'light');
 }
 
 function setDarkTheme() {
@@ -15,35 +15,35 @@ function setDarkTheme() {
   }
 
   document.body.classList.add('dark');
-  sessionStorage.setItem('perferedTheme', 'dark');
+  sessionStorage.setItem('preferredTheme', 'dark');
 }
 
-function setPerferedTheme() {
-  perferedTheme = sessionStorage.getItem('perferedTheme');
+function setPreferredTheme() {
+  preferredTheme = sessionStorage.getItem('preferredTheme');
 
-  if(perferedTheme === 'light') {
+  if(preferredTheme === 'light') {
     setLightTheme();
-  } else if (perferedTheme === 'dark') {
+  } else if (preferredTheme === 'dark') {
     setDarkTheme();
   }
 }
 
 function toggleTheme() {
-    perferedTheme = sessionStorage.getItem('perferedTheme');
+    preferredTheme = sessionStorage.getItem('preferredTheme');
 
-  if(perferedTheme === null) {
-    sessionStorage.setItem('perferedTheme', 'dark');
-    setPerferedTheme();
-  } else if(perferedTheme === 'light') {
-    sessionStorage.setItem('perferedTheme', 'dark');
-    setPerferedTheme();
-  } else if (perferedTheme === 'dark') {
-    sessionStorage.setItem('perferedTheme', 'light');
-    setPerferedTheme();
+  if(preferredTheme === null) {
+    sessionStorage.setItem('preferredTheme', 'dark');
+    setPreferredTheme();
+  } else if(preferredTheme === 'light') {
+    sessionStorage.setItem('preferredTheme', 'dark');
+    setPreferredTheme();
+  } else if (preferredTheme === 'dark') {
+    sessionStorage.setItem('preferredTheme', 'light');
+    setPreferredTheme();
   }
 }
 
 const toggleBtn = document.getElementById('theme-toggle');
 toggleBtn.addEventListener('click', toggleTheme);
 
-setPerferedTheme();
+setPreferredTheme();
