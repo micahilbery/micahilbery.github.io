@@ -9,9 +9,20 @@
     position: center;
     repeat: no-repeat;
   }
+  border-radius: 0 0 0 50%;
   position: absolute;
-  right: .5rem;
-  top: .5rem;
+  right: 0;
+  top: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+
+  .icon {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: .8rem;
+    top: .7rem;
+  }
 
   #icon-sun { display: none; }
   #icon-moon { display: block; }
