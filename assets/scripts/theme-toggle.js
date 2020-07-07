@@ -44,6 +44,7 @@ function toggleTheme() {
 }
 
 const toggleBtn = document.getElementById('theme-toggle');
+toggleBtn.style.display = "block"; // shows button if javascript is enabled;
 toggleBtn.addEventListener('click', toggleTheme);
 
 setPreferredTheme();

@@ -10,6 +10,7 @@
     repeat: no-repeat;
   }
   border-radius: 0 0 0 50%;
+  display: none; // Button won't show unless javascript is enabled.
   position: absolute;
   right: 0;
   top: 0;
