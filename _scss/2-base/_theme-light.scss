@@ -52,13 +52,17 @@
   --btn-bg: #{$light-grey-300};
   --btn-txt: #{$dark-grey-700};
 
+  --switch-bg: #{$light-grey-900};
+
   --panel-bg: #{$light-grey-100};
   --panel-txt: #{$dark-grey-700};
 
-  --tag-bg: #{rgba($pink-100, .2)};
-  --tag-txt: #{$pink-900};
-  --tag-txt-hvr: #{$cyan-700};
-  --tag-txt-act: #{$purple-700};
+  --progress-bg: #{$light-grey-500};
+
+  --tag-bg: #{rgba(white, .5)};
+  --tag-txt: #{$dark-grey-500};
+  --tag-txt-hvr: #{$light-grey-900};
+  --tag-txt-act: #{$dark-grey-500};
 
   --sel-arrow: #{bg-img-svg('sel-arrow', $dark-grey-700)};
   --checked: #{bg-img-svg('check', $light-grey-100)};
@@ -76,11 +80,17 @@
     --btn-bg: #{$pink-100};
     --btn-txt: #{$pink-900};
 
+    --switch-bg: #{$pink-300};
+
     --panel-bg: #{rgba($pink-100, .2)};
     --panel-txt: #{$pink-900};
 
+    --progress-bg: #{$pink-300};
+
     --tag-bg: #{rgba($pink-100, .2)};
     --tag-txt: #{$pink-900};
+    --tag-txt-hvr: #{$pink-700};
+    --tag-txt-act: #{$pink-900};
   }
 
   .purple,
@@ -93,11 +103,17 @@
     --btn-bg: #{$purple-100};
     --btn-txt: #{$purple-900};
 
+    --switch-bg: #{$purple-300};
+
     --panel-bg: #{rgba($purple-100, .2)};
     --panel-txt: #{$purple-900};
 
+    --progress-bg: #{$purple-300};
+
     --tag-bg: #{rgba($purple-100, .2)};
     --tag-txt: #{$purple-900};
+    --tag-txt-hvr: #{$purple-700};
+    --tag-txt-act: #{$purple-900};
   }
 
   .cyan,
@@ -110,11 +126,17 @@
     --btn-bg: #{$cyan-300};
     --btn-txt: #{$cyan-900};
 
+    --switch-bg: #{$cyan-300};
+
     --panel-bg: #{rgba($cyan-100, .2)};
     --panel-txt: #{$cyan-900};
 
+    --progress-bg: #{$cyan-300};
+
     --tag-bg: #{rgba($cyan-100, .2)};
     --tag-txt: #{$cyan-900};
+    --tag-txt-hvr: #{$cyan-700};
+    --tag-txt-act: #{$cyan-900};
   }
 
   .blue,
@@ -127,11 +149,17 @@
     --btn-bg: #{$blue-100};
     --btn-txt: #{$blue-900};
 
+    --switch-bg: #{$blue-300};
+
     --panel-bg: #{rgba($blue-100, .2)};
     --panel-txt: #{$blue-900};
 
+    --progress-bg: #{$blue-300};
+
     --tag-bg: #{rgba($blue-100, .2)};
     --tag-txt: #{$blue-900};
+    --tag-txt-hvr: #{$blue-700};
+    --tag-txt-act: #{$blue-900};
   }
 
   .green,
@@ -144,11 +172,17 @@
     --btn-bg: #{$green-100};
     --btn-txt: #{$green-900};
 
+    --switch-bg: #{$green-300};
+
     --panel-bg: #{rgba($green-100, .2)};
     --panel-txt: #{$green-900};
 
+    --progress-bg: #{$green-300};
+
     --tag-bg: #{rgba($green-100, .2)};
     --tag-txt: #{$green-900};
+    --tag-txt-hvr: #{$green-700};
+    --tag-txt-act: #{$green-900};
   }
 
   .yellow,
@@ -161,11 +195,17 @@
     --btn-bg: #{$yellow-100};
     --btn-txt: #{$yellow-900};
 
+    --switch-bg: #{$yellow-300};
+
     --panel-bg: #{rgba($yellow-100, .2)};
     --panel-txt: #{$yellow-900};
 
+    --progress-bg: #{$yellow-300};
+
     --tag-bg: #{rgba($yellow-100, .2)};
     --tag-txt: #{$yellow-900};
+    --tag-txt-hvr: #{$yellow-700};
+    --tag-txt-act: #{$yellow-900};
   }
 
   .orange {
@@ -177,11 +217,17 @@
     --btn-bg: #{$orange-100};
     --btn-txt: #{$orange-900};
 
+    --switch-bg: #{$orange-300};
+
     --panel-bg: #{rgba($orange-100, .2)};
     --panel-txt: #{$orange-900};
 
+    --progress-bg: #{$orange-300};
+
     --tag-bg: #{rgba($orange-100, .2)};
     --tag-txt: #{$orange-900};
+    --tag-txt-hvr: #{$orange-700};
+    --tag-txt-act: #{$orange-900};
   }
 
   .red,
@@ -195,11 +241,17 @@
     --btn-bg: #{$red-100};
     --btn-txt: #{$red-900};
 
+    --switch-bg: #{$red-300};
+
     --panel-bg: #{rgba($red-100, .2)};
     --panel-txt: #{$red-900};
 
+    --progress-bg: #{$red-300};
+
     --tag-bg: #{rgba($red-100, .2)};
     --tag-txt: #{$red-900};
+    --tag-txt-hvr: #{$red-700};
+    --tag-txt-act: #{$red-900};
   }
 
   .rss {

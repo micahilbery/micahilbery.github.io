@@ -17,3 +17,13 @@ a { transition: color .2s ease-in-out; }
     opacity: 1;
   }
 }
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+  70% {
+    left: 0;
+    width: 100%;
+  }
+}

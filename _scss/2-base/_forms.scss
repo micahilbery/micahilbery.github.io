@@ -22,6 +22,11 @@ input[type='file'] {
 input[type='text'],
 input[type='email'],
 input[type='search'],
+input[type='password'],
+input[type='number'],
+input[type='tel'],
+input[type='date'],
+input[type='url'],
 select,
 textarea {
   background: var(--bg-alt);
@@ -169,13 +174,24 @@ select {
   -moz-appearance: none;
   appearance: none;
   background: {
-    color: var(--bg-alt);
-    image: var(--inset-bg), var(--sel-arrow);
+    color: var(--btn-bg);
+    image: var(--outset-bg), var(--sel-arrow);
     position: 98%;
     repeat: no-repeat;
     size: cover, 16px;
   }
   outline: none;
+  box-shadow: var(--shadow);
+
+  &:hover {
+    background-image: var(--outset-bg-hvr), var(--sel-arrow);
+    box-shadow: var(--outset-highlight), var(--shadow-hvr);
+  }
+
+  &:active {
+    background-image: var(--inset-bg), var(--sel-arrow);
+    box-shadow: var(--inset-highlight);
+  }
 }
 
 textarea {
