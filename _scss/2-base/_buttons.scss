@@ -103,3 +103,38 @@ input[type="button"].btn,
     filter: drop-shadow(var(--inset-txt));
   }
 }
+
+.close-btn {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: .25rem;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: var(--inset-txt);
+  vertical-align: middle;
+  transition: all .15s ease-in-out;
+  
+  &:hover,
+  &:focus {
+    color: var(--ln-hvr);
+    background-image: none;
+    box-shadow: none;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:active {
+    color: var(--ln-act);
+    background-image: none;
+    box-shadow: none;
+  }
+}

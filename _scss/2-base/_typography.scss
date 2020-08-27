@@ -62,6 +62,13 @@ strong {
   font-weight: 800;
 }
 
+i,
+em {
+  display: inline-block; // work around Inter not providing an italic font
+  font-style: italic;
+  transform: skewX(-12deg); // work around Inter not providing an italic font
+}
+
 strike,
 del {
   color: var(--txt-alt);
@@ -146,6 +153,21 @@ blockquote {
     top: 0;
     bottom: 0;
   }
+  
+  p {
+    font-style: italic;
+    transform: skewX(-12deg); // work around Inter not providing an italic font
+
+    &:before {
+      color: var(--txt-fine);
+      content:'❝';
+    }
+
+    &:after {
+      color: var(--txt-fine);
+      content:'❞';
+    }
+  }
 }
 
 hr {
@@ -194,6 +216,11 @@ hr {
   font-size: .9rem;
   font-style: normal;
   font-weight: 800;
+  
+  &:before {
+    content: '⊶ ';
+    opacity: 0.5;
+  }
 }
 
 .fine-print {
