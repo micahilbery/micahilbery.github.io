@@ -604,7 +604,7 @@ input[type="checkbox"]:checked {
   </div>
 </section>
 
-<section>
+<section id="colors">
   <h3>Colors</h3>
   <div class="grid thirds stack-sm">
     <div class="swatch">
