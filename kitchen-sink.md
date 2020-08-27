@@ -3,7 +3,7 @@ layout: page
 title: Kitchen Sink
 permalink: /kitchen-sink/
 id: kitchen-sink
-css: false
+css: true
 ---
 
 <section>
@@ -600,6 +600,271 @@ input[type="checkbox"]:checked {
       <div class="grid panel blue text-center">Fourth</div>
       <div class="grid span-3 panel blue text-center">Three Fourths</div>
       <div class="grid panel blue text-center">Fourth</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3>Colors</h3>
+  <div class="grid thirds stack-sm">
+    <div class="swatch">
+      <div class="swatch-top" style="background: var(--pink-500); color: #fff;">
+        <h3>Pink</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--pink-100); color: var(--pink-900);">
+        <span>100</span>
+        <span class="hex">fcb4d9</span>
+      </div>
+      <div class="swatch-color" style="background: var(--pink-300); color: var(--pink-900);">
+        <span>300</span>
+        <span class="hex">ec7cbd</span>
+      </div>
+      <div class="swatch-color" style="background: var(--pink-500); color: #fff;">
+        <span>500</span>
+        <span class="hex">e03c9e</span>
+      </div>
+      <div class="swatch-color" style="background: var(--pink-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">c8107c</span>
+      </div>
+      <div class="swatch-color" style="background: var(--pink-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">9d135d</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--purple-500); color: #fff;">
+        <h3>Purple</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--purple-100); color: var(--purple-900);">
+        <span>100</span>
+        <span class="hex">c7b1ff</span>
+      </div>
+      <div class="swatch-color" style="background: var(--purple-300); color: var(--secondary-900);">
+        <span>300</span>
+        <span class="hex">ac7afa</span>
+      </div>
+      <div class="swatch-color" style="background: var(--purple-500); color: #fff;">
+        <span>500</span>
+        <span class="hex">8439d1</span>
+      </div>
+      <div class="swatch-color" style="background: var(--purple-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">6b15bb</span>
+      </div>
+      <div class="swatch-color" style="background: var(--purple-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">460696</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--cyan-500); color: var(--cyan-900);">
+        <h3>Cyan</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--cyan-100); color: var(--cyan-900);">
+        <span>100</span>
+        <span class="hex">b9fff2</span>
+      </div>
+      <div class="swatch-color" style="background: var(--cyan-300); color: var(--cyan-900);">
+        <span>300</span>
+        <span class="hex">70f8e4</span>
+      </div>
+      <div class="swatch-color" style="background: var(--cyan-500); color: var(--cyan-900);">
+        <span>500</span>
+        <span class="hex">00dccf</span>
+      </div>
+      <div class="swatch-color" style="background: var(--cyan-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">00a099</span>
+      </div>
+      <div class="swatch-color" style="background: var(--cyan-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">007876</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--blue-500); color: #fff;">
+        <h3>Blue</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--blue-100); color: var(--blue-900);">
+        <span>100</span>
+        <span class="hex">97c9fb</span>
+      </div>
+      <div class="swatch-color" style="background: var(--blue-300); color: var(--blue-900);">
+        <span>300</span>
+        <span class="hex">7eb3fa</span>
+      </div>
+      <div class="swatch-color" style="background: var(--blue-500); color: #fff;">
+        <span>500</span>
+        <span class="hex">4288f4</span>
+      </div>
+      <div class="swatch-color" style="background: var(--blue-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">3266e2</span>
+      </div>
+      <div class="swatch-color" style="background: var(--blue-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">0b2c9e</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--green-500); color: #fff;">
+        <h3>Green</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--green-100); color: var(--green-900);">
+        <span>100</span>
+        <span class="hex">b9edbd</span>
+      </div>
+      <div class="swatch-color" style="background: var(--green-300); color: var(--green-900);">
+        <span>300</span>
+        <span class="hex">73df8e</span>
+      </div>
+      <div class="swatch-color" style="background: var(--green-500); color: #fff;">
+        <span>500</span>
+        <span class="hex">2bc15f</span>
+      </div>
+      <div class="swatch-color" style="background: var(--green-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">049042</span>
+      </div>
+      <div class="swatch-color" style="background: var(--green-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">006c30</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--yellow-500); color: var(--yellow-900);">
+        <h3>Yellow</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--yellow-100); color: var(--yellow-900);">
+        <span>100</span>
+        <span class="hex">fff4c3</span>
+      </div>
+      <div class="swatch-color" style="background: var(--yellow-300); color: var(--yellow-900);">
+        <span>300</span>
+        <span class="hex">fee07b</span>
+      </div>
+      <div class="swatch-color" style="background: var(--yellow-500); color: var(--yellow-900);">
+        <span>500</span>
+        <span class="hex">f8c822</span>
+      </div>
+      <div class="swatch-color" style="background: var(--yellow-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">d4a000</span>
+      </div>
+      <div class="swatch-color" style="background: var(--yellow-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">986100</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--orange-500); color: #fff;">
+        <h3>Orange</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--orange-100); color: var(--orange-900);">
+        <span>100</span>
+        <span class="hex">feab7e</span>
+      </div>
+      <div class="swatch-color" style="background: var(--orange-300); color: var(--orange-900);">
+        <span>300</span>
+        <span class="hex">fe8855</span>
+      </div>
+      <div class="swatch-color" style="background: var(--orange-500); color: #fff;">
+        <span>500</span>
+        <span class="hex">f2592a</span>
+      </div>
+      <div class="swatch-color" style="background: var(--orange-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">c22d0c</span>
+      </div>
+      <div class="swatch-color" style="background: var(--orange-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">99140d</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--red-500); color: #fff;">
+        <h3>Red</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--red-100); color: var(--red-900);">
+        <span>100</span>
+        <span class="hex">ffabab</span>
+      </div>
+      <div class="swatch-color" style="background: var(--red-300); color: var(--red-900);">
+        <span>300</span>
+        <span class="hex">f68487</span>
+      </div>
+      <div class="swatch-color" style="background: var(--red-500); color: #fff;">
+        <span>500</span>
+        <span class="hex">ee445b</span>
+      </div>
+      <div class="swatch-color" style="background: var(--red-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">c91f44</span>
+      </div>
+      <div class="swatch-color" style="background: var(--red-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">941630</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--light-grey-500); color: var(--light-grey-900);">
+        <h3>Light Grey</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--light-grey-100); color: var(--light-grey-900);">
+        <span>100</span>
+        <span class="hex">fdfdff</span>
+      </div>
+      <div class="swatch-color" style="background: var(--light-grey-300); color: var(--light-grey-900);">
+        <span>300</span>
+        <span class="hex">f0f2f8</span>
+      </div>
+      <div class="swatch-color" style="background: var(--light-grey-500); color: var(--light-grey-900);">
+        <span>500</span>
+        <span class="hex">cdd0d9</span>
+      </div>
+      <div class="swatch-color" style="background: var(--light-grey-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">a5acb7</span>
+      </div>
+      <div class="swatch-color" style="background: var(--light-grey-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">6f7681</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--dark-grey-500); color: #fff;">
+        <h3>Dark Grey</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--dark-grey-100); color: #fff;">
+        <span>100</span>
+        <span class="hex">898a97</span>
+      </div>
+      <div class="swatch-color" style="background: var(--dark-grey-300); color: #fff;">
+        <span>300</span>
+        <span class="hex">696b77</span>
+      </div>
+      <div class="swatch-color" style="background: var(--dark-grey-500); color: #fff;">
+        <span>500</span>
+        <span class="hex">42434a</span>
+      </div>
+      <div class="swatch-color" style="background: var(--dark-grey-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">2f3033</span>
+      </div>
+      <div class="swatch-color" style="background: var(--dark-grey-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">1a1b1e</span>
+      </div>
     </div>
   </div>
 </section>
