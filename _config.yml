@@ -39,7 +39,7 @@ gravatar_hash: eab584b2d2b890a0bc6a25c29bbcac00
 
 # Financial supports
 support_options:
-  google-pay: micah.ilbery@gmail.com
+#  google-pay: micah.ilbery@gmail.com
   ko-fi: micahilbery
   paypal: micahilbery
 #  patreon:
