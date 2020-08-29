@@ -1,5 +1,6 @@
 ---
 layout: shades
+permalink: /shades-icon-set/
 id: shades
 css: true
 ---
