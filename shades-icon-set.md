@@ -1024,6 +1024,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/icon.html name="gumroad"  %}</div>
+      <div class="icon-name">gumroad</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/icon.html name="instagram"  %}</div>
       <div class="icon-name">instagram</div>
     </div>
