@@ -24,9 +24,9 @@ css: true
         {% include modules/icon.html name="github" %}
         Get 'em on GitHub
       </a>
-      <a href="/pay/" class="btn cyan">
-        {% include modules/icon.html name="coffee-cup" %}
-        Buy me a coffee
+      <a href="https://gum.co/OzDJM" class="btn cyan">
+        {% include modules/icon.html name="gumroad" %}
+        Buy on Gumroad
       </a>
     </div>
   </div>
