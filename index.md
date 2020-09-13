@@ -64,18 +64,18 @@ css: true
 </section>
 
 {% if site.projects.size > 0 %}
-<section class="grid {% if site.projects.size > 1 %}halves{% endif %} stack-sm">
-  <h2 class="accent-lined {% if site.projects.size > 1 %}span-2{% endif %} start">Latest Work{% if site.projects.size > 1 %}s{% endif %}</h2>
+<section class="grid {% if site.projects.size > 2 %}thirds{% endif %} stack-sm">
+  <h2 class="accent-lined {% if site.projects.size > 1 %}span-3{% endif %} start">Latest Work{% if site.projects.size > 1 %}s{% endif %}</h2>
   {% assign projects_sort = site.projects | sort: 'date'%}
   {% assign projects = projects_sort | reverse %}
-  {% for project in projects limit:2%}
+  {% for project in projects limit:3%}
   <div>
-    {% include modules/project-preview.html post= project %}
+    {% include modules/project-preview.html project= project preview-size= 'small' %}
   </div>
   {% endfor %}
 
   {% if site.projects.size > 2 %}
-    <div class="grid span-2">
+    <div class="grid span-3">
       <div class="grid end stretch-sm">
         <a href="/works/" class="btn tertiary">
           See more

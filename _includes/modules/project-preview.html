@@ -1,6 +1,6 @@
 {% assign project = include.project %}
 
-<a href="{{ project.url }}" class="project-preview">
+<a href="{{ project.url }}" class="project-preview{% if include.preview-size == 'small' %} sm-preview{% endif %}">
   {% if project.image %}
   <div class="preview-image" alt="Preview image" style="background-image: url({{ project.image }});"></div>
   {% else %}

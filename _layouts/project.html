@@ -7,10 +7,17 @@ layout: default
       {% if page.image %}
       <div class="preview-image header" alt="Preview image" style="background-image: url({{ page.image }});"></div>
       {% endif %}
-      <h1 class="accent-lined">{{ page.title }}</h2>
-      {% if page.job-title %}
-      <h2 class="subheading">{{ page.job-title }}</h3>
-      {% endif %}
+      <div class="grid halves stack-sm">
+        <div>
+          <h1 class="accent-lined">{{ page.title }}</h2>
+          {% if page.job-title %}
+          <h2 class="subheading">{{ page.job-title }}</h3>
+          {% endif %}
+        </div>
+        <div class="v-center h-end center-sm">
+          <a href="{{ page.live-url }}" class="btn">{{ page.title }}</a>
+        </div>
+      </div>
     </div>
   </header>
 
