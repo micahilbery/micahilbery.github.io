@@ -25,14 +25,14 @@ While Travel Connections offers expert travel consultation, their website had go
     <img src="/assets/images/projects/travelconnections/contact-phone.jpg" alt="contact page on an phone">
   </div>
 
-  <div>
-    <img src="/assets/images/projects/travelconnections/destination-weddings-laptop.jpg" alt="destination weddings page on an laptop">
+  <div class="grid">
+    <img src="/assets/images/projects/travelconnections/destination-weddings-laptop.jpg" alt="destination weddings page on an laptop" class="center">
   </div>
 
   <div markdown="1">
 ### Approach
 
-The first thing to figure out was what colors, images, and typeface would be used to make this website more enjoyable to visit. Once these were chosen, the layout of information dislplayed was decided. Once it was established what information was most important, research was done to make sure that the affiliated travel links were updated and working. More information updates were done in the staff section, as several travel agents had been hired since the site was originally created. Now, Travel Connections has a website that is easily navigated, uses colors that meet accessibility requirements, links that work, and business information that is correct.
+First I started by creating new branding. I chose a more muted but still colorfull palette to replace the blues and pink in the original. After that I started sketching and began updating the desing to me more modern and responsive. Information updates were done with the links, to make sure they all worked, and in the staff section, as several travel agents had been hired since the site was originally created. Now, Travel Connections has a website that is easily navigated, has links that work, and business information that is correct.
 
   </div>
 </section>
