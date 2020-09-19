@@ -67,9 +67,7 @@ strong {
 
 i,
 em {
-  display: inline-block; // work around Inter not providing an italic font
   font-style: italic;
-  transform: skewX(-12deg); // work around Inter not providing an italic font
 }
 
 strike,
@@ -161,7 +159,6 @@ blockquote {
   
   p {
     font-style: italic;
-    transform: skewX(-12deg); // work around Inter not providing an italic font
 
     &:before {
       color: var(--txt-fine);
