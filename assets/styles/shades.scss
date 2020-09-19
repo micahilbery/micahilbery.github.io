@@ -7,7 +7,6 @@
 
 .icon-panel {
   background-color: var(--bg-alt);
-  color: var(--txt-alt);
   max-height: 60vh;
   overflow: auto;
 }
@@ -39,4 +38,42 @@
   font-size: .8rem;
   line-height: 1.2;
   margin-top: .25rem;
+}
+
+#color-buttons {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+#color-buttons input[type="radio"] {
+  background-color: var(--checked-bg);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+#color-buttons input[type="radio"]:checked {
+  background-size: 1rem, 1.5rem;
+  transition: background 0s ease-in-out;
+}
+
+:root {
+  --checked-bg: #{$dark-grey-700};
+  --checked: #{bg-img-svg('check', $light-grey-100)};
+}
+
+@media( prefers-color-scheme: dark ) {
+  :root {
+    --checked-bg: #{$light-grey-300};
+    --checked: #{bg-img-svg('check', $light-grey-900)};
+  }
+}
+
+.light {
+  --checked-bg: #{$dark-grey-700};
+}
+
+.dark {
+  --checked-bg: #{$light-grey-300};
+  --checked: #{bg-img-svg('check', $light-grey-900)};
 }

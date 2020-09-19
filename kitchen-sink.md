@@ -246,20 +246,52 @@ input[type="checkbox"]:checked {
             <div class="input-container">
               <fieldset class="grid">
                 <legend>
-                  {% include modules/icon.html name="pizza" %}
-                  <span>Pizza Toppings</span>
+                  {% include modules/icon.html name="checkbox-checked" %}
+                  <span>Checkboxes</span>
                 </legend>
                 <div>
-                  <input id="pepperoni" name="toppings" type="checkbox" value="pepperoni" checked>
-                  <label for="pepperoni">Pepperoni</label>
+                  <input id="default-chkbx" name="checkboxes" type="checkbox" value="default" checked>
+                  <label for="default-chkbx">Default</label>
                 </div>
-                <div>
-                  <input id="sausage" name="toppings" type="checkbox" value="sausage">
-                  <label for="sausage">Sausage</label>
+
+                <div class="pink">
+                  <input id="pink-chkbx" name="checkboxes" type="checkbox" value="pink" checked>
+                  <label for="pink-chkbx">Pink</label>
                 </div>
-                <div>
-                  <input id="bacon" name="toppings" type="checkbox" value="bacon">
-                  <label for="bacon">Bacon</label>
+
+                <div class="purple">
+                  <input id="purple-chkbx" name="checkboxes" type="checkbox" value="purple" checked>
+                  <label for="purple-chkbx">Purple</label>
+                </div>
+
+                <div class="cyan">
+                  <input id="cyan-chkbx" name="checkboxes" type="checkbox" value="cyan" checked>
+                  <label for="cyan-chkbx">Cyan</label>
+                </div>
+
+                <div class="blue">
+                  <input id="blue-chkbx" name="checkboxes" type="checkbox" value="blue" checked>
+                  <label for="blue-chkbx">Blue</label>
+                </div>
+
+                <div class="green">
+                  <input id="green-chkbx" name="checkboxes" type="checkbox" value="green" checked>
+                  <label for="green-chkbx">Green</label>
+                </div>
+
+                <div class="yellow">
+                  <input id="yellow-chkbx" name="checkboxes" type="checkbox" value="yellow" checked>
+                  <label for="yellow-chkbx">Yellow</label>
+                </div>
+
+                <div class="orange">
+                  <input id="orange-chkbx" name="checkboxes" type="checkbox" value="orange" checked>
+                  <label for="orange-chkbx">Orange</label>
+                </div>
+
+                <div class="red">
+                  <input id="red-chkbx" name="checkboxes" type="checkbox" value="red" checked>
+                  <label for="red-chkbx">Red</label>
                 </div>
               </fieldset>
             </div>
@@ -267,20 +299,52 @@ input[type="checkbox"]:checked {
             <div class="input-container">
               <fieldset class="grid">
                 <legend>
-                  {% include modules/icon.html name="pizza" %}
-                  <span>Pizza Crust</span>
+                  {% include modules/icon.html name="radio-checked" %}
+                  <span>Radio Buttons</span>
                 </legend>
                 <div>
-                  <input id="thin" name="crust" type="radio" value="thin">
-                  <label for="thin">Thin</label>
+                  <input id="default-radio" name="checkboxes" type="radio" value="default" checked>
+                  <label for="default-radio">Default</label>
                 </div>
-                <div>
-                  <input id="handtossed" name="crust" type="radio" value="handtossed" checked>
-                  <label for="handtossed">Hand Tossed</label>
+
+                <div class="pink">
+                  <input id="pink-radio" name="checkboxes" type="radio" value="pink">
+                  <label for="pink-radio">Pink</label>
                 </div>
-                <div>
-                  <input id="pan" name="crust" type="radio" value="pan">
-                  <label for="pan">Pan</label>
+
+                <div class="purple">
+                  <input id="purple-radio" name="checkboxes" type="radio" value="purple">
+                  <label for="purple-radio">Purple</label>
+                </div>
+
+                <div class="cyan">
+                  <input id="cyan-radio" name="checkboxes" type="radio" value="cyan">
+                  <label for="cyan-radio">Cyan</label>
+                </div>
+
+                <div class="blue">
+                  <input id="blue-radio" name="checkboxes" type="radio" value="blue">
+                  <label for="blue-radio">Blue</label>
+                </div>
+
+                <div class="green">
+                  <input id="green-radio" name="checkboxes" type="radio" value="green">
+                  <label for="green-radio">Green</label>
+                </div>
+
+                <div class="yellow">
+                  <input id="yellow-radio" name="checkboxes" type="radio" value="yellow">
+                  <label for="yellow-radio">Yellow</label>
+                </div>
+
+                <div class="orange">
+                  <input id="orange-radio" name="checkboxes" type="radio" value="orange">
+                  <label for="orange-radio">Orange</label>
+                </div>
+
+                <div class="red">
+                  <input id="red-radio" name="checkboxes" type="radio" value="red">
+                  <label for="red-radio">Red</label>
                 </div>
               </fieldset>
             </div>
@@ -571,7 +635,7 @@ input[type="checkbox"]:checked {
   </div>
 </section>
 
-<section id="grids">
+<section id="grids" class="hide-sm">
   <h3>Grids</h3>
   <div class="grid panel">
     <div class="grid panel pink text-center">Full</div>
