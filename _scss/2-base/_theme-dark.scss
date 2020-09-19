@@ -64,6 +64,7 @@
   --tag-txt-act: #{$light-grey-500};
 
   --sel-arrow: #{bg-img-svg('sel-arrow', $light-grey-500)};
+  --checked-bg: var(--accent-color);
   --checked: #{bg-img-svg('check', $pink-900)};
 }
 
@@ -90,6 +91,9 @@
     --tag-txt: #{$pink-100};
     --tag-txt-hvr: #{$pink-300};
     --tag-txt-act: #{$pink-100};
+
+    --checked-bg: #{$pink-300};
+    --checked: #{bg-img-svg('check', $pink-900)};
   }
 
   .purple,
@@ -113,6 +117,9 @@
     --tag-txt: #{$purple-100};
     --tag-txt-hvr: #{$purple-300};
     --tag-txt-act: #{$purple-100};
+
+    --checked-bg: #{$purple-300};
+    --checked: #{bg-img-svg('check', $purple-900)};
   }
 
   .cyan,
@@ -136,6 +143,9 @@
     --tag-txt: #{$cyan-100};
     --tag-txt-hvr: #{$cyan-300};
     --tag-txt-act: #{$cyan-100};
+
+    --checked-bg: #{$cyan-300};
+    --checked: #{bg-img-svg('check', $cyan-900)};
   }
 
   .blue,
@@ -159,6 +169,9 @@
     --tag-txt: #{$blue-100};
     --tag-txt-hvr: #{$blue-300};
     --tag-txt-act: #{$blue-100};
+
+    --checked-bg: #{$blue-300};
+    --checked: #{bg-img-svg('check', $blue-900)};
   }
 
   .green,
@@ -182,6 +195,9 @@
     --tag-txt: #{$green-100};
     --tag-txt-hvr: #{$green-300};
     --tag-txt-act: #{$green-100};
+
+    --checked-bg: #{$green-300};
+    --checked: #{bg-img-svg('check', $green-900)};
   }
 
   .yellow,
@@ -205,6 +221,9 @@
     --tag-txt: #{$yellow-100};
     --tag-txt-hvr: #{$yellow-300};
     --tag-txt-act: #{$yellow-100};
+
+    --checked-bg: #{$yellow-300};
+    --checked: #{bg-img-svg('check', $yellow-900)};
   }
 
   .orange {
@@ -227,6 +246,9 @@
     --tag-txt: #{$orange-100};
     --tag-txt-hvr: #{$orange-300};
     --tag-txt-act: #{$orange-100};
+
+    --checked-bg: #{$orange-300};
+    --checked: #{bg-img-svg('check', $orange-900)};
   }
 
   .red,
@@ -251,6 +273,9 @@
     --tag-txt: #{$red-100};
     --tag-txt-hvr: #{$red-300};
     --tag-txt-act: #{$red-100};
+
+    --checked-bg: #{$red-300};
+    --checked: #{bg-img-svg('check', $red-900)};
   }
 
   .rss {

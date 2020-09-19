@@ -32,7 +32,21 @@ css: true
   </div>
 </section>
 
-<section class="grid panel icon-panel">
+<section id="color-buttons">
+  <div class="center">
+    <input id="default-color-btn" name="color-btns" type="radio" value="default" checked>
+    <input class="pink" id="pink-color-btn" name="color-btns" type="radio" value="pink">
+    <input class="purple" id="purple-color-btn" name="color-btns" type="radio" value="purple">
+    <input class="cyan" id="cyan-color-btn" name="color-btns" type="radio" value="cyan">
+    <input class="blue" id="blue-color-btn" name="color-btns" type="radio" value="blue">
+    <input class="green" id="green-color-btn" name="color-btns" type="radio" value="green">
+    <input class="yellow" id="yellow-color-btn" name="color-btns" type="radio" value="yellow">
+    <input class="orange" id="orange-color-btn" name="color-btns" type="radio" value="orange">
+    <input class="red" id="red-color-btn" name="color-btns" type="radio" value="red">
+  </div>
+</section>
+
+<section id="icon-panel" class="grid panel icon-panel">
   <h3>Icons</h3>
   <div class="icon-grid">
     <div class="icon-container">
@@ -1274,3 +1288,5 @@ css: true
 </section>
 
 <p class="text-center">made with {% include modules/icon.html name="heart" %} by <a href="https://micahilbery.com">micah ilbery</a></p>
+
+<script src="{{ '/assets/scripts/color-buttons.js' | relative_url }}"></script>

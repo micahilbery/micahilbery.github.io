@@ -70,7 +70,7 @@ textarea {
     //  Remove the default styling.
     -webkit-appearance: none;
     // Style the radio button container.
-    background: var(--bg-alt);
+    background-color: var(--bg-alt);
     background-image: var(--inset-bg);
     border: var(--border);
     box-shadow: var(--inset-highlight);
@@ -98,7 +98,7 @@ textarea {
 	input[type="checkbox"]:checked,
   fieldset input[type="checkbox"]:checked {
     background: {
-      color: var(--accent-color);
+      color: var(--checked-bg);
       image: var(--checked), var(--outset-bg);
       size: 1rem;
       position: center;
@@ -108,7 +108,7 @@ textarea {
     box-shadow: var(--shadow);
 
     + label {
-      color: var(--accent-color);
+      color: var(--checked-bg);
     }
   }
 
