@@ -17,8 +17,12 @@ it would render like:
 
 This might not seem like a big deal but what it does, on Safari and Webkit-GTK based browsers, is cause your red as it fades to get darker and muddier. Look at the difference when comparing them side by side:
 
-<section class="constrained" markdown="1">
-  ![webkit gradient](/assets/images/posts/webkit-gradients-to-transparent/webkit-gradient-to-transparent.png)
+<section class="constrained">
+  <picture>
+    <source srcset="/assets/images/posts/webkit-gradients-to-transparent/webkit-gradient-to-transparent.avif" type="image/avif">
+    <source srcset="/assets/images/posts/webkit-gradients-to-transparent/webkit-gradient-to-transparent.webp" type="image/webp">
+    <img src="/assets/images/posts/webkit-gradients-to-transparent/webkit-gradient-to-transparent.png" alt="webkit gradient">
+  </picture>
 </section>
 
 To work around this I switched from using `transparent` to the color as rgba with 0 as the alpha value.

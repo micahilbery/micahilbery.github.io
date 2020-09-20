@@ -11,7 +11,11 @@ live-url: "https://travelconnections.netlify.app"
 
 Travel Connections is a small travel agency based out of Greenville, Illinois. The owner, Diane, started Travel Connections in 1996 because she had a passion for travel and wanted to share this passion with others by providing a full range of travel services. Today, Travel Connections prides itself on providing personalized service through the entire travel process. Travel Connections has grown from one person's passion to having several travel agents with different specialties.
 
-<img src="/assets/images/projects/travelconnections/device-preview.jpg" alt="Travel Connections site on multiple devices">
+<picture>
+  <source srcset="/assets/images/projects/travelconnections/device-preview.avif" type="image/avif">
+  <source srcset="/assets/images/projects/travelconnections/device-preview.webp" type="image/webp">
+  <img src="/assets/images/projects/travelconnections/device-preview.jpg" alt="Travel Connections site on multiple devices">
+</picture>
 
 <section class="grid halves stack-md">
   <div markdown="1">
@@ -22,11 +26,19 @@ While Travel Connections offers expert travel consultation, their website had go
   </div>
 
   <div>
-    <img src="/assets/images/projects/travelconnections/contact-phone.jpg" alt="contact page on an phone">
+    <picture>
+      <source srcset="/assets/images/projects/travelconnections/contact-phone.avif" type="image/avif">
+      <source srcset="/assets/images/projects/travelconnections/contact-phone.webp" type="image/webp">
+      <img src="/assets/images/projects/travelconnections/contact-phone.jpg" alt="contact page on an phone">
+    </picture>
   </div>
 
   <div class="grid">
-    <img src="/assets/images/projects/travelconnections/destination-weddings-laptop.jpg" alt="destination weddings page on an laptop" class="center">
+    <picture class="center">
+      <source srcset="/assets/images/projects/travelconnections/destination-weddings-laptop.avif" type="image/avif">
+      <source srcset="/assets/images/projects/travelconnections/destination-weddings-laptop.webp" type="image/webp">
+      <img src="/assets/images/projects/travelconnections/destination-weddings-laptop.jpg" alt="destination weddings page on an laptop">
+    </picture>
   </div>
 
   <div markdown="1">
@@ -37,4 +49,8 @@ First I started by creating new branding. I chose a more muted but still colorfu
   </div>
 </section>
 
-![Travel Connections site on desktop](/assets/images/projects/travelconnections/full-view.jpg)
+<picture>
+  <source srcset="/assets/images/projects/travelconnections/full-view.avif" type="image/avif">
+  <source srcset="/assets/images/projects/travelconnections/full-view.webp" type="image/webp">
+  <img src="/assets/images/projects/travelconnections/full-view.jpg" alt="Travel Connections site on desktop">
+</picture>

@@ -11,7 +11,11 @@ live-url: "https://cascaracoffeeco.netlify.app"
 
 Cascara Coffe Company is a brand new, startup coffee roastery and cafe based out of Littleton, Colorado. Cascara prides itself on bringing high quality, ethically sourced coffee products to everyone from coffee enthusiasts to casual morning coffee drinkers. As of Feburary 2020, Cascara Coffee Company has opened its doors. Currently they provide six different coffee blends, coffee related gear and starter sets for anyone who might not already have a way to brew coffee, as well as roastery tours to those interested in learning more about not only the roasting process, but coffee history in general.
 
-<img src="/assets/images/projects/cascaracoffeeco/device-preview.jpg" alt="Cascara Coffee Co. site on multiple devices">
+<picture>
+  <source srcset="/assets/images/projects/cascaracoffeeco/device-preview.avif" type="image/avif">
+  <source srcset="/assets/images/projects/cascaracoffeeco/device-preview.webp" type="image/webp">
+  <img src="/assets/images/projects/cascaracoffeeco/device-preview.jpg" alt="Cascara Coffee Co. site on multiple devices">
+</picture>
 
 <section class="grid halves stack-md">
   <div markdown="1">
@@ -22,11 +26,19 @@ As a new startup, Cascara Coffe Company was trying to build a brand. They wanted
   </div>
 
   <div>
-    <img src="/assets/images/projects/cascaracoffeeco/shop-phone.jpg" alt="product page on an phone">
+    <picture>
+      <source srcset="/assets/images/projects/cascaracoffeeco/shop-phone.avif" type="image/avif">
+      <source srcset="/assets/images/projects/cascaracoffeeco/shop-phone.webp" type="image/webp">
+      <img src="/assets/images/projects/cascaracoffeeco/shop-phone.jpg" alt="product page on an phone">
+    </picture>
   </div>
 
   <div>
-    <img src="/assets/images/projects/cascaracoffeeco/coffee-laptop.jpg" alt="coffee page on an laptop">
+    <picture>
+      <source srcset="/assets/images/projects/cascaracoffeeco/coffee-laptop.avif" type="image/avif">
+      <source srcset="/assets/images/projects/cascaracoffeeco/coffee-laptop.webp" type="image/webp">
+      <img src="/assets/images/projects/cascaracoffeeco/coffee-laptop.jpg" alt="coffee page on an laptop">
+    </picture>
   </div>
 
   <div markdown="1">
@@ -37,6 +49,10 @@ Since Cascara did not yet have their own branding,the logo was the first thing c
   </div>
 </section>
 
-![Cascara Coffee Co. site on desktop](/assets/images/projects/cascaracoffeeco/full-view.jpg)
+<picture>
+  <source srcset="/assets/images/projects/cascaracoffeeco/full-view.avif" type="image/avif">
+  <source srcset="/assets/images/projects/cascaracoffeeco/full-view.webp" type="image/webp">
+  <img src="/assets/images/projects/cascaracoffeeco/full-view.jpg" alt="Cascara Coffee Co. site on desktop">
+</picture>
 
 <p class="fine-print text-center"><small>This is a site for a fictional company used for educational purposes only.</small></p>
