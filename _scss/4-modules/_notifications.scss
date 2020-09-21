@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: auto 1fr auto;
   margin: 0 auto;
-  padding: .25rem 1rem .25rem .25rem;
+  padding: .25rem;
   width: 100%;
   
   .close-btn {
@@ -20,5 +20,6 @@
     font-size: .8rem;
     margin: 0 .25rem;
     box-shadow: none;
+    opacity: .8;
   }
 }
