@@ -51,12 +51,14 @@ nav {
   &:hover, &:focus {
     #logo-last-name {
       color: var(--ln-hvr);
+      filter: brightness(90%);
     }
   }
 
   &:active {
     #logo-last-name {
       color: var(--ln-act);
+      filter: brightness(80%);
     }
   }
 }

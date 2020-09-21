@@ -1,3 +1,7 @@
+:root {
+  --ln-ul: underline;
+}
+
 a {
   color: var(--ln-txt);
   text-decoration: none;
@@ -6,18 +10,12 @@ a {
   &:focus {
     color: var(--ln-hvr);
     outline: none;
-    text-decoration-skip: none;
-    text-decoration-skip-ink: none;
     text-decoration: var(--ln-ul);
-    text-decoration-color: var(--ln-ul-main);
-    text-decoration-thickness: .4rem;
     text-shadow: none;
-    text-underline-offset: -.3rem;
   }
 
   &:active {
     color: var(--ln-act);
-    text-decoration-color: var(--ln-ul-alt);
 
     &::selection {
       color: var(--ln-act);
