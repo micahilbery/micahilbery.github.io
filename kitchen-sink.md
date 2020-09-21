@@ -213,7 +213,7 @@ input[type="checkbox"]:checked {
           <div class="input-container span-2">
             <textarea id="message" name="message" placeholder="Hello, Let's work together!" required></textarea>
             <label for="message">
-              {% include modules/icon.html name="message" %}
+              {% include modules/icon.html name="writing" %}
               <span>Message</span>
             </label>
           </div>
