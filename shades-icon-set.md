@@ -260,6 +260,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/icon.html name="boat"  %}</div>
+      <div class="icon-name">boat</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/icon.html name="bold"  %}</div>
       <div class="icon-name">bold</div>
     </div>
@@ -495,6 +500,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/icon.html name="group"  %}</div>
+      <div class="icon-name">group</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/icon.html name="hamburger-menu"  %}</div>
       <div class="icon-name">hamburger-menu</div>
     </div>
@@ -610,8 +620,23 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/icon.html name="music-note"  %}</div>
+      <div class="icon-name">music-note</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/icon.html name="music-note-alt"  %}</div>
+      <div class="icon-name">music-note-alt</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/icon.html name="news"  %}</div>
       <div class="icon-name">news</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/icon.html name="office-building"  %}</div>
+      <div class="icon-name">office-building</div>
     </div>
 
     <div class="icon-container">
@@ -682,6 +707,11 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/icon.html name="rss"  %}</div>
       <div class="icon-name">rss</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/icon.html name="sail-boat"  %}</div>
+      <div class="icon-name">sail-boat</div>
     </div>
 
     <div class="icon-container">
