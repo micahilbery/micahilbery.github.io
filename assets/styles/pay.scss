@@ -39,14 +39,19 @@ p {
   position: relative;
   width: 150px;
   height: 150px;
+  transition: transform .3s ease-in-out;
+}
 
-  .icon {
-    filter: none;
+@media( prefers-color-scheme: dark ) {
+  .qr-code img {
+    filter: invert(1) hue-rotate(180deg);
   }
+}
 
-  &:hover {
-    background-blend-mode: multiply;
-    color: $light-grey-300;
-    cursor: zoom-in;
-  }
+.light .qr-code img {
+  filter: none;
+}
+
+.dark .qr-code img {
+  filter: invert(1) hue-rotate(180deg);
 }
