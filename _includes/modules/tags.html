@@ -9,6 +9,7 @@
       {% when "life" %}
         {% assign class = "life" %}
       {% else%}
+        {% assign class = "primary" %}
     {% endcase %}
     <a class="tag{% if class %} {{class}}{% endif %}" href="/tags/#{{ tag | replace: ' ', '-' }}">#{{ tag }}</a>
   {% endfor %}
