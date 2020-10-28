@@ -144,7 +144,8 @@
   }
 
   .blue,
-  .info {
+  .info,
+  .life {
     --ln-txt: #{$blue-700};
     --ln-hvr: #{$blue-500};
     --ln-act: #{$blue-900};
@@ -268,6 +269,31 @@
     --checked-bg: #{$red-700};
   }
 
+  .brown,
+  .coffee {
+    --ln-txt: #{$brown-700};
+    --ln-hvr: #{$brown-500};
+    --ln-act: #{$brown-900};
+    --ln-ul: none;
+
+    --btn-bg: #{$brown-100};
+    --btn-txt: #{$brown-900};
+
+    --switch-bg: #{$brown-300};
+
+    --panel-bg: #{rgba($brown-100, .2)};
+    --panel-txt: #{$brown-900};
+
+    --progress-bg: #{$brown-300};
+
+    --tag-bg: #{rgba($brown-100, .2)};
+    --tag-txt: #{$brown-900};
+    --tag-txt-hvr: #{$brown-700};
+    --tag-txt-act: #{$brown-900};
+
+    --checked-bg: #{$brown-700};
+  }
+
   .rss {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$orange-500};
@@ -283,20 +309,6 @@
     --tag-txt: #{$sol-base00};
     --tag-txt-hvr: #{$sol-cyan};
     --tag-txt-act: #{$sol-blue};
-  }
-
-  .coffee {
-    --tag-bg: #{rgba(#a3907c, .2)};
-    --tag-txt: #3d211b;
-    --tag-txt-hvr: #{$green-700};
-    --tag-txt-act: #{$green-900};
-  }
-
-  .life {
-    --tag-bg: #{rgba($blue-100, .2)};
-    --tag-txt: #{$blue-900};
-    --tag-txt-hvr: #{$cyan-700};
-    --tag-txt-act: #{$cyan-900};
   }
 
   // Brand Color Classes

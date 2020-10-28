@@ -293,6 +293,11 @@ input[type="checkbox"]:checked {
                   <input id="red-chkbx" name="checkboxes" type="checkbox" value="red" checked>
                   <label for="red-chkbx">Red</label>
                 </div>
+                
+                <div class="brown">
+                  <input id="brown-chkbx" name="checkboxes" type="checkbox" value="brown" checked>
+                  <label for="brown-chkbx">Brown</label>
+                </div>
               </fieldset>
             </div>
 
@@ -345,6 +350,11 @@ input[type="checkbox"]:checked {
                 <div class="red">
                   <input id="red-radio" name="checkboxes" type="radio" value="red">
                   <label for="red-radio">Red</label>
+                </div>
+                
+                <div class="brown">
+                  <input id="brown-radio" name="checkboxes" type="radio" value="brown">
+                  <label for="brown-radio">Brown</label>
                 </div>
               </fieldset>
             </div>
@@ -417,6 +427,7 @@ input[type="checkbox"]:checked {
           <a href="#" class="badge yellow center text-center">Yellow</a>
           <a href="#" class="badge orange center text-center">Orange</a>
           <a href="#" class="badge red center text-center">Red</a>
+          <a href="#" class="badge brown center text-center">Brown</a>
           <a href="#" class="badge center text-center">Default</a>
         </div>
       </div>
@@ -434,6 +445,7 @@ input[type="checkbox"]:checked {
           <a href="#" class="btn yellow">Yellow</a>
           <a href="#" class="btn orange">Orange</a>
           <a href="#" class="btn red">Red</a>
+          <a href="#" class="btn brown">Brown</a>
           <a href="#" class="btn">Default</a>
         </div>
       </div>
@@ -451,6 +463,7 @@ input[type="checkbox"]:checked {
           <div class="panel yellow text-center">Yellow</div>
           <div class="panel orange text-center">Orange</div>
           <div class="panel red text-center">Red</div>
+          <div class="panel brown text-center">Brown</div>
           <div class="panel text-center">Default</div>
         </div>
       </div>
@@ -518,6 +531,13 @@ input[type="checkbox"]:checked {
           </div>
 
           <div>
+            <h6>Brown</h6>
+            <div class="progress-bar">
+              <div class="progress-fill brown" style="width: 40%"></div>
+            </div>
+          </div>
+
+          <div>
             <h6>Default</h6>
             <div class="progress-bar">
               <div class="progress-fill" style="width: 90%"></div>
@@ -570,6 +590,10 @@ input[type="checkbox"]:checked {
             <button class="close-btn start">{% include modules/icon.html name="close" %}</button>
             <div>Red Notification</div>
           </div>
+          <div class="notification brown">
+            <button class="close-btn start">{% include modules/icon.html name="close" %}</button>
+            <div>Brown Notification</div>
+          </div>
           <div class="notification">
             <button class="close-btn start">{% include modules/icon.html name="close" %}</button>
             <div>Default Notification</div>
@@ -590,6 +614,7 @@ input[type="checkbox"]:checked {
           <input id="yellow-switch" type="checkbox" class="switch yellow" checked>
           <input id="orange-switch" type="checkbox" class="switch orange" checked>
           <input id="red-switch" type="checkbox" class="switch red" checked>
+          <input id="brown-switch" type="checkbox" class="switch brown" checked>
           <input id="default-switch" type="checkbox" class="switch" checked>
         </div>
       </div>
@@ -619,6 +644,7 @@ input[type="checkbox"]:checked {
           <a href="#" class="tag yellow center text-center">Yellow</a>
           <a href="#" class="tag orange center text-center">Orange</a>
           <a href="#" class="tag red center text-center">Red</a>
+          <a href="#" class="tag brown center text-center">Brown</a>
           <a href="#" class="tag center text-center">Default</a>
         </div>
       </div>
@@ -880,6 +906,32 @@ input[type="checkbox"]:checked {
   </div>
 
   <div class="swatch">
+      <div class="swatch-top" style="background: var(--brown-500); color: #fff;">
+        <h3>Brown</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--brown-100); color: var(--brown-900);">
+        <span>100</span>
+        <span class="hex">efdfc4</span>
+      </div>
+      <div class="swatch-color" style="background: var(--brown-300); color: var(--brown-900);">
+        <span>300</span>
+        <span class="hex">d7bc96</span>
+      </div>
+      <div class="swatch-color" style="background: var(--brown-500); color: #fff;">
+        <span>500</span>
+        <span class="hex">b6986c</span>
+      </div>
+      <div class="swatch-color" style="background: var(--brown-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">96764b</span>
+      </div>
+      <div class="swatch-color" style="background: var(--brown-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">725534</span>
+      </div>
+  </div>
+
+  <div class="swatch">
       <div class="swatch-top" style="background: var(--light-grey-500); color: var(--light-grey-900);">
         <h3>Light Grey</h3>
       </div>
@@ -902,6 +954,32 @@ input[type="checkbox"]:checked {
       <div class="swatch-color" style="background: var(--light-grey-900); color: #fff;">
         <span>900</span>
         <span class="hex">6f7681</span>
+      </div>
+  </div>
+
+  <div class="swatch">
+      <div class="swatch-top" style="background: var(--grey-500); color: #fff;">
+        <h3>Grey</h3>
+      </div>
+      <div class="swatch-color" style="background: var(--grey-100); color: var(--grey-900);">
+        <span>100</span>
+        <span class="hex">cad0d9</span>
+      </div>
+      <div class="swatch-color" style="background: var(--grey-300); color: var(--grey-900);">
+        <span>300</span>
+        <span class="hex">a6acb8</span>
+      </div>
+      <div class="swatch-color" style="background: var(--grey-500); color: #fff;">
+        <span>500</span>
+        <span class="hex">808892</span>
+      </div>
+      <div class="swatch-color" style="background: var(--grey-700); color: #fff;">
+        <span>700</span>
+        <span class="hex">525861</span>
+      </div>
+      <div class="swatch-color" style="background: var(--grey-900); color: #fff;">
+        <span>900</span>
+        <span class="hex">3f4247</span>
       </div>
   </div>
 

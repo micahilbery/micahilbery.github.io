@@ -14,6 +14,8 @@
 
   --ln-txt: var(--accent-color);
 
+  --checked-bg: var(--accent-color);
+
   .primary {
     --ln-txt: #{$orange-700};
     --ln-hvr: #{$orange-500};
@@ -58,6 +60,7 @@
 
     --ln-txt: var(--accent-color);
 
+    --checked-bg: var(--accent-color);
     --checked: #{bg-img-svg('check', $orange-900)};
 
     .primary {
@@ -100,6 +103,7 @@
 
   --ln-txt: var(--accent-color);
 
+  --checked-bg: var(--accent-color);
   --checked: #{bg-img-svg('check', $orange-900)};
 
   .primary {
@@ -175,6 +179,8 @@
   --ln-txt: var(--accent-color);
   --ln-hvr: #{$green-700};
   --ln-act: #{$blue-700};
+
+  --checked-bg: var(--accent-color);
 
   .primary {
     --ln-txt: #{$red-700};
@@ -357,6 +363,7 @@
   --ln-hvr: #{$green-300};
   --ln-act: #{$blue-300};
 
+  --checked-bg: var(--accent-color);
   --checked: #{bg-img-svg('check', $red-900)};
 
   .primary {
