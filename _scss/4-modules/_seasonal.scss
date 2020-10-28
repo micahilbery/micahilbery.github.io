@@ -462,3 +462,33 @@
   --ln-act: #{$green-300};
   --ln-ul: none;
 }
+
+.christmas,
+.light.christmas {
+  background: {
+    image: #{bg-img-svg('christmas', $light-grey-100)};
+    position: top center;
+    size: contain;
+    repeat: no-repeat;
+  }
+}
+
+@media( prefers-color-scheme: dark ) {
+  .christmas {
+    background: {
+      image: #{bg-img-svg('christmas', $dark-grey-500)};
+      position: top center;
+      size: contain;
+      repeat: no-repeat;
+    }
+  }
+}
+
+.dark.christmas {
+  background: {
+    image: #{bg-img-svg('christmas', $dark-grey-500)};
+    position: top center;
+    size: contain;
+    repeat: no-repeat;
+  }
+}
