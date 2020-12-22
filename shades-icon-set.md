@@ -180,6 +180,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/icon.html name="balance"  %}</div>
+      <div class="icon-name">balance</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/icon.html name="ban"  %}</div>
       <div class="icon-name">ban</div>
     </div>
