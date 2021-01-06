@@ -190,6 +190,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/icon.html name="bank"  %}</div>
+      <div class="icon-name">bank</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/icon.html name="battery-charging"  %}</div>
       <div class="icon-name">battery-charging</div>
     </div>
