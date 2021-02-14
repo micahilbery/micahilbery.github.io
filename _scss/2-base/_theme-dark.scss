@@ -303,6 +303,30 @@
     --checked: #{bg-img-svg('check', $brown-900)};
   }
 
+  .pink-txt { color: #{$pink-300}; }
+  .purple-txt { color: #{$purple-300}; }
+  .cyan-txt { color: #{$cyan-300}; }
+  .blue-txt { color: #{$blue-300}; }
+  .green-txt { color: #{$green-300}; }
+  .yellow-txt { color: #{$yellow-300}; }
+  .orange-txt { color: #{$orange-300}; }
+  .red-txt { color: #{$red-300}; }
+  .brown-txt { color: #{$brown-300}; }
+
+  .portfolio {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$purple-100};
+    --ln-act: #{$purple-500};
+    --ln-ul: none;
+  }
+
+  .resume {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$blue-100};
+    --ln-act: #{$blue-500};
+    --ln-ul: none;
+  }
+
   .rss {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$orange-100};
@@ -329,6 +353,16 @@
 
     --btn-bg: #{$codepen-100};
     --btn-txt: #{$codepen-900};
+  }
+
+  .discord {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$discord-100};
+    --ln-act: #{$discord-500};
+    --ln-ul: none;
+
+    --btn-bg: #{$discord-100};
+    --btn-txt: #{$discord-900};
   }
 
   .dribbble {

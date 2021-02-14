@@ -18,8 +18,8 @@ ms_tile_color: "#e03c9e"
 
 # Socialmedia usernames
 socials:
-  codepen: micahilbery
-  dribbble: micahilbery
+#  codepen: micahilbery
+#  dribbble: micahilbery
   github: micahilbery
 #  gitlab: micahilbery
 #  linkedin: micahilbery
@@ -29,10 +29,13 @@ socials:
 #  pixelfed:
 #    instance: pixelfed.social
 #    username: micahilbery
-#  twitch: micahilbery
+  twitch: micahilbery
   twitter: micahilbery
 #  unsplash: micahilbery
-#  youtube: MicahIlbery
+  youtube: MicahIlbery
+
+#Discord server invite
+discord-invite: eyjkByrdpm
 
 # Gravatar Avatar Image
 gravatar_hash: eab584b2d2b890a0bc6a25c29bbcac00

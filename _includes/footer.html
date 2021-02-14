@@ -77,6 +77,14 @@
          </a>
         </li>
         {% endif %}
+        {% if site.discord-invite %}
+        <li>
+         <a rel="nofollow noopener noreferrer" target="_blank" href="https://discord.gg/{{ site.discord-invite }}" class="icon-ln discord">
+           {% include modules/icon.html name="discord" %}
+           Discord
+         </a>
+        </li>
+        {% endif %}
         {%- if site.socials.pixelfed.instance and site.socials.pixelfed.username -%}
         <li>
          <a rel="nofollow noopener noreferrer" target="_blank" href="https://{{ site.socials.pixelfed.instance }}/{{ site.socials.pixelfed.username }}" class="icon-ln pixelfed">

@@ -294,6 +294,30 @@
     --checked-bg: #{$brown-700};
   }
 
+  .pink-txt { color: #{$pink-700}; }
+  .purple-txt { color: #{$purple-700}; }
+  .cyan-txt { color: #{$cyan-700}; }
+  .blue-txt { color: #{$blue-700}; }
+  .green-txt { color: #{$green-700}; }
+  .yellow-txt { color: #{$yellow-700}; }
+  .orange-txt { color: #{$orange-700}; }
+  .red-txt { color: #{$red-700}; }
+  .brown-txt { color: #{$brown-700}; }
+
+  .portfolio {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$purple-500};
+    --ln-act: #{$purple-900};
+    --ln-ul: none;
+  }
+
+  .resume {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$blue-500};
+    --ln-act: #{$blue-900};
+    --ln-ul: none;
+  }
+
   .rss {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$orange-500};
@@ -319,6 +343,16 @@
     --ln-ul: none;
 
     --btn-bg: #{$codepen-500};
+    --btn-txt: #{$light-grey-300};
+  }
+
+  .discord {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$discord-500};
+    --ln-act: #{$discord-900};
+    --ln-ul: none;
+
+    --btn-bg: #{$discord-500};
     --btn-txt: #{$light-grey-300};
   }
 

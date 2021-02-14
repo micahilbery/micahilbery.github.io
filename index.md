@@ -11,8 +11,8 @@ css: true
         {% include modules/icon.html name="twitter"  %}
       </a>
 
-      <a href="https://{{ site.socials.mastodon.instance }}/@{{ site.socials.mastodon.username }}" class="icon-only-ln mastodon" aria-label="Mastodon">
-        {% include modules/icon.html name="mastodon" %}
+      <a href="https://github.com/{{ site.socials.github }}" class="icon-only-ln github" aria-label="GitHub">
+        {% include modules/icon.html name="github" %}
       </a>
 
       <a href="mailto:{{ site.email }}" class="icon-only-ln protonmail" aria-label="Mail">
@@ -28,63 +28,103 @@ css: true
     </div>
 
     <div class="grid thirds h-start v-end stack-sm profile-socials">
-      <a href="https://dribbble.com/{{ site.socials.dribbble }}" class="icon-only-ln dribbble" aria-label="Dribbble">
-        {% include modules/icon.html name="dribbble" %}
+      <a href="https://twitch.tv/{{ site.socials.twitch }}" class="icon-only-ln twitch" aria-label="Twitch">
+        {% include modules/icon.html name="twitch" %}
       </a>
 
-      <a href="https://codepen.io/{{ site.socials.codepen }}" class="icon-only-ln codepen" aria-label="Codepen">
-        {% include modules/icon.html name="codepen" %}
+      <a href="https://youtube.com/c/{{ site.socials.youtube }}" class="icon-only-ln youtube" aria-label="YouTube">
+        {% include modules/icon.html name="youtube" %}
       </a>
 
-      <a href="https://github.com/{{ site.socials.github }}" class="icon-only-ln github" aria-label="GitHub">
-        {% include modules/icon.html name="github" %}
+      <a href="https://discord.gg/{{ site.discord-invite }}" class="icon-only-ln discord" aria-label="Discord">
+        {% include modules/icon.html name="discord" %}
       </a>
     </div>
   </div>
-</section>
-
-<section>
-  <h1 class="accent-lined">A little about me.</h1>
-  <h2 class="subheading">What's my deal?</h2>
-
-  <p><span class="first-letter">H</span>ello, I'm Micah, a UX/UI/front-end designer and developer currently living in <a href="https://www.google.com/maps/place/Edwardsville,+IL/">Edwardsville.</a> My passion is working to solve real problems for real people using design, code, empathy, and understanding both as an individual and doing so collaboratively with a team of people of diverse perspectives but a common goal. There is always room to improve and I have a lot to learn still but I love learning new things and taking on new challenges. I also love open-source and contribute to projects that I love most where and when I can whether it be through code, design, or something else. You can find most of my contributions on my <a href="https://github.com/micahilbery">GitHub</a>.</p>
-
-<div class="grid">
-  <div class="grid halves end stretch-sm stack-sm">
-    <a href="mailto:{{ site.email }}" class="btn primary">
-      {% include modules/icon.html name="mail" %}
-      Get in touch
-    </a>
-    <a href="/pay/" class="btn secondary">
-      {% include modules/icon.html name="coffee-cup" %}
-      Buy me a coffee
-    </a>
+  <div class="center text-center">
+    <h5>designer, developer, coffee nerd, casual gamer, and sporadic streamer</h5>
   </div>
-</div>
 </section>
 
-{% if site.projects.size > 0 %}
-<section class="grid {% if site.projects.size > 2 %}thirds{% endif %} stack-sm">
-  <h2 class="accent-lined {% if site.projects.size > 1 %}span-3{% endif %} start">Latest Work{% if site.projects.size > 1 %}s{% endif %}</h2>
-  {% assign projects_sort = site.projects | sort: 'date'%}
-  {% assign projects = projects_sort | reverse %}
-  {% for project in projects limit:3%}
+<section class="grid">
   <div>
-    {% include modules/project-preview.html project= project preview-size= 'small' %}
+    <h1 class="accent-lined">About Me</h1>
   </div>
-  {% endfor %}
-
-  {% if site.projects.size > 2 %}
-    <div class="grid span-3">
-      <div class="grid end stretch-sm">
-        <a href="/works/" class="btn tertiary">
-          See more
-        </a>
-      </div>
+  <div class="grid center thirds stack-lg">
+    <div class="grid gapless panel">
+      <h3>What I work on.</h3>
+      <p>My passion is working to solve real problems for real people using design and code. I also love open-source and contribute where, when, and how I can.</p>
+      <ul class="ln-list v-end">
+        <li>
+          <a href="https://github.com/{{ site.socials.github }}" class="icon-ln github">
+            {% include modules/icon.html name="github" %}
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="/portfolio/" class="icon-ln portfolio">
+            {% include modules/icon.html name="pen-display" %}
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="/resume/" class="icon-ln resume">
+            {% include modules/icon.html name="file" %}
+            Résumé
+          </a>
+        </li>
+      </ul>
     </div>
-  {% endif %}
+    <div class="grid gapless panel">
+      <h3>What I do for fun.</h3>
+      <p>I like to create and entertain, be that streaming on Twitch or making videos on YouTube, and use discord to build and interact with those communities.</p>
+      <ul class="ln-list v-end">
+        <li>
+          <a href="https://twitch.tv/{{ site.socials.twitch }}" class="icon-ln twitch">
+            {% include modules/icon.html name="twitch" %}
+            Twitch
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com/c/{{ site.socials.youtube }}" class="icon-ln youtube">
+            {% include modules/icon.html name="youtube" %}
+            YouTube
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.gg/{{ site.discord-invite }}" class="icon-ln discord">
+            {% include modules/icon.html name="discord" %}
+            Discord
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="grid gapless panel">
+      <h3>What's in my brain.</h3>
+      <p>Well… not much but whenever I do have a thought worth sharing I usualy write a blog post about it or post it to my social media.</p>
+      <ul class="ln-list v-end">
+        <li>
+          <a href="/blog/" class="icon-ln rss">
+            {% include modules/icon.html name="writing" %}
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/{{ site.socials.twitter }}" class="icon-ln twitter">
+            {% include modules/icon.html name="twitter" %}
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a href="https://{{ site.socials.mastodon.instance }}/@{{ site.socials.mastodon.username }}}" class="icon-ln mastodon">
+            {% include modules/icon.html name="mastodon" %}
+            Mastodon
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
-{% endif %}
 
 {% if site.posts.size > 0 %}
 <section class="grid">
@@ -96,7 +136,7 @@ css: true
   {% endfor %}
 
   {% if site.posts.size > 3 %}
-  <div class="grid thirds stack-sm sm-preview">
+  <div class="grid thirds stack-md sm-preview">
   {% for post in site.posts offset:1 limit:3 %}
     {% include modules/post-preview.html post= post preview-size= 'small' %}
   {% endfor %}

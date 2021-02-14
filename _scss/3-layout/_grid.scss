@@ -49,6 +49,8 @@
   margin-right: -50vw;
 }
 
+.gapless { grid-gap: 0; }
+
 .span-2    { grid-column: span 2; }
 .span-3    { grid-column: span 3; }
 .span-4    { grid-column: span 4; }
@@ -88,6 +90,7 @@
 .v-stretch { align-self: stretch; }
 
 .constrained { max-width: $content-sm; margin: 0 auto; }
+.contained { max-width: $content-xl; margin: 0 auto; }
 
 // Text Aligns
 .text-center { text-align: center; }
