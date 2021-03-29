@@ -1,0 +1,42 @@
+---
+---
+// Helpers
+@import "1-helpers/variables";
+@import "1-helpers/functions";
+@import "1-helpers/mixins";
+
+.slide {
+  height: 100vh;
+}
+
+.btn.slide-sel-btn {
+  --btn-bg: rgba(black, .5);
+  
+  margin: 0;
+  padding: .25rem .5rem;
+  line-height: 1;
+  box-shadow: var(--outset-highlight);
+}
+
+#slide-select {
+  padding: .25rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: rgba(black,0.5);
+  border: var(--border);
+  border-radius: .25rem;
+  box-shadow: var(--outset-highlight), var(--shadow);
+}
+
+.title {
+  h1 { font-size: 3rem; }
+  h2.subheading { font-size: 1.75rem; }
+}
+
+.icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  
+  img { margin: .5rem; }
+}
