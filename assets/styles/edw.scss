@@ -6,7 +6,7 @@
 @import "1-helpers/mixins";
 
 .slide {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .btn.slide-sel-btn {

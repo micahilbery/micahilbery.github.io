@@ -55,13 +55,13 @@ css: true
         <img src="/assets/images/edw/image-optimizer.svg" alt="image-optimizer icon">
         <img src="/assets/images/edw/nutty.svg" alt="nutty icon">
         <img src="/assets/images/edw/office-address-book.svg" alt="contacts icon">
-        <img src="/assets/images/edw/office-contact.svg" alt="contact icon">
         <img src="/assets/images/edw/palette.svg" alt="palette icon">
         <img src="/assets/images/edw/principles.svg" alt="principles icon">
         <img src="/assets/images/edw/quickdocs.svg" alt="quickdocs icon">
         <img src="/assets/images/edw/resizer.svg" alt="resizer icon">
         <img src="/assets/images/edw/security-high.svg" alt="sheild icon">
         <img src="/assets/images/edw/sudoku.svg" alt="sudoku icon">
+        <img src="/assets/images/edw/tasks.svg" alt="tasks icon">
         <img src="/assets/images/edw/workspaces.svg" alt="workspaces icon">
       </div>
     </div>
