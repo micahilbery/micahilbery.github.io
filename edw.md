@@ -12,6 +12,8 @@ css: true
   </div>
 </section>
 
+<hr>
+
 <section id="slide-2" class="slide grid">
   <div class="center grid fourths stack-md">
     <div class="span-4 title">
@@ -43,30 +45,32 @@ css: true
 
     <div class="center span-3">
       <div class="icon-grid">
-        <img src="/assets/images/edw/anamorph.svg" alt="anamorph icon">
-        <img src="/assets/images/edw/application-certificate.svg" alt="certificate icon">
-        <img src="/assets/images/edw/application-x-partial-download.svg" alt="partial download icon">
-        <img src="/assets/images/edw/clairvoyant.svg" alt="clairvoyant icon">
-        <img src="/assets/images/edw/computer-laptop.svg" alt="laptop icon">
-        <img src="/assets/images/edw/dippi.svg" alt="dippi icon">
-        <img src="/assets/images/edw/givemelyrics.svg" alt="givemelyrics icon">
-        <img src="/assets/images/edw/go-for-it.svg" alt="go-for-it icon">
-        <img src="/assets/images/edw/ideogram.svg" alt="ideogram icon">
-        <img src="/assets/images/edw/image-optimizer.svg" alt="image-optimizer icon">
-        <img src="/assets/images/edw/nutty.svg" alt="nutty icon">
-        <img src="/assets/images/edw/office-address-book.svg" alt="contacts icon">
-        <img src="/assets/images/edw/palette.svg" alt="palette icon">
-        <img src="/assets/images/edw/principles.svg" alt="principles icon">
-        <img src="/assets/images/edw/quickdocs.svg" alt="quickdocs icon">
-        <img src="/assets/images/edw/resizer.svg" alt="resizer icon">
-        <img src="/assets/images/edw/security-high.svg" alt="sheild icon">
-        <img src="/assets/images/edw/sudoku.svg" alt="sudoku icon">
-        <img src="/assets/images/edw/tasks.svg" alt="tasks icon">
-        <img src="/assets/images/edw/workspaces.svg" alt="workspaces icon">
+        <img src="/assets/images/edw/prev-work/anamorph.svg" alt="anamorph icon">
+        <img src="/assets/images/edw/prev-work/application-certificate.svg" alt="certificate icon">
+        <img src="/assets/images/edw/prev-work/application-x-partial-download.svg" alt="partial download icon">
+        <img src="/assets/images/edw/prev-work/clairvoyant.svg" alt="clairvoyant icon">
+        <img src="/assets/images/edw/prev-work/computer-laptop.svg" alt="laptop icon">
+        <img src="/assets/images/edw/prev-work/dippi.svg" alt="dippi icon">
+        <img src="/assets/images/edw/prev-work/givemelyrics.svg" alt="givemelyrics icon">
+        <img src="/assets/images/edw/prev-work/go-for-it.svg" alt="go-for-it icon">
+        <img src="/assets/images/edw/prev-work/ideogram.svg" alt="ideogram icon">
+        <img src="/assets/images/edw/prev-work/image-optimizer.svg" alt="image-optimizer icon">
+        <img src="/assets/images/edw/prev-work/nutty.svg" alt="nutty icon">
+        <img src="/assets/images/edw/prev-work/office-address-book.svg" alt="contacts icon">
+        <img src="/assets/images/edw/prev-work/palette.svg" alt="palette icon">
+        <img src="/assets/images/edw/prev-work/principles.svg" alt="principles icon">
+        <img src="/assets/images/edw/prev-work/quickdocs.svg" alt="quickdocs icon">
+        <img src="/assets/images/edw/prev-work/resizer.svg" alt="resizer icon">
+        <img src="/assets/images/edw/prev-work/security-high.svg" alt="sheild icon">
+        <img src="/assets/images/edw/prev-work/sudoku.svg" alt="sudoku icon">
+        <img src="/assets/images/edw/prev-work/tasks.svg" alt="tasks icon">
+        <img src="/assets/images/edw/prev-work/workspaces.svg" alt="workspaces icon">
       </div>
     </div>
   </div>
 </section>
+
+<hr>
 
 <section id="slide-3" class="slide grid">
   <div class="grid center">
@@ -78,6 +82,8 @@ css: true
   </div>
 </section>
 
+<hr>
+
 <section id="slide-4" class="slide grid">
   <div class="grid center">
     <div class="title">
@@ -88,6 +94,8 @@ css: true
     <img src="/assets/images/edw/icon-hinting-example.png" alt="icon hinting example" class="center">
   </div>
 </section>
+
+<hr>
 
 <section id="slide-5" class="slide grid">
   <div class="center title">
