@@ -5,13 +5,108 @@
 @import "1-helpers/functions";
 @import "1-helpers/mixins";
 
+:root {
+  /* Strawberry */
+  --strawberry-100: #ff8c82;
+  --strawberry-300: #ed5353;
+  --strawberry-500: #c6262e;
+  --strawberry-700: #a10705;
+  --strawberry-900: #7a0000;
+  /* Orange */
+  --orange-100: #ffc27d;
+  --orange-300: #ffa154;
+  --orange-500: #f37329;
+  --orange-700: #cc3b02;
+  --orange-900: #a62100;
+  /* Banana */
+  --banana-100: #fff394;
+  --banana-300: #ffe16b;
+  --banana-500: #f9c440;
+  --banana-700: #d48e15;
+  --banana-900: #ad5f00;
+  /* Lime */
+  --lime-100: #d1ff82;
+  --lime-300: #9bdb4d;
+  --lime-500: #68b723;
+  --lime-700: #3a9104;
+  --lime-900: #206b00;
+  /* Mint */
+  --mint-100: #89ffdd;
+  --mint-300: #43d6b5;
+  --mint-500: #28bca3;
+  --mint-700: #0e9a83;
+  --mint-900: #007367;
+  /* Blueberry */
+  --blueberry-100: #8cd5ff;
+  --blueberry-300: #64baff;
+  --blueberry-500: #3689e6;
+  --blueberry-700: #0d52bf;
+  --blueberry-900: #002e99;
+  /* Grape */
+  --grape-100: #e4c6fa;
+  --grape-300: #cd9ef7;
+  --grape-500: #a56de2;
+  --grape-700: #7239b3;
+  --grape-900: #452981;
+  /* Bubblegum */
+  --bubblegum-100: #fe9ab8;
+  --bubblegum-300: #f4679d;
+  --bubblegum-500: #de3e80;
+  --bubblegum-700: #bc245d;
+  --bubblegum-900: #910e38;
+  /* Cocoa */
+  --cocoa-100: #a3907c;
+  --cocoa-300: #8a715e;
+  --cocoa-500: #715344;
+  --cocoa-700: #57392d;
+  --cocoa-900: #3d211b;
+  /* Silver */
+  --silver-100: #fafafa;
+  --silver-300: #d4d4d4;
+  --silver-500: #abacae;
+  --silver-700: #7e8087;
+  --silver-900: #555761;
+  /* Slate */
+  --slate-100: #95a3ab;
+  --slate-300: #667885;
+  --slate-500: #485a6c;
+  --slate-700: #273445;
+  --slate-900: #0e141f;
+  /* Black */
+  --black-100: #666;
+  --black-300: #4d4d4d;
+  --black-500: #333;
+  --black-700: #1a1a1a;
+  --black-900: #000;
+}
+
+:root {
+  .btn.slide-sel-btn { --btn-bg: #{rgba(white, .5)}; }
+  #slide-select { --slide-sel-bg: #{rgba(white, .5)}; }
+}
+
+@media( prefers-color-scheme: dark ) {
+  :root{
+    .btn.slide-sel-btn { --btn-bg: #{rgba(black, .3)}; }
+    #slide-select { --slide-sel-bg: #{rgba(black, .3)}; }
+  }
+}
+
+.light {
+  .btn.slide-sel-btn { --btn-bg: #{rgba(white, .5)}; }
+  #slide-select { --slide-sel-bg: #{rgba(white, .5)}; }
+}
+
+.dark {
+  .btn.slide-sel-btn { --btn-bg: #{rgba(black, .3)}; }
+  #slide-select { --slide-sel-bg: #{rgba(black, .3)}; }
+}
+
 .slide {
   min-height: 100vh;
 }
 
 .btn.slide-sel-btn {
-  --btn-bg: rgba(black, .5);
-
   margin: 0;
   padding: .25rem .5rem;
   line-height: 1;
@@ -23,7 +118,7 @@
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background: rgba(black,0.5);
+  background: var(--slide-sel-bg);
   border: var(--border);
   border-radius: .25rem;
   box-shadow: var(--outset-highlight), var(--shadow);
@@ -32,6 +127,7 @@
 .title {
   h1 { font-size: 3rem; }
   h2.subheading { font-size: 1.75rem; }
+  padding-bottom: 2rem;
 }
 
 .icon-grid {
@@ -39,4 +135,12 @@
   flex-wrap: wrap;
   
   img { margin: .5rem; }
+}
+
+.swatch {
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.swatch-color {
+  padding: 1rem 4rem;
 }
