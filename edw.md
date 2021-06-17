@@ -572,8 +572,8 @@ css: true
 
     <div class="full-width">
       <div class="contained">
-        <div class="center video-embed" style="background-image: url('https://img.youtube.com/vi/K2Dj8jdEs_4/maxresdefault.jpg')">
-          <iframe src="https://www.youtube.com/embed/K2Dj8jdEs_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="center video-embed" style="background-image: url('https://img.youtube.com/vi/moavyYD9S3g/maxresdefault.jpg')">
+          <iframe src="https://www.youtube.com/embed/moavyYD9S3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
