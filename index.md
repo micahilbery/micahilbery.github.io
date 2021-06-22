@@ -62,13 +62,13 @@ css: true
           </a>
         </li>
         <li>
-          <a href="/portfolio/" class="icon-ln portfolio">
+          <a href="/portfolio/" class="icon-ln alt-ln purple">
             {% include modules/icon.html name="pen-display" %}
             Portfolio
           </a>
         </li>
         <li>
-          <a href="/resume/" class="icon-ln resume">
+          <a href="/resume/" class="icon-ln alt-ln blue">
             {% include modules/icon.html name="file" %}
             Résumé
           </a>

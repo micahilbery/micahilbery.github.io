@@ -304,17 +304,66 @@
   .red-txt { color: #{$red-700}; }
   .brown-txt { color: #{$brown-700}; }
 
-  .portfolio {
+  .alt-ln.pink {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$pink-500};
+    --ln-act: #{$pink-900};
+    --ln-ul: none;
+  }
+
+  .alt-ln.purple {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$purple-500};
     --ln-act: #{$purple-900};
     --ln-ul: none;
   }
 
-  .resume {
+  .alt-ln.cyan {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$cyan-500};
+    --ln-act: #{$cyan-900};
+    --ln-ul: none;
+  }
+
+  .alt-ln.blue {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$blue-500};
     --ln-act: #{$blue-900};
+    --ln-ul: none;
+  }
+
+  .alt-ln.green {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$green-500};
+    --ln-act: #{$green-900};
+    --ln-ul: none;
+  }
+
+  .alt-ln.yellow {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$yellow-500};
+    --ln-act: #{$yellow-900};
+    --ln-ul: none;
+  }
+
+  .alt-ln.orange {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$orange-500};
+    --ln-act: #{$orange-900};
+    --ln-ul: none;
+  }
+
+  .alt-ln.red {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$red-500};
+    --ln-act: #{$red-900};
+    --ln-ul: none;
+  }
+
+  .alt-ln.brown {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$brown-500};
+    --ln-act: #{$brown-900};
     --ln-ul: none;
   }
 
