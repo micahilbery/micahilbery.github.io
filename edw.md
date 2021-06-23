@@ -191,80 +191,113 @@ css: true
     </div>
 
     <div class="grid halves stack-sm">
-
-      <div>
-        <div class="grid center" style="height: 392px;">
-          <div class="h-center v-end">
-            <picture>
-              <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="pixel-fitted icon 128px" src="/assets/images/edw/light/128-light.svg">
-            </picture>
-            <picture>
-              <source srcset="/assets/images/edw/dark/64-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="pixel-fitted icon 64px" src="/assets/images/edw/light/64-light.svg">
-            </picture>
-            <picture>
-              <source srcset="/assets/images/edw/dark/48-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="pixel-fitted icon 48px" src="/assets/images/edw/light/48-light.svg">
-            </picture>
-            <picture>
-              <source srcset="/assets/images/edw/dark/32-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="pixel-fitted icon 32px" src="/assets/images/edw/light/32-light.svg">
-            </picture>
-            <picture>
-              <source srcset="/assets/images/edw/dark/16-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="pixel-fitted icon 16px" src="/assets/images/edw/light/16-light.svg">
-            </picture>
-          </div>
-
-          <div class="h-center v-start">
-            <picture>
-              <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="scaled icon 128px" src="/assets/images/edw/light/128-light.svg">
-            </picture>
-            <picture>
-              <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="scaled icon 64px" src="/assets/images/edw/light/128-light.svg" height="64px" width="64px">
-            </picture>
-            <picture>
-              <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="scaled icon 48px" src="/assets/images/edw/light/128-light.svg" height="48px" width="48px">
-            </picture>
-            <picture>
-              <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="scaled icon 32px" src="/assets/images/edw/light/128-light.svg" height="32px" width="32px">
-            </picture>
-            <picture>
-              <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
-              <img alt="scaled icon 16px" src="/assets/images/edw/light/128-light.svg" height="16px" width="16px">
-            </picture>
-          </div>
-        </div>
-
-        <p>Just like font's are hinted for different sizes we need to 'hint' our icons for display at different sizes. Otherwise our icons will scale incorrectly and look blurry.</p>
-      </div>
-      
-      <div>
-        <div class="grid">
-          <div class="center">
-            <picture>
-              <source srcset="/assets/images/edw/dark/pixel-grid-dark.png" media="(prefers-color-scheme:dark)">
-              <img alt="pixel grid" src="/assets/images/edw/light/pixel-grid-light.png">
-            </picture>
-          </div>
-        </div>
-
-        <p>Here we see a zoomed in view of the 48px pixel-fitted icon on a pixel-grid where every square in the grid is one pixel. Notice how the icon's edges, strokes, and details align to the grid. Making sure important elements of the icon sit on full pixels is pixel-fitting.</p>
+      <div class="h-center v-end">
+        <picture>
+          <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 128px" src="/assets/images/edw/light/128-light.svg">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/64-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 64px" src="/assets/images/edw/light/64-light.svg">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/48-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 48px" src="/assets/images/edw/light/48-light.svg">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/32-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 32px" src="/assets/images/edw/light/32-light.svg">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/16-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 16px" src="/assets/images/edw/light/16-light.svg">
+        </picture>
       </div>
 
+      <div class="h-center v-start">
+        <picture>
+          <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="scaled icon 128px" src="/assets/images/edw/light/128-light.svg">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="scaled icon 64px" src="/assets/images/edw/light/128-light.svg" height="64px" width="64px">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="scaled icon 48px" src="/assets/images/edw/light/128-light.svg" height="48px" width="48px">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="scaled icon 32px" src="/assets/images/edw/light/128-light.svg" height="32px" width="32px">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="scaled icon 16px" src="/assets/images/edw/light/128-light.svg" height="16px" width="16px">
+        </picture>
+      </div>
     </div>
-
+    <p class="constrained">Just like font's are hinted for different sizes we need to 'hint' our icons for display at different sizes. Otherwise our icons will scale incorrectly and look blurry.</p>
   </div>
 </section>
 
 <hr>
 
 <section id="slide-7" class="slide grid">
+  <div class="grid center">
+    <div class="title">
+      <h1 class="accent-lined">Icon sizes continued...</h1>
+      <h2 class="subheading">Why it matters</h2>
+    </div>
+    
+    <div class="grid thirds stack-sm">
+      <div class="center">
+        <picture>
+          <source srcset="/assets/images/edw/dark/icon-sizes-dock-dark.png" media="(prefers-color-scheme:dark)">
+          <img alt="icon sizes across the OS" src="/assets/images/edw/light/icon-sizes-dock-light.png">
+        </picture>
+      </div>
+      <div class="center">
+        <picture>
+          <source srcset="/assets/images/edw/dark/icon-sizes-launcher-dark.png" media="(prefers-color-scheme:dark)">
+          <img alt="icon sizes across the OS" src="/assets/images/edw/light/icon-sizes-launcher-light.png">
+        </picture>
+      </div>
+      <div class="center">
+        <picture>
+          <source srcset="/assets/images/edw/dark/icon-sizes-menu-dark.png" media="(prefers-color-scheme:dark)">
+          <img alt="icon sizes across the OS" src="/assets/images/edw/light/icon-sizes-menu-light.png">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<section id="slide-8" class="slide grid">
+  <div class="grid center">
+    <div class="title">
+      <h1 class="accent-lined">Icon sizes continued...</h1>
+      <h2 class="subheading">What even is pixel-fitting?</h2>
+    </div>
+
+    <div class="grid halves stack-sm">
+      <div class="center">
+        <picture>
+          <source srcset="/assets/images/edw/dark/pixel-grid-dark.png" media="(prefers-color-scheme:dark)">
+          <img alt="pixel grid" src="/assets/images/edw/light/pixel-grid-light.png">
+        </picture>
+      </div>
+
+      <p>Here we see a zoomed in view of the 48px pixel-fitted icon on a pixel-grid where every square in the grid is one pixel. Notice how the icon's edges, strokes, and details align to the grid. Making sure important elements of the icon sit on full pixels is pixel-fitting.</p>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<section id="slide-9" class="slide grid">
   <div class="grid center">
     <div class="title">
       <h1 class="accent-lined">Color</h1>
@@ -373,7 +406,30 @@ css: true
 
 <hr>
 
-<section id="slide-8" class="slide grid">
+<section id="slide-10" class="slide grid">
+  <div class="grid center">
+    <div class="title">
+      <h1 class="accent-lined">Color continued...</h1>
+      <h2 class="subheading">Carful of color associations.</h2>
+    </div>
+
+    <div class="grid halves center stack-sm">
+
+      <div class="center">
+          <img alt="blue" src="/assets/images/edw/dialog-information.svg">
+          <img alt="green" src="/assets/images/edw/process-completed.svg">
+          <img alt="yellow" src="/assets/images/edw/dialog-warning.svg">
+          <img alt="red" src="/assets/images/edw/dialog-error.svg">
+      </div>
+      
+      <p class="h-start v-center">Colors do have their connotations, so be cognizant of this when picking them. But you can use these color connotations to help convey your icon's meaning.</p>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<section id="slide-11" class="slide grid">
   <div class="grid center">
     <div class="title">
       <h1 class="accent-lined">Measurements & Exceptions</h1>
@@ -447,7 +503,7 @@ css: true
 
 <hr>
 
-<section id="slide-9" class="slide grid">
+<section id="slide-12" class="slide grid">
   <div class="grid center">
     <div class="title">
       <h1 class="accent-lined">Outlines & Contrast</h1>
@@ -469,7 +525,7 @@ css: true
 
 <hr>
 
-<section id="slide-10" class="slide grid">
+<section id="slide-13" class="slide grid">
   <div class="grid center">
     <div class="title">
       <h1 class="accent-lined">Lighting</h1>
@@ -512,7 +568,7 @@ css: true
 
 <hr>
 
-<section id="slide-11" class="slide grid">
+<section id="slide-14" class="slide grid">
   <div class="grid center">
     <div class="title">
       <h1 class="accent-lined">Inset & Outset Pictograms</h1>
@@ -563,7 +619,42 @@ css: true
 
 <hr>
 
-<section id="slide-12" class="slide grid">
+<section id="slide-15" class="slide grid">
+  <div class="grid center">
+    <div class="title">
+      <h1 class="accent-lined">Composition</h1>
+      <h2 class="subheading">Getting the details just right</h2>
+    </div>
+
+    <div class="center">
+        <picture>
+          <source srcset="/assets/images/edw/dark/128-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 128px" src="/assets/images/edw/light/128-light.svg" height="256" width="256">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/64-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 64px" src="/assets/images/edw/light/64-light.svg" height="128" width="128">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/48-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 48px" src="/assets/images/edw/light/48-light.svg" height="96" width="96">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/32-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 32px" src="/assets/images/edw/light/32-light.svg" height="64" width="64">
+        </picture>
+        <picture>
+          <source srcset="/assets/images/edw/dark/16-dark.svg" media="(prefers-color-scheme:dark)">
+          <img alt="pixel-fitted icon 16px" src="/assets/images/edw/light/16-light.svg" height="32" width="32">
+        </picture>
+      </div>
+      <p>Detail elements change as we get smaller and smaller to better fit the size icon they sit on. On the smallest size we get rid of them all together.</p>
+  </div>
+</section>
+
+<hr>
+
+<section id="slide-16" class="slide grid">
   <div class="grid center">
     <div class="title">
       <h1 class="accent-lined">Demonstration</h1>
@@ -583,24 +674,32 @@ css: true
 
 <hr>
 
-<section id="slide-13" class="slide grid">
+<section id="slide-17" class="slide grid">
   <div class="center title">
     <h1 class="accent-lined">Thank You</h1>
   </div>
 </section>
 
 <div id="slide-select">
-  <a href="#slide-1" class="btn slide-sel-btn">1</a>
-  <a href="#slide-2" class="btn slide-sel-btn">2</a>
-  <a href="#slide-3" class="btn slide-sel-btn">3</a>
-  <a href="#slide-4" class="btn slide-sel-btn">4</a>
-  <a href="#slide-5" class="btn slide-sel-btn">5</a>
-  <a href="#slide-6" class="btn slide-sel-btn">6</a>
-  <a href="#slide-7" class="btn slide-sel-btn">7</a>
-  <a href="#slide-8" class="btn slide-sel-btn">8</a>
-  <a href="#slide-9" class="btn slide-sel-btn">9</a>
-  <a href="#slide-10" class="btn slide-sel-btn">10</a>
-  <a href="#slide-11" class="btn slide-sel-btn">11</a>
-  <a href="#slide-12" class="btn slide-sel-btn">12</a>
-  <a href="#slide-13" class="btn slide-sel-btn">13</a>
+  <div>
+    <a href="#slide-1" class="btn slide-sel-btn">1</a>
+    <a href="#slide-2" class="btn slide-sel-btn">2</a>
+    <a href="#slide-3" class="btn slide-sel-btn">3</a>
+    <a href="#slide-4" class="btn slide-sel-btn">4</a>
+    <a href="#slide-5" class="btn slide-sel-btn">5</a>
+    <a href="#slide-6" class="btn slide-sel-btn">6</a>
+    <a href="#slide-7" class="btn slide-sel-btn">7</a>
+    <a href="#slide-8" class="btn slide-sel-btn">8</a>
+    <a href="#slide-9" class="btn slide-sel-btn">9</a>
+    <a href="#slide-10" class="btn slide-sel-btn">10</a>
+  </div>
+  <div>
+    <a href="#slide-11" class="btn slide-sel-btn">11</a>
+    <a href="#slide-12" class="btn slide-sel-btn">12</a>
+    <a href="#slide-13" class="btn slide-sel-btn">13</a>
+    <a href="#slide-14" class="btn slide-sel-btn">14</a>
+    <a href="#slide-15" class="btn slide-sel-btn">15</a>
+    <a href="#slide-16" class="btn slide-sel-btn">16</a>
+    <a href="#slide-17" class="btn slide-sel-btn">17</a>
+  </div>
 </div>
