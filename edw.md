@@ -410,7 +410,7 @@ css: true
   <div class="grid center">
     <div class="title">
       <h1 class="accent-lined">Color continued...</h1>
-      <h2 class="subheading">Carful of color associations.</h2>
+      <h2 class="subheading">Careful of color associations.</h2>
     </div>
 
     <div class="grid halves center stack-sm">
