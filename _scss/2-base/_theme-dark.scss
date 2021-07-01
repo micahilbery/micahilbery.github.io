@@ -424,6 +424,21 @@
     --btn-txt: #{$dribbble-900};
   }
 
+  .elementary {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$elementary-100};
+    --ln-act: #{$elementary-500};
+    --ln-ul: none;
+
+    --btn-bg: #{$elementary-100};
+    --btn-txt: #{$elementary-900};
+
+    --tag-bg: #{rgba($elementary-900, .2)};
+    --tag-txt: #{$elementary-100};
+    --tag-txt-hvr: #{$elementary-300};
+    --tag-txt-act: #{$elementary-100};
+  }
+
   .github {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$github-100};

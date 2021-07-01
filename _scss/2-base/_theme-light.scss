@@ -415,6 +415,21 @@
     --btn-txt: #{$light-grey-300};
   }
 
+  .elementary {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$elementary-500};
+    --ln-act: #{$elementary-900};
+    --ln-ul: none;
+
+    --btn-bg: #{$elementary-500};
+    --btn-txt: #{$light-grey-300};
+
+    --tag-bg: #{rgba($elementary-100, .2)};
+    --tag-txt: #{$elementary-900};
+    --tag-txt-hvr: #{$elementary-700};
+    --tag-txt-act: #{$elementary-900};
+  }
+
   .github {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$github-500};

@@ -4,13 +4,20 @@
     {% case tag %}
       {% when "coffee" %}
         {% assign class = "coffee" %}
+        {% assign icon = "coffee-cup" %}
       {% when "code" %}
         {% assign class = "code" %}
+        {% assign icon = "laptop" %}
       {% when "life" %}
         {% assign class = "life" %}
+        {% assign icon = "user" %}
+      {% when "elementary" %}
+        {% assign class = "elementary" %}
+        {% assign icon = "elementary" %}
       {% else%}
         {% assign class = "primary" %}
+        {% assign icon = "null" %}
     {% endcase %}
-    <a class="tag{% if class %} {{class}}{% endif %}" href="/tags/#{{ tag | replace: ' ', '-' }}">#{{ tag }}</a>
+    <a class="tag{% if class %} {{class}}{% endif %}" href="/tags/#{{ tag | replace: ' ', '-' }}">{%if icon != "null" %}{% include modules/icon.html name=icon %} {% endif %}#{{ tag }}</a>
   {% endfor %}
 </aside>
