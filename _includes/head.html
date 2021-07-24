@@ -54,6 +54,8 @@
   <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}">
   {%- if page.post_id -%}
     {% assign css_id = page.post_id | prepend: 'posts/' %}
+  {%- else if page.project_id -%}
+    {% assign css_id = page.project_id | prepend: 'projects/' %}
   {%- else if page.id -%}
     {% assign css_id = page.id %}
   {%- endif -%}

@@ -40,7 +40,7 @@ css: true
       </h3>
       <div class="grid qr-grid">
         <div class="qr-code grid itms-center">
-          <img src="/assets/images/paypal-qr.jpg" alt="paypal qr code">
+          <img src="/assets/images/pay/paypal-qr.jpg" alt="paypal qr code">
         </div>
         <p class="span-2">Scan the QR code, <a href="https://paypal.me/{{ site.support_options.paypal }}" class="paypal">Use Paypal.me</a>, or send to micah.ilbery@protonmail.com.</p>
       </div>
@@ -56,7 +56,7 @@ css: true
       </h3>
       <div class="grid qr-grid">
         <div class="qr-code grid itms-center">
-          <img src="/assets/images/squarecash-qr.jpg" alt="squarecash qr code">
+          <img src="/assets/images/pay/squarecash-qr.jpg" alt="squarecash qr code">
         </div>
         <p class="span-2">Scan the QR code, <a href="https://cash.app/${{ site.support_options.squarecash }}" class="squarecash">Use Square Cash</a>, or send to ${{ site.support_options.squarecash }}.</p>
       </div>
@@ -72,7 +72,7 @@ css: true
       </h3>
       <div class="grid qr-grid">
         <div class="qr-code grid itms-center">
-          <img src="/assets/images/venmo-qr.jpg" alt="venmo qr code">
+          <img src="/assets/images/pay/venmo-qr.jpg" alt="venmo qr code">
         </div>
         <p class="span-2">Scan the QR code, <a href="https://venmo.com/{{ site.support_options.venmo }}" class="venmo">Use Venmo</a>, or send to @{{ site.support_options.venmo }}.</p>
       </div>

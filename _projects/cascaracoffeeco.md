@@ -3,7 +3,7 @@ layout: project
 title: "Cascara Coffee Co."
 job-title: "Web Developer and Designer"
 image: /assets/images/projects/cascaracoffeeco/cascaracoffeeco.jpg
-date: 2020-05-20
+date: 2020-05-17
 live-url: "https://cascaracoffeeco.netlify.app"
 ---
 

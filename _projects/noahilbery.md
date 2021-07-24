@@ -3,7 +3,7 @@ layout: project
 title: "NoahIlbery.com"
 job-title: "Brand Designer, Web Developer and Designer"
 image: /assets/images/projects/noahilbery/noahilbery.jpg
-date: 2017-02-02
+date: 2021-01-26
 live-url: "https://noahilbery.com"
 ---
 
@@ -16,11 +16,11 @@ stylized version of his initials, “NI”, and hints at a 3D space while only
 being 2D, as 2D is more versatile, but gives him a better visual identity
 that is representative of his skill set and projected career.
 
-<div class="grid constrained">
-  <picture>
-    <source srcset="/assets/images/projects/noahilbery/noahilbery-branding-card.avif" type="image/avif">
-    <source srcset="/assets/images/projects/noahilbery/noahilbery-branding-card.webp" type="image/webp">
-    <img src="/assets/images/projects/noahilbery/noahilbery-branding-card.jpg" alt="Noah Ilbery's Brand Styles">
+<div class="grid">
+  <picture class="center">
+    <source srcset="/assets/images/projects/noahilbery/noahilbery-brand.avif" type="image/avif">
+    <source srcset="/assets/images/projects/noahilbery/noahilbery-brand.webp" type="image/webp">
+    <img src="/assets/images/projects/noahilbery/noahilbery-brand.jpg" alt="Noah Ilbery's Brand Styles">
   </picture>
 </div>
 
@@ -34,9 +34,9 @@ and contact information.
 
 <div>
   <picture>
-    <source srcset="/assets/images/projects/noahilbery/full-view.avif" type="image/avif">
-    <source srcset="/assets/images/projects/noahilbery/full-view.webp" type="image/webp">
-    <img src="/assets/images/projects/noahilbery/full-view.jpg" alt="Full view of noahilbery.com homepage">
+    <source srcset="/assets/images/projects/noahilbery/noahilbery-site.avif" type="image/avif">
+    <source srcset="/assets/images/projects/noahilbery/noahilbery-site.webp" type="image/webp">
+    <img src="/assets/images/projects/noahilbery/noahilbery-site.jpg" alt="Full view of noahilbery.com homepage">
   </picture>
 </div>
 

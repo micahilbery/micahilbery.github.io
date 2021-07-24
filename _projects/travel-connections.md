@@ -3,7 +3,7 @@ layout: project
 title: "Travel Connections"
 job-title: "Web Developer and Designer"
 image: /assets/images/projects/travelconnections/travelconnections.jpg
-date: 2020-09-10
+date: 2020-09-03
 live-url: "https://travelconnections.netlify.app"
 ---
 

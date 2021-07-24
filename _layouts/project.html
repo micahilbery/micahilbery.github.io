@@ -1,22 +1,24 @@
 ---
 layout: default
 ---
-<article {% if page.post_id %} id="{{ page.post_id }}" {% endif %} class="project-article">
+<article {% if page.project_id %} id="{{ page.project_id }}" {% endif %} class="project-article">
   <header>
     <div>
       {% if page.image %}
       <div class="preview-image header" alt="Preview image" style="background-image: url({{ page.image }});"></div>
       {% endif %}
-      <div class="grid halves stack-sm">
+      <div class="grid {% if page.live-url %}halves stack-sm{% endif %}">
         <div>
           <h1 class="accent-lined">{{ page.title }}</h2>
           {% if page.job-title %}
           <h2 class="subheading">{{ page.job-title }}</h3>
           {% endif %}
         </div>
+        {% if page.live-url %}
         <div class="v-center h-end center-sm">
           <a href="{{ page.live-url }}" class="btn">{{ page.title }}</a>
         </div>
+        {% endif %}
       </div>
     </div>
   </header>
