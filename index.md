@@ -101,7 +101,7 @@ css: true
     </div>
     <div class="grid gapless panel">
       <h3>What's in my brain.</h3>
-      <p>Well… not much but whenever I do have a thought worth sharing I usualy write a blog post about it or post it to my social media.</p>
+      <p>Well… not much but whenever I do have a thought worth sharing I usually write a blog post about it or post it to my social media.</p>
       <ul class="ln-list v-end">
         <li>
           <a href="/blog/" class="icon-ln rss">
