@@ -3,6 +3,7 @@ layout: page
 title: Pay
 permalink: /pay/
 id: pay
+page_id: pay
 css: true
 ---
 <section>

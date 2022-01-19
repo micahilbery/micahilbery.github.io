@@ -60,8 +60,8 @@
     {% assign css_id = page.project_id | prepend: 'projects/' %}
   {%- endif -%}
 
-  {%- if page.id -%}
-    {% assign css_id = page.id %}
+  {%- if page.page_id -%}
+    {% assign css_id = page.page_id %}
   {%- endif -%}
 
   {%- if page.css and css_id -%}

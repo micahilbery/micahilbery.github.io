@@ -3,6 +3,7 @@ layout: page
 title: edw
 permalink: /edw/
 id: edw
+page_id: edw
 css: true
 ---
 <section id="slide-1" class="slide grid">

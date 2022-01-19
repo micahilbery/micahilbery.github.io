@@ -1,6 +1,7 @@
 ---
 layout: page
 id: home
+page_id: home
 css: true
 ---
 

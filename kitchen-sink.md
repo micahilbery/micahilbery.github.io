@@ -3,6 +3,7 @@ layout: page
 title: Kitchen Sink
 permalink: /kitchen-sink/
 id: kitchen-sink
+page_id: kitchen-sink
 css: true
 ---
 
