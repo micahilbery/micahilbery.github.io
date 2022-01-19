@@ -54,13 +54,20 @@
   <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}">
   {%- if page.post_id -%}
     {% assign css_id = page.post_id | prepend: 'posts/' %}
-  {%- else if page.project_id -%}
+  {%- endif -%}
+
+  {%- if page.project_id -%}
     {% assign css_id = page.project_id | prepend: 'projects/' %}
-  {%- else if page.id -%}
+  {%- endif -%}
+
+  {%- if page.id -%}
     {% assign css_id = page.id %}
   {%- endif -%}
+
   {%- if page.css and css_id -%}
-  <link rel="stylesheet" href="{{ '/assets/styles/css_id.css' | replace: 'css_id', css_id relative_url }}">
+   {% assign css_part_path = '/assets/styles/' | append: css_id %}
+   {% assign css_full_path = css_part_path | append: '.css' %}
+  <link rel="stylesheet" href="{{ css_full_path | relative_url }}">
   {%- endif -%}
 
   {%- feed_meta -%}
