@@ -439,6 +439,16 @@
     --tag-txt-act: #{$elementary-100};
   }
 
+  .facebook {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$facebook-100};
+    --ln-act: #{$facebook-500};
+    --ln-ul: none;
+
+    --btn-bg: #{$facebook-100};
+    --btn-txt: #{$facebook-900};
+  }
+
   .github {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$github-100};
@@ -457,6 +467,16 @@
 
     --btn-bg: #{$gitlab-100};
     --btn-txt: #{$gitlab-900};
+  }
+
+  .instagram {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$instagram-100};
+    --ln-act: #{$instagram-500};
+    --ln-ul: none;
+
+    --btn-bg: #{$instagram-100};
+    --btn-txt: #{$instagram-900};
   }
 
   .linkedin {
@@ -487,6 +507,16 @@
 
     --btn-bg: #{$pixelfed-100};
     --btn-txt: #{$pixelfed-900};
+  }
+
+  .tiktok {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$tiktok-100};
+    --ln-act: #{$tiktok-500};
+    --ln-ul: none;
+
+    --btn-bg: #{$tiktok-100};
+    --btn-txt: #{$tiktok-900};
   }
 
   .twitch {
@@ -578,13 +608,24 @@
     --btn-bg: #{$squarecash-100};
     --btn-txt: #{$squarecash-900};
   }
+
   .venmo {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$venmo-100};
-    --ln-act: #{$squarecash-500};
+    --ln-act: #{$venmo-500};
     --ln-ul: none;
 
     --btn-bg: #{$venmo-100};
     --btn-txt: #{$venmo-900};
+  }
+
+  .koicoffee {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$koicoffee-100};
+    --ln-act: #{$koicoffee-500};
+    --ln-ul: none;
+
+    --btn-bg: #{$koicoffee-100};
+    --btn-txt: #{$koicoffee-900};
   }
 }

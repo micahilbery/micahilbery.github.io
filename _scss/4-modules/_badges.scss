@@ -12,18 +12,6 @@
   margin: 0.25rem;
   padding: .1rem .5rem;
   text-decoration: none;
-  
-  &:hover,
-  &:focus {
-    color:var(--tag-txt-hvr);
-    text-decoration: none;
-  }
-
-  &:active {
-    background-image: var(--inset-bg);
-    color:var(--tag-txt-act);
-    text-decoration: none;
-  }
 
   .icon {
     margin-right: .25rem;

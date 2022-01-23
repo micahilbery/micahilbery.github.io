@@ -22,20 +22,22 @@ socials:
 #  dribbble: micahilbery
   github: micahilbery
 #  gitlab: micahilbery
+  instagram: micahilbery
 #  linkedin: micahilbery
-  mastodon:
-    instance: mastodon.social
-    username: micahilbery
+#  mastodon:
+#    instance: mastodon.social
+#    username: micahilbery
 #  pixelfed:
 #    instance: pixelfed.social
 #    username: micahilbery
+  tiktok: micahilbery
   twitch: micahilbery
   twitter: micahilbery
 #  unsplash: micahilbery
-  youtube: MicahIlbery
+#  youtube: MicahIlbery
 
 #Discord server invite
-discord-invite: eyjkByrdpm
+#discord-invite: eyjkByrdpm
 
 # Gravatar Avatar Image
 gravatar_hash: eab584b2d2b890a0bc6a25c29bbcac00
@@ -43,18 +45,13 @@ gravatar_hash: eab584b2d2b890a0bc6a25c29bbcac00
 # Financial supports
 support_options:
 #  google-pay: micah.ilbery@gmail.com
-  ko-fi: micahilbery
+#  ko-fi: micahilbery
   paypal: micahilbery
 #  patreon:
-  squarecash: micahilbery01
+#  squarecash: micahilbery01
   venmo: micahilbery
 
 rss: rss
-
-# Collections
-collections:
-  projects:
-    output: true
 
 # Build settings
 sass:

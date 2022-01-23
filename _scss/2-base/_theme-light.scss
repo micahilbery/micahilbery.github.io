@@ -430,6 +430,16 @@
     --tag-txt-act: #{$elementary-900};
   }
 
+  .facebook {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$facebook-500};
+    --ln-act: #{$facebook-900};
+    --ln-ul: none;
+
+    --btn-bg: #{$facebook-500};
+    --btn-txt: #{$light-grey-300};
+  }
+
   .github {
     --ln-txt: var(--txt-alt);
     --ln-hvr: #{$github-500};
@@ -447,6 +457,16 @@
     --ln-ul: none;
 
     --btn-bg: #{$gitlab-500};
+    --btn-txt: #{$light-grey-300};
+  }
+
+  .instagram {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$instagram-500};
+    --ln-act: #{$instagram-900};
+    --ln-ul: none;
+
+    --btn-bg: #{$instagram-500};
     --btn-txt: #{$light-grey-300};
   }
 
@@ -477,6 +497,16 @@
     --ln-ul: none;
 
     --btn-bg: #{$pixelfed-500};
+    --btn-txt: #{$light-grey-300};
+  }
+
+  .tiktok {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$tiktok-500};
+    --ln-act: #{$tiktok-900};
+    --ln-ul: none;
+
+    --btn-bg: #{$tiktok-500};
     --btn-txt: #{$light-grey-300};
   }
 
@@ -575,6 +605,16 @@
     --ln-ul: none;
 
     --btn-bg: #{$venmo-500};
+    --btn-txt: #{$light-grey-300};
+  }
+
+  .koicoffee {
+    --ln-txt: var(--txt-alt);
+    --ln-hvr: #{$koicoffee-500};
+    --ln-act: #{$koicoffee-900};
+    --ln-ul: none;
+
+    --btn-bg: #{$koicoffee-500};
     --btn-txt: #{$light-grey-300};
   }
 }

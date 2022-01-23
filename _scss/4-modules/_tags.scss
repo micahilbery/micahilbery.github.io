@@ -15,14 +15,16 @@ aside.tags {
   margin: 0.25rem;
   padding: 0 .5rem;
   text-decoration: none;
-  
+
   &:hover,
   &:focus {
+    background-image: var(--outset-bg);
     color:var(--tag-txt-hvr);
     text-decoration: none;
   }
 
   &:active {
+    background-image: var(--inset-bg);
     color:var(--tag-txt-act);
     text-decoration: none;
   }

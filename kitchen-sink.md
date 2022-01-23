@@ -420,16 +420,16 @@ input[type="checkbox"]:checked {
       <summary><h5>Badges</h5></summary>
       <div class="accordian-content">
         <div class="grid constrained thirds center">
-          <a href="#" class="badge pink center text-center">Pink</a>
-          <a href="#" class="badge purple center text-center">Purple</a>
-          <a href="#" class="badge cyan center text-center">Cyan</a>
-          <a href="#" class="badge blue center text-center">Blue</a>
-          <a href="#" class="badge green center text-center">Green</a>
-          <a href="#" class="badge yellow center text-center">Yellow</a>
-          <a href="#" class="badge orange center text-center">Orange</a>
-          <a href="#" class="badge red center text-center">Red</a>
-          <a href="#" class="badge brown center text-center">Brown</a>
-          <a href="#" class="badge center text-center">Default</a>
+          <div class="badge pink center text-center">Pink</div>
+          <div class="badge purple center text-center">Purple</div>
+          <div class="badge cyan center text-center">Cyan</div>
+          <div class="badge blue center text-center">Blue</div>
+          <div class="badge green center text-center">Green</div>
+          <div class="badge yellow center text-center">Yellow</div>
+          <div class="badge orange center text-center">Orange</div>
+          <div class="badge red center text-center">Red</div>
+          <div class="badge brown center text-center">Brown</div>
+          <div class="badge center text-center">Default</div>
         </div>
       </div>
     </details>
