@@ -70,7 +70,7 @@ Newest posts in a unique, Medium-like layout on the first page
 <nav class="pagination grid halves">
 {% if paginator.previous_page %}
 <a href="{{ paginator.previous_page_path }}" class="btn">
-  {% include modules/icon.html name="arrow-left" %}
+  {% include modules/icon.html name="arrow-o-left" %}
   Newer
 </a>
 {% endif %}
@@ -78,7 +78,7 @@ Newest posts in a unique, Medium-like layout on the first page
 {% if paginator.next_page %}
 <a href="{{ paginator.next_page_path }}" class="btn icon-end">
   Older
-  {% include modules/icon.html name="arrow-right" %}
+  {% include modules/icon.html name="arrow-o-right" %}
 </a>
 {% endif %}
 </nav>
