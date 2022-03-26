@@ -26,7 +26,7 @@
 }
 
 .highlighter-rouge {
-  border-radius: var(--border-rad-code);
+  border-radius: var(--border-rad-codeblock);
   background: var(--code-bg-main);
   background-image: var(--inset-bg);
   box-shadow: var(--inset-highlight);
@@ -36,6 +36,8 @@
   overflow: auto;
   max-width: 100%;
 }
+
+code.highlighter-rouge { border-radius: var(--border-rad-code); }
 
 .highlight {
   background: var(--code-bg-main);
@@ -53,7 +55,7 @@
 
 pre.highlight {
   border: var(--border);
-  border-radius: var(--border-rad-code);
+  border-radius: var(--border-rad-codeblock);
   overflow: show;
 }
 

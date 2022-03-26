@@ -259,9 +259,8 @@ hr {
 }
 
 .first-letter {
-  background-color: var(--txt-main);
+  background-color: var(--accent-color);
   background-image: var(--accent-gradient-fill);
-  background-size: 33% 33% 33%;
   background-repeat: repeat;
   filter: drop-shadow(0 0 3px rgba(255, 255, 255,1));
 
@@ -272,7 +271,6 @@ hr {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 
-  display: run-in;
   float: left;
   font-size: 5rem;
   font-weight: 800;
