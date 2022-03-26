@@ -8,7 +8,7 @@ input[type="button"].btn,
 .btn {
   background: var(--btn-bg);
   background-image: var(--outset-bg);
-  border-radius: .25rem;
+  border-radius: var(--border-rad-btn);
   border: var(--border);
   box-shadow: var(--outset-highlight), var(--shadow);
   box-sizing: border-box;
@@ -76,6 +76,10 @@ input[type="button"].btn,
 
 .btn.round {
   border-radius: 50%;
+}
+
+.btn.pill {
+  border-radius: 1000px;
 }
 
 .btn.dark {

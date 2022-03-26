@@ -2,7 +2,7 @@
   background-color: var(--tag-bg);
   background-image: var(--outset-bg);
   border: var(--border);
-  border-radius: 1000rem;
+  border-radius: var(--border-rad-badge);
   box-shadow: var(--outset-highlight);
   color: var(--tag-txt);
   display: inline-block;

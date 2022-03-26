@@ -7,7 +7,7 @@
     repeat: no-repeat;
   }
   border: var(--border);
-  border-radius: .5rem;
+  border-radius: var(--border-rad-vid);
   box-shadow: var(--outset-highlight), var(--shadow);
   display: flex;
   flex-grow: 1;
@@ -22,7 +22,7 @@
 .video-embed object,
 .video-embed embed,
 .video-thumbnail img {
-  border-radius: .5rem;
+  border-radius: var(--border-rad-vid);
   overflow:hidden;
   position:absolute;
   top:0;

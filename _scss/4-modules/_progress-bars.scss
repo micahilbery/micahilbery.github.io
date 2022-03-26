@@ -4,7 +4,7 @@
     image: var(--inset-bg);
   }
   border: var(--border);
-  border-radius: 1000rem;
+  border-radius: var(--border-rad-progress-bar);
   box-shadow: var(--inset-highlight);
   height: .5rem;
   overflow: hidden;
@@ -17,7 +17,7 @@
   height: 100%;
   border:{
     right: var(--border);
-    radius: 1000rem;
+    radius: var(--border-rad-progress-bar);
   }
   animation: fill 1s ease-in-out;
   background: {

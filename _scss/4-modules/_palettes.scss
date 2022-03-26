@@ -8,7 +8,7 @@
 
 .swatch {
   border: var(--border);
-  border-radius: .5rem;
+  border-radius: var(--border-rad-palette);
   display: grid;
   grid-template-rows: 2fr repeat(5, 1fr);
   overflow: hidden;

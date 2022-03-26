@@ -6,7 +6,7 @@ aside.tags {
 .tag {
   background-color: var(--tag-bg);
   border: var(--border);
-  border-radius: .25rem;
+  border-radius: var(--border-rad-tag);
   box-shadow: var(--outset-highlight);
   color: var(--tag-txt);
   display: inline-block;

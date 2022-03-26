@@ -2,7 +2,7 @@
 .project-preview {
   color: var(--txt-main);
   border: 1px solid transparent;
-  border-radius: .5rem;
+  border-radius: var(--border-rad-panel);
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
@@ -40,7 +40,7 @@
   }
 
   .preview-image {
-    border-radius: .25rem;
+    border-radius: var(--border-rad-img);
   }
 
   .accent-lined {
@@ -63,7 +63,7 @@
     repeat: no-repeat;
   }
   border: var(--border);
-  border-radius: .5rem;
+  border-radius: var(--border-rad-img);
   box-shadow: var(--inset-highlight);
   grid-column: span 2;
   min-height: 25vh;
@@ -83,7 +83,7 @@
     image: var(--inset-bg);
   }
   border: var(--border);
-  border-radius: .25rem;
+  border-radius: var(--border-rad-excerpt);
   box-shadow: var(--inset-highlight);
   padding: 1rem;
   grid-column: span 2;

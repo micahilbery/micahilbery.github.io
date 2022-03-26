@@ -10,7 +10,7 @@
     box-shadow: var(--inset-highlight);
     margin: 0;
     padding: 0;
-    border-radius: 1000rem;
+    border-radius: var(--border-rad-switch);
     height: 1.5rem;
     width: 3rem;
     line-height: 1;
@@ -29,7 +29,7 @@
       background: var(--bg-main);
       background-image: var(--outset-bg);
       border: var(--border);
-      border-radius: 50%;
+      border-radius: var(--border-rad-switch);
       box-shadow: var(--shadow);
       transition: transform .3s ease-in-out;
     }

@@ -2,7 +2,7 @@
   background: var(--panel-bg);
   background-image: var(--outset-bg);
   border: var(--border);
-  border-radius: .25rem;
+  border-radius: var(--border-rad-notification);
   box-shadow: var(--outset-highlight), var(--shadow);
   color: var(--panel-txt);
   display: grid;

@@ -1,7 +1,7 @@
 .panel {
   background: var(--panel-bg);
   border: var(--border);
-  border-radius: .5rem;
+  border-radius: var(--border-rad-panel);
   box-shadow: var(--outset-highlight), var(--shadow);
   color: var(--panel-txt);
   margin: 0 auto;

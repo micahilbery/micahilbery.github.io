@@ -31,7 +31,7 @@ select,
 textarea {
   background: var(--bg-alt);
   background-image: var(--inset-bg);
-  border-radius: .25rem;
+  border-radius: var(--border-rad-input);
   border: var(--border);
   box-shadow: var(--inset-highlight);
   color: var(--txt-main);
@@ -88,7 +88,7 @@ textarea {
 
   input[type="checkbox"],
   fieldset input[type="checkbox"] {
-    border-radius: .25rem;
+    border-radius: var(--border-rad-checkbox);
     height: 1rem;
     width: 1rem;
   }
@@ -141,7 +141,7 @@ textarea {
     margin: .25rem 0 1rem 0;
     padding: 0 1rem 1.5rem 1rem;
     border: var(--border);
-    border-radius: .25rem;
+    border-radius: var(--border-rad-fieldset);
 
     // basically a chrome hack because I couldn't figure out the label
     // alignment in chrome without wrapping input label group in a div

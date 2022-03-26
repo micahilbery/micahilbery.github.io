@@ -26,7 +26,7 @@
 }
 
 .highlighter-rouge {
-  border-radius: .25rem;
+  border-radius: var(--border-rad-code);
   background: var(--code-bg-main);
   background-image: var(--inset-bg);
   box-shadow: var(--inset-highlight);
@@ -53,7 +53,7 @@
 
 pre.highlight {
   border: var(--border);
-  border-radius: .25rem;
+  border-radius: var(--border-rad-code);
   overflow: show;
 }
 

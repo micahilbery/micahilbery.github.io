@@ -11,6 +11,8 @@
 
   --accent-color: #{$pink-700};
   --accent-gradient: linear-gradient(rgba(0, 0, 0, .1), transparent), linear-gradient(to right, #{$pink-300}, #{$purple-300}, #{$cyan-300});
+  --accent-gradient-invert: linear-gradient(rgba(0,0,0,0.1), transparent), linear-gradient(to right, #{$pink-700}, #{$purple-700}, #{$cyan-700});
+  --accent-gradient-fill: radial-gradient(circle at top left, #{$pink-300}, #{rgba($pink-300, 0)}), radial-gradient(circle at top right, #{$purple-300}, #{rgba($purple-300, 0)}), radial-gradient(circle at bottom center, #{$cyan-300}, #{rgba($cyan-300, 0)});
 
   --border: #{1px solid rgba(black, .3)};
 
