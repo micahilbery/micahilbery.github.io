@@ -39,6 +39,10 @@ a {
 
 .ln-list {
   list-style-type: none;
+
+  @media (any-pointer: coarse) {
+    li { padding: .5rem; }
+  }
 }
 
 .icon-ln {

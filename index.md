@@ -21,12 +21,7 @@ css: true
       </a>
     </div>
 
-    <div class="avatar center">
-      <picture>
-        <source srcset="https://gravatar.com/avatar/{{ site.gravatar_hash }}?s=148" type="image/jpeg">
-        <img src="https://gravatar.com/avatar/{{ site.gravatar_hash }}?s=148" alt="Micah Ilbery">
-      </picture>
-    </div>
+    <div class="avatar micah center"></div>
 
     <div class="grid thirds h-start v-end stack-sm profile-socials">
       <a href="https://twitch.tv/{{ site.socials.twitch }}" class="icon-only-ln twitch" aria-label="Twitch">
