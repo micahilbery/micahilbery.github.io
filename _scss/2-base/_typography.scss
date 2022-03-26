@@ -35,9 +35,9 @@ h6 { font-size: 1rem; opacity: .8; }
 h1.subheading { font-size: 1.5rem; }
 h2.subheading { font-size: 1.25rem; }
 h3.subheading { font-size: 1rem; }
-h4.subheading { font-size: 1rem; color: var(--txt-fine); }
+h4.subheading { font-size: 1rem; opacity: .9; }
 h5.subheading { font-size: .75rem; }
-h6.subheading { font-size: .75rem; color: var(--txt-fine); }
+h6.subheading { font-size: .75rem; opacity: .9; }
 
 .subheading {
   color: var(--txt-alt);
@@ -161,12 +161,12 @@ blockquote {
     font-style: italic;
 
     &:before {
-      color: var(--txt-fine);
+      color: var(--txt-alt);
       content:'❝';
     }
 
     &:after {
-      color: var(--txt-fine);
+      color: var(--txt-alt);
       content:'❞';
     }
   }
@@ -255,7 +255,7 @@ hr {
 }
 
 .fine-print {
-  color: var(--txt-fine);
+  color: var(--txt-alt);
 }
 
 .first-letter {

@@ -12,7 +12,7 @@
   grid-row-gap: .5rem;
 
   @media( prefers-color-scheme: dark ) {
-    border-bottom: 1px solid var(--txt-fine);
+    border-bottom: 1px solid var(--txt-alt);
     box-shadow: inset var(--inset-txt);
   }
 }
@@ -23,7 +23,7 @@
 }
 
 .dark .profile-socials {
-  border-bottom: 1px solid var(--txt-fine);
+  border-bottom: 1px solid var(--txt-alt);
   box-shadow: inset var(--inset-txt);
 }
 
@@ -31,4 +31,6 @@
   display: grid;
   grid-template-rows: auto auto 1fr;
   gap: 0;
+
+  h2 { font-size: 1.5rem; }
 }

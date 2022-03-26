@@ -23,8 +23,8 @@ css: true
 
     <div class="avatar center">
       <picture>
-        <source srcset="https://gravatar.com/avatar/{{ site.gravatar_hash }}?s=200" type="image/jpeg">
-        <img src="https://gravatar.com/avatar/{{ site.gravatar_hash }}?s=200" alt="Micah Ilbery">
+        <source srcset="https://gravatar.com/avatar/{{ site.gravatar_hash }}?s=148" type="image/jpeg">
+        <img src="https://gravatar.com/avatar/{{ site.gravatar_hash }}?s=148" alt="Micah Ilbery">
       </picture>
     </div>
 
@@ -53,7 +53,7 @@ css: true
   </div>
   <div class="grid center thirds stack-lg">
     <div class="info-panel panel">
-      <h3>What I work on.</h3>
+      <h2>What I work on.</h2>
       <p>My passion is coffee, so to share that passion with others I started my own coffee company, <strong>Koi Coffee</strong>, and am the head roaster of that company. That's my day job and what I enjoy.</p>
       <ul class="ln-list v-end">
         <li>
@@ -83,7 +83,7 @@ css: true
       </ul>
     </div>
     <div class="info-panel panel">
-      <h3>What I do for fun.</h3>
+      <h2>What I do for fun.</h2>
       <p>I like to create and entertain, be that streaming on Twitch, making videos on TikTok, sharing latte art on Instagram, or coding / designing on Github.</p>
       <ul class="ln-list v-end">
         <li>
@@ -113,7 +113,7 @@ css: true
       </ul>
     </div>
     <div class="info-panel panel">
-      <h3>What's in my brain.</h3>
+      <h2>What's in my brain.</h2>
       <p>Well… not much but whenever I do have a thought worth sharing I usually write a blog post about it or post it to my social media.</p>
       <ul class="ln-list v-end">
         <li>
@@ -160,7 +160,7 @@ css: true
     <div class="grid span-3">
       <div class="grid end stretch-sm">
         <a href="/blog/" class="btn tertiary">
-          See more
+          Read more on the blog
         </a>
       </div>
     </div>
@@ -170,7 +170,7 @@ css: true
   <div class="grid">
     <div class="grid end stretch-sm">
       <a href="/blog/" class="btn tertiary">
-        See more
+        Read more on the blog
       </a>
     </div>
   </div>

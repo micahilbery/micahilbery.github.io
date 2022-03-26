@@ -44,7 +44,8 @@ textarea {
   width: 100%;
 
   &::placeholder {
-    color: var(--txt-fine);
+    color: var(--txt-alt);
+    opacity: .9;
   }
 
   &:focus {
