@@ -7,19 +7,19 @@
       <ul class="ln-list">
         <li>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://micahilbery.com/shades-icon-set/" class="icon-ln alt-ln cyan">
-            {% include modules/icon.html name="sunglasses" %}
+            <span class="icon">{% include icon/brands/shades.svg %}</span>
             Shades Icon Set
           </a>
         </li>
         <li>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://micahilbery.com/ocarina/" class="icon-ln alt-ln blue">
-            {% include modules/icon.html name="zelda-ocarina" %}
+            <span class="icon">{% include icon/brands/zelda-ocarina.svg %}</span>
             Ocarina
           </a>
         </li>
         <li>
           <a href="/edw/#slide-1" class="icon-ln elementary">
-            {% include modules/icon.html name="elementary" %}
+            <span class="icon">{% include icon/brands/elementary.svg %}</span>
             edw Slides
           </a>
         </li>
@@ -32,7 +32,7 @@
         {% if site.socials.twitter %}
         <li>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitter.com/{{ site.socials.twitter }}" class="icon-ln twitter">
-            {% include modules/icon.html name="twitter" %}
+            <span class="icon">{% include icon/brands/twitter.svg %}</span>
             Twitter
           </a>
         </li>
@@ -40,7 +40,7 @@
         {% if site.socials.instagram %}
         <li>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://instagram.com/{{ site.socials.instagram }}" class="icon-ln instagram">
-            {% include modules/icon.html name="instagram" %}
+            <span class="icon">{% include icon/brands/instagram.svg %}</span>
             Instagram
           </a>
         </li>
@@ -48,55 +48,23 @@
         {%- if site.socials.mastodon.instance and site.socials.mastodon.username -%}
         <li>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://{{ site.socials.mastodon.instance }}/@{{ site.socials.mastodon.username }}" class="icon-ln mastodon">
-            {% include modules/icon.html name="mastodon" %}
+            <span class="icon">{% include icon/brands/mastodon.svg %}</span>
             Mastodon
-          </a>
-        </li>
-        {% endif %}
-        {% if site.socials.dribbble %}
-        <li>
-          <a rel="nofollow noopener noreferrer" target="_blank" href="https://dribbble.com/{{ site.socials.dribbble }}" class="icon-ln dribbble">
-            {% include modules/icon.html name="dribbble" %}
-            Dribbble
-          </a>
-        </li>
-        {% endif %}
-        {% if site.socials.linkedin %}
-        <li>
-          <a rel="nofollow noopener noreferrer" target="_blank" href="https://linkedin.com/in/{{ site.socials.linkedin }}" class="icon-ln linkedin">
-            {% include modules/icon.html name="linkedin" %}
-            LinkedIn
           </a>
         </li>
         {% endif %}
         {% if site.socials.github %}
         <li>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/{{ site.socials.github }}" class="icon-ln github">
-            {% include modules/icon.html name="github" %}
+            <span class="icon">{% include icon/brands/github.svg %}</span>
             GitHub
-          </a>
-        </li>
-        {% endif %}
-        {% if site.socials.gitlab %}
-        <li>
-          <a rel="nofollow noopener noreferrer" target="_blank" href="https://gitlab.com/{{ site.socials.gitlab }}" class="icon-ln gitlab">
-            {% include modules/icon.html name="gitlab" %}
-            GitLab
-          </a>
-        </li>
-        {% endif %}
-        {% if site.socials.codepen %}
-        <li>
-          <a rel="nofollow noopener noreferrer" target="_blank" href="https://codepen.io/{{ site.socials.codepen }}" class="icon-ln codepen">
-            {% include modules/icon.html name="codepen" %}
-            Codepen
           </a>
         </li>
         {% endif %}
         {% if site.socials.twitch %}
         <li>
          <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitch.tv/{{ site.socials.twitch }}" class="icon-ln twitch">
-           {% include modules/icon.html name="twitch" %}
+          <span class="icon">{% include icon/brands/twitch.svg %}</span>
            Twitch
          </a>
         </li>
@@ -104,7 +72,7 @@
         {% if site.socials.youtube %}
         <li>
          <a rel="nofollow noopener noreferrer" target="_blank" href="https://youtube.com/c/{{ site.socials.youtube }}" class="icon-ln youtube">
-           {% include modules/icon.html name="youtube" %}
+          <span class="icon">{% include icon/brands/youtube.svg %}</span>
            YouTube
          </a>
         </li>
@@ -112,39 +80,15 @@
         {% if site.socials.tiktok %}
         <li>
          <a rel="nofollow noopener noreferrer" target="_blank" href="https://tiktok.com/@{{ site.socials.tiktok }}" class="icon-ln tiktok">
-           {% include modules/icon.html name="tiktok" %}
+          <span class="icon">{% include icon/brands/tiktok.svg %}</span>
            TikTok
-         </a>
-        </li>
-        {% endif %}
-        {% if site.discord-invite %}
-        <li>
-         <a rel="nofollow noopener noreferrer" target="_blank" href="https://discord.gg/{{ site.discord-invite }}" class="icon-ln discord">
-           {% include modules/icon.html name="discord" %}
-           Discord
-         </a>
-        </li>
-        {% endif %}
-        {%- if site.socials.pixelfed.instance and site.socials.pixelfed.username -%}
-        <li>
-         <a rel="nofollow noopener noreferrer" target="_blank" href="https://{{ site.socials.pixelfed.instance }}/{{ site.socials.pixelfed.username }}" class="icon-ln pixelfed">
-           {% include modules/icon.html name="pixelfed" %}
-           Pixelfed
-         </a>
-        </li>
-        {% endif %}
-        {% if site.socials.unsplash %}
-        <li>
-         <a rel="nofollow noopener noreferrer" target="_blank" href="https://unsplash.com/{{ site.socials.unsplash }}" class="icon-ln unsplash">
-           {% include modules/icon.html name="unsplash" %}
-           Unsplash
          </a>
         </li>
         {% endif %}
         {% if site.email %}
         <li>
          <a href="mailto://{{ site.email }}" class="icon-ln protonmail">
-           {% include modules/icon.html name="mail" %}
+          <span class="icon">{% include icon/mail.svg %}</span>
            Mail
          </a>
         </li>
@@ -152,7 +96,7 @@
         {%- if site.rss -%}
         <li>
           <a href="{{ 'feed.xml' | relative_url }}" class="icon-ln rss">
-            {% include modules/icon.html name="rss" %}
+            <span class="icon">{% include icon/rss.svg %}</span>
             RSS
           </a>
         </li>
@@ -165,52 +109,28 @@
       <ul class="ln-list">
         <li>
           <a href="https://koicoffee.co" class="icon-ln koicoffee">
-            {% include modules/icon.html name="koi-coffee" %}
+            <span class="icon">{% include icon/brands/koi-coffee.svg %}</span>
             Koi Coffee
           </a>
         </li>
         <li>
           <a href="/pay/" class="icon-ln alt-ln green">
-            {% include modules/icon.html name="qr" %}
+            <span class="icon">{% include icon/qr.svg %}</span>
             Pay
           </a>
         </li>
-        {% if site.support_options.ko-fi %}
-        <li>
-          <a rel="nofollow noopener noreferrer" target="_blank" href="https://ko-fi.com/{{ site.support_options.ko-fi }}" class="icon-ln ko-fi">
-            {% include modules/icon.html name="ko-fi" %}
-            Ko-fi
-          </a>
-        </li>
-        {% endif %}
-        {% if site.support_options.patreon %}
-        <li>
-         <a rel="nofollow noopener noreferrer" target="_blank" href="https://patreon.com/{{ site.support_options.patreon }}" class="icon-ln patreon">
-           {% include modules/icon.html name="patreon" %}
-           Patreon
-         </a>
-        </li>
-        {% endif %}
         {% if site.support_options.paypal %}
         <li>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://paypal.me/{{ site.support_options.paypal }}" class="icon-ln paypal">
-            {% include modules/icon.html name="paypal" %}
+            <span class="icon">{% include icon/brands/paypal.svg %}</span>
             PayPal
-          </a>
-        </li>
-        {% endif %}
-        {% if site.support_options.squarecash %}
-        <li>
-          <a rel="nofollow noopener noreferrer" target="_blank" href="https://cash.app/${{ site.support_options.squarecash }}" class="icon-ln squarecash">
-            {% include modules/icon.html name="squarecash" %}
-            Square Cash
           </a>
         </li>
         {% endif %}
         {% if site.support_options.venmo %}
         <li>
           <a rel="nofollow noopener noreferrer" target="_blank" href="https://venmo.com/{{ site.support_options.venmo }}" class="icon-ln venmo">
-            {% include modules/icon.html name="venmo" %}
+            <span class="icon">{% include icon/brands/venmo.svg %}</span>
             Venmo
           </a>
         </li>
@@ -222,7 +142,7 @@
     <div><small class="fine-print">Copyright &copy; {{ site.copyright_start }} - {{ site.time | date: '%Y' }} | Micah Ilbery</small></div>
     <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/micahilbery/micahilbery.github.io/issues" class="icon-ln">
       <small>
-        {% include modules/icon.html name="bug" %}
+        <span class="icon">{% include icon/bug.svg %}</span>
         Report an Issue
       </small>
     </a>

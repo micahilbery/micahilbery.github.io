@@ -9,15 +9,15 @@ css: true
   <div class="grid center thirds">
     <div class="grid thirds end stack-sm profile-socials">
       <a href="https://twitter.com/{{ site.socials.twitter }}" class="icon-only-ln twitter" aria-label="Twitter">
-        {% include modules/icon.html name="twitter"  %}
+        <span class="icon">{% include icon/brands/twitter.svg  %}</span>
       </a>
 
       <a href="https://instagram.com/{{ site.socials.instagram }}" class="icon-only-ln instagram" aria-label="Instagram">
-        {% include modules/icon.html name="instagram" %}
+        <span class="icon">{% include icon/brands/instagram.svg %}</span>
       </a>
 
       <a href="https://koicoffee.co/" class="icon-only-ln koicoffee" aria-label="Koi Coffee">
-        {% include modules/icon.html name="koi-coffee" %}
+        <span class="icon">{% include icon/brands/koi-coffee.svg %}</span>
       </a>
     </div>
 
@@ -25,15 +25,15 @@ css: true
 
     <div class="grid thirds h-start v-end stack-sm profile-socials">
       <a href="https://twitch.tv/{{ site.socials.twitch }}" class="icon-only-ln twitch" aria-label="Twitch">
-        {% include modules/icon.html name="twitch" %}
+        <span class="icon">{% include icon/brands/twitch.svg %}</span>
       </a>
 
       <a href="https://tiktok.com/@{{ site.socials.tiktok }}" class="icon-only-ln tiktok" aria-label="TikTok">
-        {% include modules/icon.html name="tiktok" %}
+        <span class="icon">{% include icon/brands/tiktok.svg %}</span>
       </a>
 
       <a href="https://github.com/{{ site.socials.github }}" class="icon-only-ln github" aria-label="github">
-        {% include modules/icon.html name="github" %}
+        <span class="icon">{% include icon/brands/github.svg %}</span>
       </a>
     </div>
   </div>
@@ -53,25 +53,25 @@ css: true
       <ul class="ln-list v-end">
         <li>
           <a href="https://koicoffee.co" class="icon-ln koicoffee">
-            {% include modules/icon.html name="koi-coffee" %}
+            <span class="icon">{% include icon/brands/koi-coffee.svg %}</span>
             Website
           </a>
         </li>
         <li>
           <a href="https://twitter.com/koi_coffee" class="icon-ln twitter">
-            {% include modules/icon.html name="twitter" %}
+            <span class="icon">{% include icon/brands/twitter.svg %}</span>
             Twitter
           </a>
         </li>
         <li>
           <a href="https://instagram.com/koicoffeecompany" class="icon-ln instagram">
-            {% include modules/icon.html name="instagram" %}
+            <span class="icon">{% include icon/brands/instagram.svg %}</span>
             Instagram
           </a>
         </li>
         <li>
           <a href="https://facebook.com/koicoffeecompany" class="icon-ln facebook">
-            {% include modules/icon.html name="facebook" %}
+            <span class="icon">{% include icon/brands/facebook.svg %}</span>
             Facebook
           </a>
         </li>
@@ -83,25 +83,25 @@ css: true
       <ul class="ln-list v-end">
         <li>
           <a href="https://twitch.tv/{{ site.socials.twitch }}" class="icon-ln twitch">
-            {% include modules/icon.html name="twitch" %}
+            <span class="icon">{% include icon/brands/twitch.svg %}</span>
             Twitch
           </a>
         </li>
         <li>
           <a href="https://instagram.com/{{site.socials.instagram}}" class="icon-ln instagram">
-            {% include modules/icon.html name="instagram" %}
+            <span class="icon">{% include icon/brands/instagram.svg %}</span>
             Instagram
           </a>
         </li>
         <li>
           <a href="https://tiktok.com/@{{ site.socials.tiktok }}" class="icon-ln tiktok">
-            {% include modules/icon.html name="tiktok" %}
+            <span class="icon">{% include icon/brands/tiktok.svg %}</span>
             TikTok
           </a>
         </li>
         <li>
           <a href="https://github.com/{{ site.socials.github }}" class="icon-ln github">
-            {% include modules/icon.html name="github" %}
+            <span class="icon">{% include icon/brands/github.svg %}</span>
             Github
           </a>
         </li>
@@ -113,20 +113,20 @@ css: true
       <ul class="ln-list v-end">
         <li>
           <a href="/blog/" class="icon-ln rss">
-            {% include modules/icon.html name="writing" %}
+            <span class="icon">{% include icon/pencil.svg %}</span>
             Blog
           </a>
         </li>
         <li>
           <a href="https://twitter.com/{{ site.socials.twitter }}" class="icon-ln twitter">
-            {% include modules/icon.html name="twitter" %}
+            <span class="icon">{% include icon/brands/twitter.svg %}</span>
             Twitter
           </a>
         </li>
         {%- if site.rss -%}
         <li>
           <a href="{{ 'feed.xml' | relative_url }}" class="icon-ln rss">
-            {% include modules/icon.html name="rss" %}
+            <span class="icon">{% include icon/rss.svg %}</span>
             RSS
           </a>
         </li>
